@@ -1,0 +1,153 @@
+/*  Stylesheet for the Meteor Slides 1.3.2 slideshow
+	
+	Copy "meteor-slides.css" from "/meteor-slides/css/" to your theme's directory to replace
+	the plugin's default stylesheet.
+	
+	If you have navigation enabled, be sure to copy the "buttons.png", "next.png",
+	and "prev.png" files to your theme's images folder and update the image paths below,
+	or create new graphics to replace them.
+	
+	Learn more about customizing the stylesheet for Meteor Slides: 
+	http://www.jleuze.com/plugins/meteor-slides/customizing-the-stylesheet/
+*/
+
+/* =Slideshow
+-------------------------------------------------------------- */
+
+.meteor-slides {
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.navpaged,
+.navboth {
+	padding: 0 0 15px 0;
+}
+
+/* =Slide
+-------------------------------------------------------------- */
+
+.meteor-slides .mslide {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+.meteor-slides .mslide-1 {
+	display: block;
+}
+
+.meteor-slides .mslide a {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.meteor-slides .mslide img {
+	border: 0;
+	display: block;
+	margin: auto !important;
+	padding: 0;
+}
+
+.meteor-slides .mslide img[src$='.png'] {
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); /* IE7 */
+	zoom: 1;	
+}
+
+/* =Previous/Next Navigation
+-------------------------------------------------------------- */
+
+.meteor-slides ul.meteor-nav {
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+body .meteor-slides ul.meteor-nav {
+	display: none;
+	*display: block;
+	_display: block;
+}
+
+body .meteor-slides:hover ul.meteor-nav {
+	display: block;
+}
+
+ul.meteor-nav li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.meteor-nav .prev a {
+	left: 0px;
+}
+
+.meteor-nav .next a {
+	right: 0px;
+}
+
+.meteor-nav a {
+	display: block;
+	outline: none;
+	position: absolute;
+	text-indent: -9999px;
+	width: 25px;
+	height: 100%;
+	z-index: 50;
+}
+
+.navboth .meteor-nav a {
+	top: -7px;
+}
+	
+.meteor-nav .prev a {
+	background: url('../images/prev.png') no-repeat center right;
+}
+
+.meteor-nav .prev a:hover {
+	background: url('../images/prev.png') no-repeat center left;
+}
+
+.meteor-nav .next a {
+	background: url('../images/next.png') no-repeat center left;
+}
+
+.meteor-nav .next a:hover {
+	background: url('../images/next.png') no-repeat center right;
+}
+
+/* =Paged Navigation
+-------------------------------------------------------------- */
+
+.meteor-buttons {
+	bottom: 0px;
+	left: 46%;
+	margin: 0;
+	position: absolute;
+}
+
+.meteor-buttons a {
+	background: url('../images/buttons.png') no-repeat bottom left;
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	margin: 0 2px;
+	outline: none;
+	text-indent: -9999px;
+}
+
+.meteor-buttons a:hover {
+	background: url('../images/buttons.png') no-repeat bottom right;
+}
+
+.meteor-buttons a.activeSlide {
+	background: url('../images/buttons.png') no-repeat bottom right;
+}

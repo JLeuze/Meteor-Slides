@@ -1,0 +1,351 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2010-10-13 16:51+0000\n"
+"PO-Revision-Date: 2011-01-30 15:45+0800\n"
+"Last-Translator: Yu Haoran <yuhaoran@iduer.com>\n"
+"Language-Team: JLeuze <mail@jleuze.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: meteor-slides-plugin.php:78
+msgid "Slides"
+msgstr "幻灯片"
+
+#: meteor-slides-plugin.php:79
+msgid "Slide"
+msgstr "幻灯片"
+
+#: meteor-slides-plugin.php:80
+msgid "Add New"
+msgstr "添加"
+
+#: meteor-slides-plugin.php:81
+msgid "Add New Slide"
+msgstr "添加幻灯片"
+
+#: meteor-slides-plugin.php:82
+msgid "Edit Slide"
+msgstr "编辑幻灯片"
+
+#: meteor-slides-plugin.php:83
+msgid "Edit"
+msgstr "编辑"
+
+#: meteor-slides-plugin.php:84
+msgid "New Slide"
+msgstr "新幻灯片"
+
+#: meteor-slides-plugin.php:85
+#: meteor-slides-plugin.php:89
+msgid "View Slide"
+msgstr "查看幻灯片"
+
+#: meteor-slides-plugin.php:86
+msgid "Search Slides"
+msgstr "幻灯片搜索"
+
+#: meteor-slides-plugin.php:87
+msgid "No slides found"
+msgstr "没找到幻灯片"
+
+#: meteor-slides-plugin.php:88
+msgid "No slides found in Trash"
+msgstr "在回收站中没有幻灯片"
+
+#: meteor-slides-plugin.php:127
+msgid "Slideshows"
+msgstr "幻灯片集"
+
+#: meteor-slides-plugin.php:128
+msgid "Slideshow"
+msgstr "幻灯片集"
+
+#: meteor-slides-plugin.php:129
+msgid "Search Slideshows"
+msgstr "查找幻灯片集"
+
+#: meteor-slides-plugin.php:130
+msgid "Popular Slideshows"
+msgstr "热门幻灯片集"
+
+#: meteor-slides-plugin.php:131
+msgid "All Slideshows"
+msgstr "全部幻灯片集"
+
+#: meteor-slides-plugin.php:132
+msgid "Parent Slideshow"
+msgstr "母幻灯片集"
+
+#: meteor-slides-plugin.php:133
+msgid "Parent Slideshow:"
+msgstr "母幻灯片集："
+
+#: meteor-slides-plugin.php:134
+msgid "Edit Slideshow"
+msgstr "编辑幻灯片集"
+
+#: meteor-slides-plugin.php:135
+msgid "Update Slideshow"
+msgstr "更新幻灯片集"
+
+#: meteor-slides-plugin.php:136
+msgid "Add New Slideshow"
+msgstr "添加新的幻灯片集"
+
+#: meteor-slides-plugin.php:137
+msgid "New Slideshow Name"
+msgstr "新的幻灯片集名称"
+
+#: meteor-slides-plugin.php:159
+msgid "Slide Image"
+msgstr "幻灯片图片"
+
+#: meteor-slides-plugin.php:194
+msgid "Add the URL this slide should link to."
+msgstr "对这个幻灯片添加链接"
+
+#: meteor-slides-plugin.php:206
+msgid "Slide Link"
+msgstr "幻灯片链接"
+
+#: meteor-slides-plugin.php:324
+msgid "Slides Settings"
+msgstr "幻灯片设置"
+
+#: meteor-slides-plugin.php:324
+msgid "Settings"
+msgstr "设置"
+
+#: meteor-slides-plugin.php:358
+msgid "Configure Slideshow"
+msgstr "设置幻灯片集"
+
+#: meteor-slides-plugin.php:360
+msgid "Slideshow Quantity"
+msgstr "幻灯片质量"
+
+#: meteor-slides-plugin.php:362
+msgid "Slide Height"
+msgstr "幻灯片高度"
+
+#: meteor-slides-plugin.php:364
+msgid "Slide Width"
+msgstr "幻灯片宽度"
+
+#: meteor-slides-plugin.php:366
+msgid "Transition Style"
+msgstr "交替风格"
+
+#: meteor-slides-plugin.php:368
+msgid "Transition Speed"
+msgstr "交替速度"
+
+#: meteor-slides-plugin.php:370
+msgid "Slide Duration"
+msgstr "交替时长"
+
+#: meteor-slides-plugin.php:372
+msgid "Slideshow Navigation"
+msgstr "幻灯片集移动"
+
+#: meteor-slides-plugin.php:605
+msgid "Add a slideshow widget to a sidebar"
+msgstr "把一个新的幻灯片集加到侧边栏"
+
+#: meteor-slides-plugin.php:609
+msgid "Meteor Slides Widget"
+msgstr "去除侧边栏幻灯片集"
+
+#: meteor-slides-plugin.php:653
+msgid "Title:"
+msgstr "标题："
+
+#: meteor-slides-plugin.php:656
+msgid "Slideshow:"
+msgstr "幻灯片集："
+
+#: meteor-slides-plugin.php:659
+msgid "Metadata:"
+msgstr "编注："
+
+#: meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "对你的幻灯片集运用一下的设置。"
+
+#: meteor-slides-settings.php:21
+#: meteor-slides-settings.php:31
+msgid "px"
+msgstr "px"
+
+#: meteor-slides-settings.php:41
+msgid "blindX"
+msgstr "黑过场A"
+
+#: meteor-slides-settings.php:41
+msgid "blindY"
+msgstr "黑过场B"
+
+#: meteor-slides-settings.php:41
+msgid "blindZ"
+msgstr "黑过场C"
+
+#: meteor-slides-settings.php:41
+msgid "cover"
+msgstr "覆盖封面"
+
+#: meteor-slides-settings.php:41
+msgid "curtainX"
+msgstr "横向百叶窗"
+
+#: meteor-slides-settings.php:41
+msgid "curtainY"
+msgstr "纵向百叶窗"
+
+#: meteor-slides-settings.php:41
+msgid "fade"
+msgstr "淡入"
+
+#: meteor-slides-settings.php:41
+msgid "fadeZoom"
+msgstr "淡入距离"
+
+#: meteor-slides-settings.php:41
+msgid "growX"
+msgstr "横向发光"
+
+#: meteor-slides-settings.php:41
+msgid "growY"
+msgstr "纵向发光"
+
+#: meteor-slides-settings.php:41
+msgid "none"
+msgstr "无"
+
+#: meteor-slides-settings.php:41
+msgid "scrollUp"
+msgstr "向上滚动"
+
+#: meteor-slides-settings.php:41
+msgid "scrollDown"
+msgstr "向下滚动"
+
+#: meteor-slides-settings.php:41
+msgid "scrollLeft"
+msgstr "向左滚动"
+
+#: meteor-slides-settings.php:41
+msgid "scrollRight"
+msgstr "向右滚动"
+
+#: meteor-slides-settings.php:41
+msgid "scrollHorz"
+msgstr "横基线滚动"
+
+#: meteor-slides-settings.php:41
+msgid "scrollVert"
+msgstr "纵基线滚动"
+
+#: meteor-slides-settings.php:41
+msgid "slideX"
+msgstr "横向幻灯"
+
+#: meteor-slides-settings.php:41
+msgid "slideY"
+msgstr "纵向幻灯"
+
+#: meteor-slides-settings.php:41
+msgid "shuffle"
+msgstr "混合"
+
+#: meteor-slides-settings.php:41
+msgid "turnUp"
+msgstr "向上转"
+
+#: meteor-slides-settings.php:41
+msgid "turnDown"
+msgstr "向下转"
+
+#: meteor-slides-settings.php:41
+msgid "turnLeft"
+msgstr "向左转"
+
+#: meteor-slides-settings.php:41
+msgid "turnRight"
+msgstr "向右转"
+
+#: meteor-slides-settings.php:41
+msgid "uncover"
+msgstr "去除覆盖"
+
+#: meteor-slides-settings.php:41
+msgid "wipe"
+msgstr "擦除"
+
+#: meteor-slides-settings.php:41
+msgid "zoom"
+msgstr "推进"
+
+#: meteor-slides-settings.php:63
+#: meteor-slides-settings.php:73
+msgid "seconds"
+msgstr "秒"
+
+#: meteor-slides-settings.php:83
+msgid "None"
+msgstr "无"
+
+#: meteor-slides-settings.php:84
+msgid "Previous/Next"
+msgstr "上一个/下一个"
+
+#: meteor-slides-settings.php:85
+msgid "Paged"
+msgstr "分页"
+
+#: meteor-slides-settings.php:86
+msgid "Both"
+msgstr "双向"
+
+#: meteor-slides-settings.php:112
+msgid "Meteor Slides Settings"
+msgstr "过场设置"
+
+#: meteor-slides-settings.php:126
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: meteor-slides-settings.php:132
+msgid "Install Slideshow"
+msgstr "安装幻灯片集"
+
+#: meteor-slides-settings.php:134
+#, php-format
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
+msgstr "用 %1$s 去在你的风格文件中加入这个，幻灯片集。 用 %2$s 去向你的文章中加入幻灯片集。%3$s 更多信息 %4$s"
+
+#: meteor-slides-settings.php:136
+#, php-format
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr "有任何问题 %1$s，请高速我们%2$s"
+
+#: meteor-slideshow.php:17
+#: meteor-slideshow.php:29
+msgid "Previous"
+msgstr "上一个"
+
+#: meteor-slideshow.php:19
+#: meteor-slideshow.php:31
+msgid "Next"
+msgstr "下一个"
+

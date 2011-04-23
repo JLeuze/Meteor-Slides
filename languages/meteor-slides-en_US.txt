@@ -1,0 +1,161 @@
+Slides
+
+Slide
+
+Add New
+
+Add New Slide
+
+Edit Slide
+
+Edit
+
+New Slide
+
+View Slide
+
+Search Slides
+
+No slides found
+
+No slides found in Trash
+
+Slideshows
+
+Slideshow
+
+Search Slideshows
+
+Popular Slideshows
+
+All Slideshows
+
+Parent Slideshow
+
+Parent Slideshow:
+
+Edit Slideshow
+
+Update Slideshow
+
+Add New Slideshow
+
+New Slideshow Name
+
+Slide Image
+
+Add the URL this slide should link to.
+
+Slide Link
+
+Slides Settings
+
+Settings
+
+Configure Slideshow
+
+Slideshow Quantity
+
+Slide Height
+
+Slide Width
+
+Transition Style
+
+Transition Speed
+
+Slide Duration
+
+Slideshow Navigation
+
+Add a slideshow widget to a sidebar
+
+Meteor Slides Widget
+
+Title:
+
+Slideshow:
+
+Metadata:
+
+Set up your slideshow using the options below.
+
+px
+
+blindX
+
+blindY
+
+blindZ
+
+cover
+
+curtainX
+
+curtainY
+
+fade
+
+fadeZoom
+
+growX
+
+growY
+
+none
+
+scrollUp
+
+scrollDown
+
+scrollLeft
+
+scrollRight
+
+scrollHorz
+
+scrollVert
+
+slideX
+
+slideY
+
+shuffle
+
+turnUp
+
+turnDown
+
+turnLeft
+
+turnRight
+
+uncover
+
+wipe
+
+zoom
+
+seconds
+
+None
+
+Previous/Next
+
+Pages
+
+Both
+
+Meteor Slides Settings
+
+Save Changes
+
+Install Slideshow
+
+Use [template tag] to add this slideshow to your theme, use [short code] to add it to your Post or Page content, or use the Meteor Slides Widget. [url]More information[/url]
+
+Please [url]post any questions or problems[/url] in the WordPress.org support forums.
+
+Previous
+
+Next

@@ -1,0 +1,12 @@
+/* Stylesheet for the Meteor Slides admin pages */
+
+#wpwrap #icon-edit {
+	background: url('../images/slides-icon-32x32.png') no-repeat top left;
+}
+
+#edit-slug-box,
+#message a,
+#preview-action,
+.row-actions .view {
+	display: none;	
+}
