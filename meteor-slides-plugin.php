@@ -650,7 +650,7 @@
 		if( !is_admin() ) {
 	  
 			wp_enqueue_script( 'jquery' );
-			wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.all.js', __FILE__ ), array( 'jquery' ) );
+			wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.all.min.js', __FILE__ ), array( 'jquery' ) );
 			wp_enqueue_script( 'jquery-metadata', plugins_url( '/js/jquery.metadata.v2.js', __FILE__ ), array( 'jquery' ) );
 			wp_enqueue_script( 'meteorslides-script', plugins_url( '/js/slideshow.js', __FILE__ ), array( 'jquery', 'jquery-cycle' ) );
 			wp_localize_script( 'meteorslides-script', 'meteorslidessettings',
