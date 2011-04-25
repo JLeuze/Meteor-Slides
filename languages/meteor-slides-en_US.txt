@@ -142,7 +142,7 @@ None
 
 Previous/Next
 
-Pages
+Paged
 
 Both
 
