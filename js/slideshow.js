@@ -18,11 +18,11 @@ $j(document).ready(function() {
 	
 		height: $slideheight,
 		width: $slidewidth,
-		fit: '1',
+		fit: 1,
 		fx: $slidetransition,
 		speed: $slidespeed,
 		timeout: $slidetimeout,
-		pause: '1',
+		pause: 1,
 		prev: '#meteor-prev',
 		next: '#meteor-next',
 		pager: '#meteor-buttons',
