@@ -1,0 +1,429 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2010-10-13 16:51+0000\n"
+"PO-Revision-Date: 2011-04-08 16:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:78
+msgid "Slides"
+msgstr "שקופיות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:79
+msgid "Slide"
+msgstr "שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:80
+msgid "Add New"
+msgstr "הוספת שקופית חדשה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:81
+msgid "Add New Slide"
+msgstr "הוסף שקופית חדשה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:82
+msgid "Edit Slide"
+msgstr "ערוך שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:83
+msgid "Edit"
+msgstr "עריכה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:84
+msgid "New Slide"
+msgstr "שקופית חדשה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:85
+#: meteor-slides-plugin.php:89
+msgid "View Slide"
+msgstr "תצוגה מקדימה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:86
+msgid "Search Slides"
+msgstr "חיפוש שקופיות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:87
+msgid "No slides found"
+msgstr "לא נמצאו שקופיות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:88
+msgid "No slides found in Trash"
+msgstr "לא נמצאו שקופיות באשפה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:127
+msgid "Slideshows"
+msgstr "מצגות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:128
+msgid "Slideshow"
+msgstr "מצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:129
+msgid "Search Slideshows"
+msgstr "חיפוש מצגות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:130
+msgid "Popular Slideshows"
+msgstr "מצגות פופולאריות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:131
+msgid "All Slideshows"
+msgstr "כל המצגות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:132
+msgid "Parent Slideshow"
+msgstr "מצגת אם"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:133
+msgid "Parent Slideshow:"
+msgstr "מצגת אם:"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:134
+msgid "Edit Slideshow"
+msgstr "עריכת מצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:135
+msgid "Update Slideshow"
+msgstr "עדכון מצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:136
+msgid "Add New Slideshow"
+msgstr "להוסיף מצגת חדשה"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:137
+msgid "New Slideshow Name"
+msgstr "שם חדש למצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:159
+msgid "Slide Image"
+msgstr "תמונת שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:194
+msgid "Add the URL this slide should link to."
+msgstr "להוסיף קישור URL לשקופית זו."
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:206
+msgid "Slide Link"
+msgstr "קישור שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:324
+msgid "Slides Settings"
+msgstr "הגדרת שקופיות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:324
+msgid "Settings"
+msgstr "הגדרות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:358
+msgid "Configure Slideshow"
+msgstr "הגדרת מצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:360
+msgid "Slideshow Quantity"
+msgstr "כמות מצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:362
+msgid "Slide Height"
+msgstr "גובה שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:364
+msgid "Slide Width"
+msgstr "רוחב שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:366
+msgid "Transition Style"
+msgstr "סגנון מעבר"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:368
+msgid "Transition Speed"
+msgstr "מהירות מעבר"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:370
+msgid "Slide Duration"
+msgstr "אורך זמן שקופית"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:372
+msgid "Slideshow Navigation"
+msgstr "ניווט מצגת"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:605
+msgid "Add a slideshow widget to a sidebar"
+msgstr "הוספת יישומון שקופיות לסרגל צדדי"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:609
+msgid "Meteor Slides Widget"
+msgstr "יישומון שקופיות"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:653
+msgid "Title:"
+msgstr "כותרת:"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:656
+msgid "Slideshow:"
+msgstr "מצגת:"
+
+#@ meteor-slides
+#: meteor-slides-plugin.php:659
+msgid "Metadata:"
+msgstr "נתונים:"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "הגדרת מצגת באמצעות האפשרויות הבאות."
+
+#@ meteor-slides
+#: meteor-slides-settings.php:21
+#: meteor-slides-settings.php:31
+msgid "px"
+msgstr "פיקסל"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "blindX"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "blindY"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "blindZ"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "cover"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "curtainX"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "curtainY"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "fade"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "fadeZoom"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "growX"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "growY"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "none"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "scrollUp"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "scrollDown"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "scrollLeft"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "scrollRight"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "scrollHorz"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "scrollVert"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "slideX"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "slideY"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "shuffle"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "turnUp"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "turnDown"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "turnLeft"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "turnRight"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "uncover"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "wipe"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:41
+msgid "zoom"
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slides-settings.php:63
+#: meteor-slides-settings.php:73
+msgid "seconds"
+msgstr "שניות"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:83
+msgid "None"
+msgstr "ללא"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:84
+msgid "Previous/Next"
+msgstr "קודם / הבא"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:85
+msgid "Paged"
+msgstr "עימוד"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:86
+msgid "Both"
+msgstr "שניהם"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:112
+msgid "Meteor Slides Settings"
+msgstr "הגדרות שקופיות"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:126
+msgid "Save Changes"
+msgstr "שמירת שינויים"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:132
+msgid "Install Slideshow"
+msgstr "התקן מצגת"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:134
+#, php-format
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
+msgstr "השתמש % 1 $ s כדי להוסיף שקופיות לנושא שלך, להשתמש % 2 $ s כדי להוסיף אותו להודעה שלך או לתוכן הדף, או להשתמש בוידג'ט שקופיות. % 3% למידע $ sMore 4 $ s"
+
+#@ meteor-slides
+#: meteor-slides-settings.php:136
+#, php-format
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr ""
+
+#@ meteor-slides
+#: meteor-slideshow.php:17
+#: meteor-slideshow.php:29
+msgid "Previous"
+msgstr "קודם"
+
+#@ meteor-slides
+#: meteor-slideshow.php:19
+#: meteor-slideshow.php:31
+msgid "Next"
+msgstr "הבא"
+

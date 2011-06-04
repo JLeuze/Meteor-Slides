@@ -1,0 +1,354 @@
+# Translation of the WordPress plugin   by marx.
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# Marcin Pronobis 'marx' <marx000@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2010-10-13 16:51+0000\n"
+"PO-Revision-Date: 2011-05-26 21:02+0100\n"
+"Last-Translator: marx <marx000@o2.pl>\n"
+"Language-Team: JLeuze <mail@jleuze.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: meteor-slides-plugin.php:78
+msgid "Slides"
+msgstr "Slajdy"
+
+#: meteor-slides-plugin.php:79
+msgid "Slide"
+msgstr "Slajd"
+
+#: meteor-slides-plugin.php:80
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+#: meteor-slides-plugin.php:81
+msgid "Add New Slide"
+msgstr "Dodaj nowy slajd"
+
+#: meteor-slides-plugin.php:82
+msgid "Edit Slide"
+msgstr "Edytuj slajd"
+
+#: meteor-slides-plugin.php:83
+msgid "Edit"
+msgstr "Edytuj"
+
+#: meteor-slides-plugin.php:84
+msgid "New Slide"
+msgstr "Nowy slajd"
+
+#: meteor-slides-plugin.php:85
+#: meteor-slides-plugin.php:89
+msgid "View Slide"
+msgstr "Zobacz slajd"
+
+#: meteor-slides-plugin.php:86
+msgid "Search Slides"
+msgstr "Szukaj slajdów"
+
+#: meteor-slides-plugin.php:87
+msgid "No slides found"
+msgstr "Nie znaleziono slajdów"
+
+#: meteor-slides-plugin.php:88
+msgid "No slides found in Trash"
+msgstr "Brak slajdów w koszu"
+
+#: meteor-slides-plugin.php:127
+msgid "Slideshows"
+msgstr "Pokazy slajdów"
+
+#: meteor-slides-plugin.php:128
+msgid "Slideshow"
+msgstr "Pokaz slajdów"
+
+#: meteor-slides-plugin.php:129
+msgid "Search Slideshows"
+msgstr "Szukaj pokazów slajdów"
+
+#: meteor-slides-plugin.php:130
+msgid "Popular Slideshows"
+msgstr "Popularne pokazy slajdów"
+
+#: meteor-slides-plugin.php:131
+msgid "All Slideshows"
+msgstr "Wszystkie pokazy slajdów"
+
+#: meteor-slides-plugin.php:132
+msgid "Parent Slideshow"
+msgstr "Rodzic"
+
+#: meteor-slides-plugin.php:133
+msgid "Parent Slideshow:"
+msgstr "Rodzic:"
+
+#: meteor-slides-plugin.php:134
+msgid "Edit Slideshow"
+msgstr "Edytuj pokaz slajdów"
+
+#: meteor-slides-plugin.php:135
+msgid "Update Slideshow"
+msgstr "Aktualizuj pokaz slajdów"
+
+#: meteor-slides-plugin.php:136
+msgid "Add New Slideshow"
+msgstr "Dodaj nowy pokaz slajdów"
+
+#: meteor-slides-plugin.php:137
+msgid "New Slideshow Name"
+msgstr "Nazwa nowego pokazu slajdów"
+
+#: meteor-slides-plugin.php:159
+msgid "Slide Image"
+msgstr "Obrazek slajdu"
+
+#: meteor-slides-plugin.php:194
+msgid "Add the URL this slide should link to."
+msgstr "Dodaj adres do którego ma prowadzić obrazek"
+
+#: meteor-slides-plugin.php:206
+msgid "Slide Link"
+msgstr "Link slajdu"
+
+#: meteor-slides-plugin.php:324
+msgid "Slides Settings"
+msgstr "Preferencje slajdów"
+
+#: meteor-slides-plugin.php:324
+msgid "Settings"
+msgstr "Opcje"
+
+#: meteor-slides-plugin.php:358
+msgid "Configure Slideshow"
+msgstr "Konfiguracja slideshow"
+
+#: meteor-slides-plugin.php:360
+msgid "Slideshow Quantity"
+msgstr "Ilość slajdów"
+
+#: meteor-slides-plugin.php:362
+msgid "Slide Height"
+msgstr "Wysokość slajdu"
+
+#: meteor-slides-plugin.php:364
+msgid "Slide Width"
+msgstr "Szerokość slajdu"
+
+#: meteor-slides-plugin.php:366
+msgid "Transition Style"
+msgstr "Styl transformacji slajdu"
+
+#: meteor-slides-plugin.php:368
+msgid "Transition Speed"
+msgstr "Szybkość transformacji"
+
+#: meteor-slides-plugin.php:370
+msgid "Slide Duration"
+msgstr "Czas trwania slajdu"
+
+#: meteor-slides-plugin.php:372
+msgid "Slideshow Navigation"
+msgstr "Nawigacja slideshow"
+
+#: meteor-slides-plugin.php:605
+msgid "Add a slideshow widget to a sidebar"
+msgstr "Dodaj slideshow widged do paska nawigacji"
+
+#: meteor-slides-plugin.php:609
+msgid "Meteor Slides Widget"
+msgstr "Meteor Slides Widget"
+
+#: meteor-slides-plugin.php:653
+msgid "Title:"
+msgstr "Tytuł: "
+
+#: meteor-slides-plugin.php:656
+msgid "Slideshow:"
+msgstr "Slideshow:"
+
+#: meteor-slides-plugin.php:659
+msgid "Metadata:"
+msgstr "Metadata:"
+
+#: meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "Ustaw swój slideshow używając opcji poniżej"
+
+#: meteor-slides-settings.php:21
+#: meteor-slides-settings.php:31
+msgid "px"
+msgstr "px"
+
+#: meteor-slides-settings.php:41
+msgid "blindX"
+msgstr "blindX"
+
+#: meteor-slides-settings.php:41
+msgid "blindY"
+msgstr "blindY"
+
+#: meteor-slides-settings.php:41
+msgid "blindZ"
+msgstr "blindZ"
+
+#: meteor-slides-settings.php:41
+msgid "cover"
+msgstr "zakryj"
+
+#: meteor-slides-settings.php:41
+msgid "curtainX"
+msgstr "curtainX"
+
+#: meteor-slides-settings.php:41
+msgid "curtainY"
+msgstr "curtainY"
+
+#: meteor-slides-settings.php:41
+msgid "fade"
+msgstr "zanikanie"
+
+#: meteor-slides-settings.php:41
+msgid "fadeZoom"
+msgstr "zanikanie przybliżone"
+
+#: meteor-slides-settings.php:41
+msgid "growX"
+msgstr "growX"
+
+#: meteor-slides-settings.php:41
+msgid "growY"
+msgstr "growY"
+
+#: meteor-slides-settings.php:41
+msgid "none"
+msgstr "żadne"
+
+#: meteor-slides-settings.php:41
+msgid "scrollUp"
+msgstr "przewiń do góry"
+
+#: meteor-slides-settings.php:41
+msgid "scrollDown"
+msgstr "przewiń w dół"
+
+#: meteor-slides-settings.php:41
+msgid "scrollLeft"
+msgstr "przewiń w lewo"
+
+#: meteor-slides-settings.php:41
+msgid "scrollRight"
+msgstr "przewiń w prawo"
+
+#: meteor-slides-settings.php:41
+msgid "scrollHorz"
+msgstr "przewiń w poziomie"
+
+#: meteor-slides-settings.php:41
+msgid "scrollVert"
+msgstr "przewiń w pionie"
+
+#: meteor-slides-settings.php:41
+msgid "slideX"
+msgstr "slideX"
+
+#: meteor-slides-settings.php:41
+msgid "slideY"
+msgstr "slideX"
+
+#: meteor-slides-settings.php:41
+msgid "shuffle"
+msgstr "losowe"
+
+#: meteor-slides-settings.php:41
+msgid "turnUp"
+msgstr "turnUp"
+
+#: meteor-slides-settings.php:41
+msgid "turnDown"
+msgstr "turnDown"
+
+#: meteor-slides-settings.php:41
+msgid "turnLeft"
+msgstr "turnLeft"
+
+#: meteor-slides-settings.php:41
+msgid "turnRight"
+msgstr "turnRight"
+
+#: meteor-slides-settings.php:41
+msgid "uncover"
+msgstr "odkryj"
+
+#: meteor-slides-settings.php:41
+msgid "wipe"
+msgstr "wycieraj"
+
+#: meteor-slides-settings.php:41
+msgid "zoom"
+msgstr "powiększ"
+
+#: meteor-slides-settings.php:63
+#: meteor-slides-settings.php:73
+msgid "seconds"
+msgstr "sekundy"
+
+#: meteor-slides-settings.php:83
+msgid "None"
+msgstr "brak"
+
+#: meteor-slides-settings.php:84
+msgid "Previous/Next"
+msgstr "strzałki poprzedni/następny"
+
+#: meteor-slides-settings.php:85
+msgid "Paged"
+msgstr "lista pod spodem"
+
+#: meteor-slides-settings.php:86
+msgid "Both"
+msgstr "oba"
+
+#: meteor-slides-settings.php:112
+msgid "Meteor Slides Settings"
+msgstr "Meteor Slides Settings"
+
+#: meteor-slides-settings.php:126
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: meteor-slides-settings.php:132
+msgid "Install Slideshow"
+msgstr "Zainstaluj slideshow"
+
+#: meteor-slides-settings.php:134
+#, php-format
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
+msgstr "Użyj %1$s aby dodać Meteor Slides do twojego stylu, użyj %2$s aby dodac Meteor Slides do wpisu lub pojedynczej strony, ewentualnie możesz skorzystać z widgetu. %3$sWięcej informacji%4$s"
+
+#: meteor-slides-settings.php:136
+#, php-format
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr "Prosze %1$spisz każde pytania i problemy%2$s na forum wsparcia WordPress.org"
+
+#: meteor-slideshow.php:17
+#: meteor-slideshow.php:29
+msgid "Previous"
+msgstr "Poprzednie"
+
+#: meteor-slideshow.php:19
+#: meteor-slideshow.php:31
+msgid "Next"
+msgstr "Następne"
+

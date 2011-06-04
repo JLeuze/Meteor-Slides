@@ -30,7 +30,7 @@ This screencast shows some of the new features in 1.3, such as adding multiple s
 * **Slideshow metadata:** Customize individual slideshows or configure more [jQuery Cycle options](http://jquery.malsup.com/cycle/options.html "jQuery Cycle Plugin") with the [MetaData jQuery Plugin](http://plugins.jquery.com/project/metadata "MetaData jQuery Plugin").
 * **Slideshow transition styles:** blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, slideX, slideY, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom.
 * **Slideshow navigation:** Optional previous/next and/or paged slide navigation.
-* **Multiple languages:** Chinese, English, French, Indonesian, Italian, Portuguese, Romanian, Spanish, Swedish, Turkish.
+* **Multiple languages:** Chinese, English, French, Hebrew, Indonesian, Italian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish.
 
 *[Got a question about Meteor Slides?](http://wordpress.org/tags/meteor-slides?forum_id=10#postform "Post a question in the forums")*
 
@@ -102,7 +102,8 @@ You can help right on this page by rating the plugin or voting for its compatibi
 
 = 1.4 =
 * Updated JQuery Cycle to 2.99
-* Added Russian translation
+* Updated Swedish translation
+* Added Hebrew, Polish, Portuguese, and Russian translations
 
 = 1.3.3 =
 * Updated generic function with prefix.
