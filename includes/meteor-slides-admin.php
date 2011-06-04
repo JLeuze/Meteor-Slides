@@ -328,34 +328,6 @@
 
 	}
 	
-	// Adds default values for options on settings page
-	
-	register_activation_hook( __FILE__, 'meteorslides_default_options' );
-	
-	function meteorslides_default_options() {
-	
-		$tmp = get_option( 'meteorslides_options' );
-		
-		if ( ( $tmp['slideshow_quantity']=='' )||( !is_array( $tmp ) ) ) {
-
-			$arr = array(
-			
-				'slideshow_quantity'   => '5',
-				'slide_height'         => '200',
-				'slide_width'          => '940',
-				'transition_style'     => 'fade',
-				'transition_speed'     => '2',
-				'slide_duration'       => '5',
-				'slideshow_navigation' => 'navnone'
-				
-			);	
-			
-			update_option( 'meteorslides_options', $arr );
-	
-		}
-
-	}
-	
 	// Validates values for options on settings page
 	
 	function meteorslides_options_validate( $input ) {
