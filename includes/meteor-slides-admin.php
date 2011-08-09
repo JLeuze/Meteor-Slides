@@ -302,6 +302,22 @@
 	
 	}
 	
+	// Adds link to settings page on plugins page
+		
+	add_filter( 'plugin_action_links', 'meteorslides_settings_link', 10, 2 );
+	
+	function meteorslides_settings_link( $links, $file ) {
+		
+		if ( $file == plugin_basename( 'meteor-slides/meteor-slides-plugin.php' ) ) {
+		
+			$links[] = '<a href="edit.php?post_type=slide&page=slides-settings">'.__( 'Settings', 'meteor-slides' ).'</a>';
+	
+		}
+		
+		return $links;
+		
+	}
+	
 	// Register options for settings page
 
 	add_action( 'admin_init', 'meteorslides_register_settings' );
@@ -414,7 +430,7 @@
 				
 		if ( ( isset( $_GET['post_type'] ) && $_GET['post_type'] == 'slide' ) || ( isset( $post_type ) && $post_type == 'slide' ) ) {
 	
-			wp_enqueue_style( 'meteor-slides-admin', plugins_url('/css/meteor-slides-admin.css', __FILE__), array(), '1.0' );
+			wp_enqueue_style( 'meteor-slides-admin', plugins_url( 'meteor-slides/css/meteor-slides-admin.css' ), array(), '1.0' );
 	
 		}
 		

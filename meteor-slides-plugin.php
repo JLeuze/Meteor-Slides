@@ -233,22 +233,6 @@
 	
 	}
 	
-	// Adds link to settings page on plugins page
-		
-	add_filter( 'plugin_action_links', 'meteorslides_settings_link', 10, 2 );
-	
-	function meteorslides_settings_link( $links, $file ) {
-		
-		if ( $file == plugin_basename( dirname(__FILE__).'/meteor-slides-plugin.php' ) ) {
-		
-			$links[] = '<a href="edit.php?post_type=slide&page=slides-settings">'.__( 'Settings', 'meteor-slides' ).'</a>';
-	
-		}
-		
-		return $links;
-		
-	}
-	
 	// Adds default values for options on settings page
 	
 	register_activation_hook( __FILE__, 'meteorslides_default_options' );
