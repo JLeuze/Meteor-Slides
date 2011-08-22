@@ -61,6 +61,10 @@
 				'delete_post'        => 'meteorslides_delete_slide'
 
 			);
+			
+			$capabilitytype = 'slide';
+			
+			$mapmetacap = 'false';
 		
 		} else {
 		
@@ -75,16 +79,10 @@
 				'delete_post'        => 'delete_post'
 
 			);
-		
-		}
-				
-		if ( function_exists( 'members_get_capabilities' ) ) {
-	
-			$capabilitytype = 'slide';
-		
-		} else {
-		
+			
 			$capabilitytype = 'post';
+			
+			$mapmetacap = 'true';
 		
 		}
 		
@@ -99,7 +97,7 @@
 			'menu_icon'           => ''. plugins_url( '/images/slides-icon-20x20.png', __FILE__ ),
 			'capability_type'     => $capabilitytype,
 			'capabilities'        => $capabilities,
-			'map_meta_cap'        => false,
+			'map_meta_cap'        => $mapmetacap,
 			'hierarchical'        => false,
 			'supports'            => array( 'title', 'thumbnail' ),
 			'taxonomies'          => array( 'slideshow' ),
