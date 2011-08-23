@@ -64,7 +64,7 @@
 			
 			$capabilitytype = 'slide';
 			
-			$mapmetacap = 'false';
+			$mapmetacap = false;
 		
 		} else {
 		
@@ -82,7 +82,7 @@
 			
 			$capabilitytype = 'post';
 			
-			$mapmetacap = 'true';
+			$mapmetacap = true;
 		
 		}
 		
@@ -136,6 +136,30 @@
 				
 		);
 		
+		if ( function_exists( 'members_get_capabilities' ) ) {
+	
+			$capabilities = array(
+		
+				'manage_terms' => 'meteorslides_manage_slideshows',
+				'edit_terms'   => 'meteorslides_manage_slideshows',
+				'delete_terms' => 'meteorslides_manage_slideshows',
+				'assign_terms' => 'meteorslides_edit_slides'
+
+			);
+		
+		} else {
+		
+			$capabilities = array(
+		
+				'manage_terms' => 'manage_categories',
+				'edit_terms'   => 'manage_categories',
+				'delete_terms' => 'manage_categories',
+				'assign_terms' => 'edit_posts'
+
+			);
+		
+		}
+		
 		$args = array(
 	
 			'labels'            => $labels,
@@ -144,7 +168,8 @@
 			'show_ui'           => true,
 			'show_tagcloud'     => false,
 			'hierarchical'      => true,
-			'rewrite'           => array( 'slug' => 'slideshow' )
+			'rewrite'           => array( 'slug' => 'slideshow' ),
+			'capabilities'      => $capabilities
 		
 		);
 	

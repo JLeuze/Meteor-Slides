@@ -356,6 +356,7 @@
 		$caps[] = 'meteorslides_read_slides';
 		$caps[] = 'meteorslides_read_private_slides';
 		$caps[] = 'meteorslides_delete_slide';
+		$caps[] = 'meteorslides_manage_slideshows';
 		
 		return $caps;
 		
