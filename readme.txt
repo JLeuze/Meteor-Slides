@@ -18,7 +18,7 @@ Easily create slideshows and publish them with a shortcode or widget. The slides
 
 = Video Overview =
 
-This screencast shows some of the new features in 1.3, such as adding multiple slideshows, and using metadata. [Watch more Meteor Slides videos.](http://vimeo.com/album/930565 "Meteor Slides Videos")
+This screencast shows some of the plugin's features, such as different transition and navigation options, multiple slideshows, plugin settings, and metadata. [Watch more Meteor Slides videos.](http://vimeo.com/album/930565 "Meteor Slides Videos")
 
 [vimeo http://vimeo.com/16270730]
 
