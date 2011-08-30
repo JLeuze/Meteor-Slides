@@ -101,7 +101,12 @@ You can help right on this page by rating the plugin or voting for its compatibi
 == Changelog ==
 
 = 1.4 =
-* Updated JQuery Cycle to 2.99
+* Replaced slideshow skin with new navigation graphics and layout
+* Added support for custom slideshow script
+* Added support for Members plugin
+* Added uninstall functionality
+* Moved admin functions to seperate file and reorganized some files
+* Updated JQuery Cycle to 2.99, switch to minimized version
 * Updated Swedish translation
 * Added Hebrew, Japanese, Polish, Portuguese, and Russian translations
 
@@ -166,7 +171,7 @@ You can help right on this page by rating the plugin or voting for its compatibi
 == Upgrade Notice ==
 
 = 1.4 =
-Meteor Slides 1.4 updates jQuery Cycle and adds new and updated translations.
+Meteor Slides 1.4 replaces the navigation graphics, adds support for custom scripts and the Members plugin, updates jQuery Cycle and adds new and updated translations.
 
 = 1.3.3 =
 Meteor Slides 1.3.3 improves support for multiple slideshows and adds updates for WordPress 3.1 compatability. Any custom stylesheets or templates will need to be updated for use with this release.(Updated function)
