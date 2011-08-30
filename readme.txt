@@ -105,7 +105,7 @@ You can help right on this page by rating the plugin or voting for its compatibi
 * Added support for custom slideshow script
 * Added support for Members plugin
 * Added uninstall functionality
-* Moved admin functions to seperate file and reorganized some files
+* Moved admin functions to separate file and reorganized some files
 * Updated JQuery Cycle to 2.99, switch to minimized version
 * Updated Swedish translation
 * Added Hebrew, Japanese, Polish, Portuguese, and Russian translations
