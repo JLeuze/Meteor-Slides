@@ -1,4 +1,11 @@
-// jQuery Cycle script which powers the Slideshow: http://jquery.malsup.com/cycle/
+/*  Options for the jQuery Cycle script which powers the slideshow: http://jquery.malsup.com/cycle/
+	
+	Copy "slideshow.js" from "/meteor-slides/js/" to your theme's directory to replace
+	the plugin's default slideshow script.
+	
+	Learn more about customizing the slideshow script for Meteor Slides: 
+	http://www.jleuze.com/plugins/meteor-slides/customizing-the-slideshow-script/
+*/
 
 var $j = jQuery.noConflict();
 
@@ -18,11 +25,11 @@ $j(document).ready(function() {
 	
 		height: $slideheight,
 		width: $slidewidth,
-		fit: '1',
+		fit: 1,
 		fx: $slidetransition,
 		speed: $slidespeed,
 		timeout: $slidetimeout,
-		pause: '1',
+		pause: 1,
 		prev: '#meteor-prev',
 		next: '#meteor-next',
 		pager: '#meteor-buttons',

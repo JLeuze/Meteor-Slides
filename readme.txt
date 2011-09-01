@@ -2,9 +2,9 @@
 Contributors: jleuze
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: slide, slides, slider, slideshow, image, custom post types, jquery
-Requires at least: 3.0
-Tested up to: 3.1
-Stable tag: 1.3.3
+Requires at least: 3.2.1
+Tested up to: 3.2.1
+Stable tag: 1.4
 
 Meteor Slides makes it simple to create slideshows with WordPress by adding a custom post type for slides.
 
@@ -18,7 +18,7 @@ Easily create slideshows and publish them with a shortcode or widget. The slides
 
 = Video Overview =
 
-This screencast shows some of the new features in 1.3, such as adding multiple slideshows, and using metadata. [Watch more Meteor Slides videos.](http://vimeo.com/album/930565 "Meteor Slides Videos")
+This screencast shows some of the plugin's features, such as different transition and navigation options, multiple slideshows, plugin settings, and metadata. [Watch more Meteor Slides videos.](http://vimeo.com/album/930565 "Meteor Slides Videos")
 
 [vimeo http://vimeo.com/16270730]
 
@@ -30,7 +30,7 @@ This screencast shows some of the new features in 1.3, such as adding multiple s
 * **Slideshow metadata:** Customize individual slideshows or configure more [jQuery Cycle options](http://jquery.malsup.com/cycle/options.html "jQuery Cycle Plugin") with the [MetaData jQuery Plugin](http://plugins.jquery.com/project/metadata "MetaData jQuery Plugin").
 * **Slideshow transition styles:** blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, slideX, slideY, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom.
 * **Slideshow navigation:** Optional previous/next and/or paged slide navigation.
-* **Multiple languages:** Chinese, English, French, Indonesian, Italian, Portuguese, Romanian, Spanish, Swedish, Turkish.
+* **Multiple languages:** Chinese, English, French, Hebrew, Indonesian, Italian, Japanese, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish.
 
 *[Got a question about Meteor Slides?](http://wordpress.org/tags/meteor-slides?forum_id=10#postform "Post a question in the forums")*
 
@@ -100,6 +100,16 @@ You can help right on this page by rating the plugin or voting for its compatibi
 
 == Changelog ==
 
+= 1.4 =
+* Replaced slideshow skin with new navigation graphics and layout
+* Added support for custom slideshow script
+* Added support for Members plugin
+* Added uninstall functionality
+* Moved admin functions to separate file and reorganized some files
+* Updated JQuery Cycle to 2.99, switch to minimized version
+* Updated Swedish translation
+* Added Hebrew, Japanese, Polish, Portuguese, and Russian translations
+
 = 1.3.3 =
 * Updated generic function with prefix.
 
@@ -159,6 +169,9 @@ You can help right on this page by rating the plugin or voting for its compatibi
 * Initial release of Meteor Slides.
 
 == Upgrade Notice ==
+
+= 1.4 =
+Meteor Slides 1.4 replaces the navigation graphics, adds support for custom scripts and the Members plugin, updates jQuery Cycle and adds new and updated translations.
 
 = 1.3.3 =
 Meteor Slides 1.3.3 improves support for multiple slideshows and adds updates for WordPress 3.1 compatability. Any custom stylesheets or templates will need to be updated for use with this release.(Updated function)
