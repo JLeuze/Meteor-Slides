@@ -255,7 +255,7 @@
 			'<p>'  . __( '<a href="http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/" target="_blank">Multiple Slideshows Documentation</a>', 'meteor-slides' ) . '</p>' .
 			'<p>'  . __( '<a href="http://wordpress.org/tags/meteor-slides" target="_blank">Plugin Support Forum</a>', 'meteor-slides' ) . '</p>';
 			
-		} elseif ( 'slide_page_slides-settings' == $screen->id ) {
+		} elseif ( 'slide_page_slides_settings' == $screen->id ) {
 		
 			$contextual_help =
 			
@@ -288,11 +288,41 @@
 
 	// Adds Slideshow settings page
 	
+	function meteorslides_set_options_cap(){
+
+		if ( function_exists( 'members_get_capabilities' ) ) {
+	
+			return 'meteorslides_manage_options';
+		
+		} else {
+	
+			return 'manage_options';
+		
+		}
+	
+	}
+	
+	add_filter( 'option_page_capability_meteorslides_options', 'meteorslides_options_cap' );
+	
+	function meteorslides_options_cap( $capability ) {
+	
+		if ( function_exists( 'members_get_capabilities' ) ) {
+	
+			return 'meteorslides_manage_options';
+		
+		} else {
+	
+			return 'manage_options';
+		
+		}
+		
+	}
+		
 	add_action( 'admin_menu', 'meteorslides_menu' );
 
 	function meteorslides_menu() {
 		
-		add_submenu_page( 'edit.php?post_type=slide', __('Slides Settings', 'meteor-slides'), __( 'Settings', 'meteor-slides' ), 'manage_options', 'slides-settings', 'meteorslides_settings_page' );
+		add_submenu_page( 'edit.php?post_type=slide', __( 'Slides Settings', 'meteor-slides' ), __( 'Settings', 'meteor-slides' ), meteorslides_set_options_cap(),  'slides_settings', 'meteorslides_settings_page' );
 		
 	}
 	
@@ -300,6 +330,35 @@
 		
 		include( 'meteor-slides-settings.php' );
 	
+	}
+	
+	// Add custom slide capabilities for the Members plugin
+	
+	add_action( 'admin_init', 'meteorslides_members_capabilities' );
+
+	function meteorslides_members_capabilities() {
+	
+		if ( function_exists( 'members_get_capabilities' ) ) {
+	
+			add_filter( 'members_get_capabilities', 'meteorslides_add_members_caps' );
+		
+		}
+	
+	}
+
+	function meteorslides_add_members_caps( $caps ) {
+	
+		$caps[] = 'meteorslides_manage_options';
+		$caps[] = 'meteorslides_edit_slide';
+		$caps[] = 'meteorslides_edit_slides';
+		$caps[] = 'meteorslides_edit_others_slides';
+		$caps[] = 'meteorslides_publish_slides';
+		$caps[] = 'meteorslides_read_slides';
+		$caps[] = 'meteorslides_read_private_slides';
+		$caps[] = 'meteorslides_delete_slide';
+		
+		return $caps;
+		
 	}
 	
 	// Adds link to settings page on plugins page
@@ -310,7 +369,7 @@
 		
 		if ( $file == plugin_basename( 'meteor-slides/meteor-slides-plugin.php' ) ) {
 		
-			$links[] = '<a href="edit.php?post_type=slide&page=slides-settings">'.__( 'Settings', 'meteor-slides' ).'</a>';
+			$links[] = '<a href="edit.php?post_type=slide&page=slides_settings">'.__( 'Settings', 'meteor-slides' ).'</a>';
 	
 		}
 		

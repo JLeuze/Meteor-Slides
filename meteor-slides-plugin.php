@@ -47,6 +47,46 @@
 			'menu_name'          => __( 'Slides', 'meteor-slides' )
 
 		);
+				
+		if ( function_exists( 'members_get_capabilities' ) ) {
+	
+			$capabilities = array(
+		
+				'edit_post'          => 'meteorslides_edit_slide',
+				'edit_posts'         => 'meteorslides_edit_slides',
+				'edit_others_posts'  => 'meteorslides_edit_others_slides',
+				'publish_posts'      => 'meteorslides_publish_slides',
+				'read_post'          => 'meteorslides_read_slide',
+				'read_private_posts' => 'meteorslides_read_private_slides',
+				'delete_post'        => 'meteorslides_delete_slide'
+
+			);
+		
+		} else {
+		
+			$capabilities = array(
+		
+				'edit_post'          => 'edit_post',
+				'edit_posts'         => 'edit_posts',
+				'edit_others_posts'  => 'edit_others_posts',
+				'publish_posts'      => 'publish_posts',
+				'read_post'          => 'read_post',
+				'read_private_posts' => 'read_private_posts',
+				'delete_post'        => 'delete_post'
+
+			);
+		
+		}
+				
+		if ( function_exists( 'members_get_capabilities' ) ) {
+	
+			$capabilitytype = 'slide';
+		
+		} else {
+		
+			$capabilitytype = 'post';
+		
+		}
 		
 		$args = array(
 	
@@ -57,8 +97,9 @@
 			'show_ui'             => true,
 			'show_in_menu'        => true,
 			'menu_icon'           => ''. plugins_url( '/images/slides-icon-20x20.png', __FILE__ ),
-			'capability_type'     => 'post',
-			'map_meta_cap'        => true,
+			'capability_type'     => $capabilitytype,
+			'capabilities'        => $capabilities,
+			'map_meta_cap'        => false,
 			'hierarchical'        => false,
 			'supports'            => array( 'title', 'thumbnail' ),
 			'taxonomies'          => array( 'slideshow' ),
