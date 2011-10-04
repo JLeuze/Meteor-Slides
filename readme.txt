@@ -99,6 +99,8 @@ You can help right on this page by rating the plugin or voting for its compatibi
 6. Meteor Slides Settings
 
 == Changelog ==
+= 1.4.1 =
+* Added slideshow taxonomy selector to widget
 
 = 1.4 =
 * Replaced slideshow skin with new navigation graphics and layout
@@ -169,6 +171,10 @@ You can help right on this page by rating the plugin or voting for its compatibi
 * Initial release of Meteor Slides.
 
 == Upgrade Notice ==
+
+= 1.4.1 =
+Meteor Slides 1.4.1 adds an improved slideshow widget.
+
 
 = 1.4 =
 Meteor Slides 1.4 replaces the navigation graphics, adds support for custom scripts and the Members plugin, updates jQuery Cycle and adds new and updated translations.

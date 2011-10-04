@@ -6,7 +6,7 @@
 	Author: Josh Leuze
 	Author URI: http://www.jleuze.com/
 	License: GPL2
-	Version: 1.4
+	Version: 1.4.1
 */
 
 /*  Copyright 2011 Josh Leuze (email : mail@jleuze.com)
@@ -462,9 +462,38 @@
 		
 			echo '<p><label for="' . $this->get_field_id( 'title' ) . '">' . __('Title:', 'meteor-slides') . '</label>
 			<input type="text" class="widefat" id="' . $this->get_field_id( 'title' ) . '" name="' . $this->get_field_name( 'title' ) . '" value="' . $instance['title'] . '" /></p>';
-
-			echo '<p><label for="' . $this->get_field_id( 'slideshow' ) . '">' . __('Slideshow:', 'meteor-slides') . '</label>
-			<input type="text" class="widefat" id="' . $this->get_field_id( 'slideshow' ) . '" name="' . $this->get_field_name( 'slideshow' ) . '" value="' . $instance['slideshow'] . '" /></p>';
+			
+			// If the slideshow taxonomy has terms, create a select list of those terms
+			
+			$slideshow_terms       = get_terms( 'slideshow' );
+			$slideshow_terms_count = count($slideshow_terms);
+			$slideshow_value       = $instance['slideshow'];
+			
+			if ( $slideshow_terms_count > 0 ) {
+			
+				echo '<p><label for="' . $this->get_field_id( 'slideshow' ) . '">' . __('Slideshow:', 'meteor-slides') . '</label>';
+			
+				echo '<select name="' . $this->get_field_name( 'slideshow' ) . '" id="' . $this->get_field_id( 'slideshow' ) . '" class="widefat">';
+				
+				echo '<option value="">All Slides</option>';
+				
+				foreach ( $slideshow_terms as $slideshow_terms ) {
+				
+					if ( $slideshow_terms->slug == $slideshow_value ) {
+					
+						echo '<option selected="selected" value="' . $slideshow_terms->slug . '">' . $slideshow_terms->name . '</option>';
+					
+					} else {
+				
+						echo '<option value="' . $slideshow_terms->slug . '">' . $slideshow_terms->name . '</option>';
+					
+					}
+        
+				}
+					
+				echo '</select>';
+				
+			}
 
 			echo '<p><label for="' . $this->get_field_id( 'metadata' ) . '">' . __('Metadata:', 'meteor-slides') . '</label>
 			<input type="text" class="widefat" id="' . $this->get_field_id( 'metadata' ) . '" name="' . $this->get_field_name( 'metadata' ) . '" value="' . $instance['metadata'] . '" /></p>';
