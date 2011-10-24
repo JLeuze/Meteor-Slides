@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Meteor Slides ===
 Contributors: jleuze
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: slide, slides, slider, slideshow, image, custom post types, jquery
