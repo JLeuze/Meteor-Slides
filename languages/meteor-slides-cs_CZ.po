@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Meteor Slides 1.3\n"
+"Project-Id-Version: Meteor Slides 1.4.1\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
 "POT-Creation-Date: 2010-10-13 16:51+0000\n"
-"PO-Revision-Date: 2011-04-03 09:13-0600\n"
+"PO-Revision-Date: 2011-11-27 10:53-0600\n"
 "Last-Translator: Josh Leuze <jleuze@gmail.com>\n"
 "Language-Team: JLeuze <mail@jleuze.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,332 +20,332 @@ msgstr ""
 
 #: meteor-slides-plugin.php:78
 msgid "Slides"
-msgstr "Слайды"
+msgstr ""
 
 #: meteor-slides-plugin.php:79
 msgid "Slide"
-msgstr "Слайд"
+msgstr ""
 
 #: meteor-slides-plugin.php:80
 msgid "Add New"
-msgstr "Добавить новый"
+msgstr "Pøidat Nový"
 
 #: meteor-slides-plugin.php:81
 msgid "Add New Slide"
-msgstr "Добавить новый слайд"
+msgstr "Sløidat Nový Slide"
 
 #: meteor-slides-plugin.php:82
 msgid "Edit Slide"
-msgstr "Редактировать слайд"
+msgstr "Upravit Slide"
 
 #: meteor-slides-plugin.php:83
 msgid "Edit"
-msgstr "Редактировать"
+msgstr "Upravit"
 
 #: meteor-slides-plugin.php:84
 msgid "New Slide"
-msgstr "Новый слайд"
+msgstr "Nový Slide"
 
 #: meteor-slides-plugin.php:85
 #: meteor-slides-plugin.php:89
 msgid "View Slide"
-msgstr "Посмотреть слайд"
+msgstr "Zobrazit Slide"
 
 #: meteor-slides-plugin.php:86
 msgid "Search Slides"
-msgstr "Искать слайды"
+msgstr "Hledat Slides"
 
 #: meteor-slides-plugin.php:87
 msgid "No slides found"
-msgstr "Слайды не найдены"
+msgstr "Žádné slides nenalezeny"
 
 #: meteor-slides-plugin.php:88
 msgid "No slides found in Trash"
-msgstr "Слайды в корзине не найдены"
+msgstr "V koši nenalezeny žádné slides"
 
 #: meteor-slides-plugin.php:127
 msgid "Slideshows"
-msgstr "Слайд шоу"
+msgstr ""
 
 #: meteor-slides-plugin.php:128
 msgid "Slideshow"
-msgstr "Слайд шоу"
+msgstr ""
 
 #: meteor-slides-plugin.php:129
 msgid "Search Slideshows"
-msgstr "Поиск слайд шоу"
+msgstr "Hledat Slideshows"
 
 #: meteor-slides-plugin.php:130
 msgid "Popular Slideshows"
-msgstr "Популярные слайдшоу"
+msgstr "Populární Slideshows"
 
 #: meteor-slides-plugin.php:131
 msgid "All Slideshows"
-msgstr "Все слайдшоу"
+msgstr "Všechny Slideshows"
 
 #: meteor-slides-plugin.php:132
 msgid "Parent Slideshow"
-msgstr "Родительское слайдшоу"
+msgstr "Nadøazená Slideshow"
 
 #: meteor-slides-plugin.php:133
 msgid "Parent Slideshow:"
-msgstr "Родительское слайдшоу:"
+msgstr "Nadøazená Slideshow:"
 
 #: meteor-slides-plugin.php:134
 msgid "Edit Slideshow"
-msgstr "Править слайдшоу"
+msgstr "Upravit Slideshow"
 
 #: meteor-slides-plugin.php:135
 msgid "Update Slideshow"
-msgstr "Обновить слайдшоу"
+msgstr "Aktualizovat Slideshow"
 
 #: meteor-slides-plugin.php:136
 msgid "Add New Slideshow"
-msgstr "Добавить новое слайдшоу"
+msgstr "Pøidat Novou Slideshow"
 
 #: meteor-slides-plugin.php:137
 msgid "New Slideshow Name"
-msgstr "Имя нового слайдшоу"
+msgstr "Jméno Nové Slideshow"
 
 #: meteor-slides-plugin.php:159
 msgid "Slide Image"
-msgstr "Картинка слайда"
+msgstr "Obrázek ve slideshow"
 
 #: meteor-slides-plugin.php:194
 msgid "Add the URL this slide should link to."
-msgstr "Укажите адрес перехода (url) со слайда."
+msgstr "Pøidejte adresu, na kterou bude slide odkazovat"
 
 #: meteor-slides-plugin.php:206
 msgid "Slide Link"
-msgstr "Ссылка со слайда"
+msgstr "Odkaz"
 
 #: meteor-slides-plugin.php:324
 msgid "Slides Settings"
-msgstr "Настройки слайдов"
+msgstr "Nastavení Slides"
 
 #: meteor-slides-plugin.php:324
 msgid "Settings"
-msgstr "Настройки"
+msgstr "Nastavení"
 
 #: meteor-slides-plugin.php:358
 msgid "Configure Slideshow"
-msgstr "Настройка слайдшоу"
+msgstr "Upravit Slideshow"
 
 #: meteor-slides-plugin.php:360
 msgid "Slideshow Quantity"
-msgstr "Количество слайдов в слайдшоу"
+msgstr "Poèet Slideshow"
 
 #: meteor-slides-plugin.php:362
 msgid "Slide Height"
-msgstr "Высота слайда"
+msgstr "Výška"
 
 #: meteor-slides-plugin.php:364
 msgid "Slide Width"
-msgstr "Ширина слайда"
+msgstr "Šíøka"
 
 #: meteor-slides-plugin.php:366
 msgid "Transition Style"
-msgstr "Стиль смены слайдов"
+msgstr "Typ prolnutí"
 
 #: meteor-slides-plugin.php:368
 msgid "Transition Speed"
-msgstr "Скорость смены слайдов"
+msgstr "Rychlost prolnutí"
 
 #: meteor-slides-plugin.php:370
 msgid "Slide Duration"
-msgstr "Время показа слайда"
+msgstr "Doba/trvání Slide"
 
 #: meteor-slides-plugin.php:372
 msgid "Slideshow Navigation"
-msgstr "Навишация по слайдшоу"
+msgstr "Navigace Slideshow"
 
 #: meteor-slides-plugin.php:605
 msgid "Add a slideshow widget to a sidebar"
-msgstr "Добавить виджет слайдшоу в боковую панель"
+msgstr "Pøidá slideshow do postranního panelu"
 
 #: meteor-slides-plugin.php:609
 msgid "Meteor Slides Widget"
-msgstr "Виджет Метеор Слайдшоу"
+msgstr ""
 
 #: meteor-slides-plugin.php:653
 msgid "Title:"
-msgstr "Заголовок:"
+msgstr "Název:"
 
 #: meteor-slides-plugin.php:656
 msgid "Slideshow:"
-msgstr "Слайдшоу:"
+msgstr ""
 
 #: meteor-slides-plugin.php:659
 msgid "Metadata:"
-msgstr "Метаданные:"
+msgstr ""
 
 #: meteor-slides-settings.php:7
 msgid "Set up your slideshow using the options below."
-msgstr "Настройте ваше слайдшоу используя опции расположенные ниже."
+msgstr "Nastavte slideshow pomocí níže uvedených možností."
 
 #: meteor-slides-settings.php:21
 #: meteor-slides-settings.php:31
 msgid "px"
-msgstr "px"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "blindX"
-msgstr "горизонтальный двойной сдвиг"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "blindY"
-msgstr "вертикальный двойной сдвиг"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "blindZ"
-msgstr "двойной сдвиг по диагонали"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "cover"
-msgstr "наложение"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "curtainX"
-msgstr "горизонтальный занавес"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "curtainY"
-msgstr "вертикальный занавес"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "fade"
-msgstr "плавный переход"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "fadeZoom"
-msgstr "плавный переход с наездом"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "growX"
-msgstr "раздвижные ворота по горизонтали"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "growY"
-msgstr "раздвижные ворота по вертикали"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "none"
-msgstr "нет"
+msgstr "Žádný"
 
 #: meteor-slides-settings.php:41
 msgid "scrollUp"
-msgstr "прокрутка вверх"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "scrollDown"
-msgstr "прокрутка вниз"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "scrollLeft"
-msgstr "прокрутка влево"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "scrollRight"
-msgstr "прокрутка вправо"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "scrollHorz"
-msgstr "прокрутка горизонтальная"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "scrollVert"
-msgstr "прокрутка вертикальная"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "slideX"
-msgstr "горизонтальный сдвиг"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "slideY"
-msgstr "вертикальный сдвиг"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "shuffle"
-msgstr "случаный выбор"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "turnUp"
-msgstr "наезд снизу"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "turnDown"
-msgstr "наезд сверху"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "turnLeft"
-msgstr "наезд справа"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "turnRight"
-msgstr "наезд слева"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "uncover"
-msgstr "сняти верхнего"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "wipe"
-msgstr "вытирание"
+msgstr ""
 
 #: meteor-slides-settings.php:41
 msgid "zoom"
-msgstr "увеличение"
+msgstr ""
 
 #: meteor-slides-settings.php:63
 #: meteor-slides-settings.php:73
 msgid "seconds"
-msgstr "секунды"
+msgstr ""
 
 #: meteor-slides-settings.php:83
 msgid "None"
-msgstr "Нет"
+msgstr "Žádný"
 
 #: meteor-slides-settings.php:84
 msgid "Previous/Next"
-msgstr "Предыдущий/Следующий"
+msgstr "Pøedchozí/Další"
 
 #: meteor-slides-settings.php:85
 msgid "Paged"
-msgstr "Страницы"
+msgstr "Stránkování"
 
 #: meteor-slides-settings.php:86
 msgid "Both"
-msgstr "Оба"
+msgstr "Oba/obì"
 
 #: meteor-slides-settings.php:112
 msgid "Meteor Slides Settings"
-msgstr "Настройки Meteor Slides"
+msgstr "Meteor Slides - Nastavení"
 
 #: meteor-slides-settings.php:126
 msgid "Save Changes"
-msgstr "Сохранить изменения"
+msgstr "Uložit Zmìny"
 
 #: meteor-slides-settings.php:132
 msgid "Install Slideshow"
-msgstr "Установить слайдшоу"
+msgstr "Instalovat Slideshow"
 
 #: meteor-slides-settings.php:134
 #, php-format
 msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
-msgstr "Используйте %1$s для добавления этого слайдшоу в свою тему, используйте %2$s для добавления его в ваш пост или страницу, или используйте виджет Meteor Slides. %3$sПодробнее%4$s"
+msgstr "Použijte %1$s k pøidání slideshow do vaší šablony. Použijte %2$s k pøidání slideshow do obsahu Pøíspìvku nebo Stránky. Nebo použijte Meteor Slides Widget. %3$sVíce informací%4$s"
 
 #: meteor-slides-settings.php:136
 #, php-format
 msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
-msgstr "Пожалуйста %1$sзадавайте любые вопросы или сообщайте о проблемах%2$s на форуме техподдержки WordPress.org."
+msgstr "Prosím, %1$sdotazy nebo problémy pište%2$s na fóra podpory - WordPress.org."
 
 #: meteor-slideshow.php:17
 #: meteor-slideshow.php:29
 msgid "Previous"
-msgstr "Предыдущий"
+msgstr "Pøedchozí"
 
 #: meteor-slideshow.php:19
 #: meteor-slideshow.php:31
 msgid "Next"
-msgstr "Следующий"
+msgstr "Další"
 

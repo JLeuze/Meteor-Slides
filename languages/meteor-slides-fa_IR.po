@@ -1,0 +1,351 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2010-10-13 16:51+0000\n"
+"PO-Revision-Date: 2011-10-03 23:23+0330\n"
+"Last-Translator: Sizyphe <sizyphe@gmail.com>\n"
+"Language-Team: JLeuze <mail@jleuze.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: meteor-slides-plugin.php:78
+msgid "Slides"
+msgstr "اسلایدها"
+
+#: meteor-slides-plugin.php:79
+msgid "Slide"
+msgstr "اسلاید"
+
+#: meteor-slides-plugin.php:80
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: meteor-slides-plugin.php:81
+msgid "Add New Slide"
+msgstr "افزودن اسلاید جدید"
+
+#: meteor-slides-plugin.php:82
+msgid "Edit Slide"
+msgstr "ویرایش اسلاید"
+
+#: meteor-slides-plugin.php:83
+msgid "Edit"
+msgstr "ویرایش"
+
+#: meteor-slides-plugin.php:84
+msgid "New Slide"
+msgstr "اسلاید جدید"
+
+#: meteor-slides-plugin.php:85
+#: meteor-slides-plugin.php:89
+msgid "View Slide"
+msgstr "مشاهده اسلاید"
+
+#: meteor-slides-plugin.php:86
+msgid "Search Slides"
+msgstr "جستجو اسلاید"
+
+#: meteor-slides-plugin.php:87
+msgid "No slides found"
+msgstr "هیچ اسلایدی پیدا نشد"
+
+#: meteor-slides-plugin.php:88
+msgid "No slides found in Trash"
+msgstr "هیچ اسلایدی در زباله‌دان پیدا نشد"
+
+#: meteor-slides-plugin.php:127
+msgid "Slideshows"
+msgstr "اسلایدشوها"
+
+#: meteor-slides-plugin.php:128
+msgid "Slideshow"
+msgstr "اسلایدشو"
+
+#: meteor-slides-plugin.php:129
+msgid "Search Slideshows"
+msgstr "جستجوی اسلایدشوها"
+
+#: meteor-slides-plugin.php:130
+msgid "Popular Slideshows"
+msgstr "اسلایدشوهای محبوب"
+
+#: meteor-slides-plugin.php:131
+msgid "All Slideshows"
+msgstr "همه اسلایدشوها"
+
+#: meteor-slides-plugin.php:132
+msgid "Parent Slideshow"
+msgstr "اسلایدشوی مادر"
+
+#: meteor-slides-plugin.php:133
+msgid "Parent Slideshow:"
+msgstr "اسلایدشوی مادر:"
+
+#: meteor-slides-plugin.php:134
+msgid "Edit Slideshow"
+msgstr "ویرایش اسلایدشو"
+
+#: meteor-slides-plugin.php:135
+msgid "Update Slideshow"
+msgstr "بروز رسانی اسلایدشو"
+
+#: meteor-slides-plugin.php:136
+msgid "Add New Slideshow"
+msgstr "افزودن اسلایدشوی جدید"
+
+#: meteor-slides-plugin.php:137
+msgid "New Slideshow Name"
+msgstr "نام اسلایدشوی جدید"
+
+#: meteor-slides-plugin.php:159
+msgid "Slide Image"
+msgstr "نام اسلاید"
+
+#: meteor-slides-plugin.php:194
+msgid "Add the URL this slide should link to."
+msgstr "افزودن پیوند این اسلاید باید لینک شود به."
+
+#: meteor-slides-plugin.php:206
+msgid "Slide Link"
+msgstr "پیوند اسلاید"
+
+#: meteor-slides-plugin.php:324
+msgid "Slides Settings"
+msgstr "تنظیمات اسلایدها"
+
+#: meteor-slides-plugin.php:324
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: meteor-slides-plugin.php:358
+msgid "Configure Slideshow"
+msgstr "پیکربندی اسلایدشو"
+
+#: meteor-slides-plugin.php:360
+msgid "Slideshow Quantity"
+msgstr "مقدار نمایش اسلایدشو"
+
+#: meteor-slides-plugin.php:362
+msgid "Slide Height"
+msgstr "ارتفاع اسلاید"
+
+#: meteor-slides-plugin.php:364
+msgid "Slide Width"
+msgstr "عرض اسلاید"
+
+#: meteor-slides-plugin.php:366
+msgid "Transition Style"
+msgstr "سبک تغییر اسلایدها"
+
+#: meteor-slides-plugin.php:368
+msgid "Transition Speed"
+msgstr "سرعت انتقال اسلایدها"
+
+#: meteor-slides-plugin.php:370
+msgid "Slide Duration"
+msgstr "مدت نمایش اسلاید"
+
+#: meteor-slides-plugin.php:372
+msgid "Slideshow Navigation"
+msgstr "ناوبری اسلایدشو"
+
+#: meteor-slides-plugin.php:605
+msgid "Add a slideshow widget to a sidebar"
+msgstr "افزودن یک اسلایدشو بصورت ابزارک به یک نوارکناری"
+
+#: meteor-slides-plugin.php:609
+msgid "Meteor Slides Widget"
+msgstr "ابزارک اسلایدشوی شهاب"
+
+#: meteor-slides-plugin.php:653
+msgid "Title:"
+msgstr "عنوان:"
+
+#: meteor-slides-plugin.php:656
+msgid "Slideshow:"
+msgstr "اسلایدشو:"
+
+#: meteor-slides-plugin.php:659
+msgid "Metadata:"
+msgstr "ابرداده:"
+
+#: meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "اسلایدشوی خود را با استفاده از گرینه‌های زیر نمایش دهید."
+
+#: meteor-slides-settings.php:21
+#: meteor-slides-settings.php:31
+msgid "px"
+msgstr "پیکسل"
+
+#: meteor-slides-settings.php:41
+msgid "blindX"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "blindY"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "blindZ"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "cover"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "curtainX"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "curtainY"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "fade"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "fadeZoom"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "growX"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "growY"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "none"
+msgstr "هیچ‌کدام"
+
+#: meteor-slides-settings.php:41
+msgid "scrollUp"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "scrollDown"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "scrollLeft"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "scrollRight"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "scrollHorz"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "scrollVert"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "slideX"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "slideY"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "shuffle"
+msgstr "درهم‌برهم"
+
+#: meteor-slides-settings.php:41
+msgid "turnUp"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "turnDown"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "turnLeft"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "turnRight"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "uncover"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "wipe"
+msgstr ""
+
+#: meteor-slides-settings.php:41
+msgid "zoom"
+msgstr "زووم"
+
+#: meteor-slides-settings.php:63
+#: meteor-slides-settings.php:73
+msgid "seconds"
+msgstr "ثانیه"
+
+#: meteor-slides-settings.php:83
+msgid "None"
+msgstr "هیچ‌کدام"
+
+#: meteor-slides-settings.php:84
+msgid "Previous/Next"
+msgstr "قبل/بعد"
+
+#: meteor-slides-settings.php:85
+msgid "Paged"
+msgstr "صفحه صفحه"
+
+#: meteor-slides-settings.php:86
+msgid "Both"
+msgstr "هردو"
+
+#: meteor-slides-settings.php:112
+msgid "Meteor Slides Settings"
+msgstr "تنظیمات اسلایدشوی شهاب"
+
+#: meteor-slides-settings.php:126
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: meteor-slides-settings.php:132
+msgid "Install Slideshow"
+msgstr "نصب اسلایدشو"
+
+#: meteor-slides-settings.php:134
+#, php-format
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
+msgstr "از %1$s برای افزودن این اسلایدشو به پوسته‌ی خود استفاده کنید، از %2$s برای افزودن آن به یک پست یا صفحه استفاده کنید و یا از ابزارک اسلایدشوی شهاب استفاده کنید. %3$sاطلاعات بیشتر%4$s"
+
+#: meteor-slides-settings.php:136
+#, php-format
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr "لطفن %1$sهرگونه سوال یا مشکلی را%1$s در بخش پشتیبانی وردپرس مطرح کنید."
+
+#: meteor-slideshow.php:17
+#: meteor-slideshow.php:29
+msgid "Previous"
+msgstr "قبلی"
+
+#: meteor-slideshow.php:19
+#: meteor-slideshow.php:31
+msgid "Next"
+msgstr "بعدی"
+

@@ -1,0 +1,353 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2010-10-13 16:51+0000\n"
+"PO-Revision-Date: 2011-11-04 09:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: Web Geeks\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: meteor-slides-plugin.php:78
+msgid "Slides"
+msgstr "Слайды"
+
+#: meteor-slides-plugin.php:79
+msgid "Slide"
+msgstr "Слайд"
+
+#: meteor-slides-plugin.php:80
+msgid "Add New"
+msgstr "Дадаць новы"
+
+#: meteor-slides-plugin.php:81
+msgid "Add New Slide"
+msgstr "Дадаць новы слайд"
+
+#: meteor-slides-plugin.php:82
+msgid "Edit Slide"
+msgstr "Рэдагаваць слайд"
+
+#: meteor-slides-plugin.php:83
+msgid "Edit"
+msgstr "Рэдагаваць"
+
+#: meteor-slides-plugin.php:84
+msgid "New Slide"
+msgstr "Новы слайд"
+
+#: meteor-slides-plugin.php:85
+#: meteor-slides-plugin.php:89
+msgid "View Slide"
+msgstr "Паглядзець слайд"
+
+#: meteor-slides-plugin.php:86
+msgid "Search Slides"
+msgstr "Шукаць слайды"
+
+#: meteor-slides-plugin.php:87
+msgid "No slides found"
+msgstr "Слайды не знойдзены"
+
+#: meteor-slides-plugin.php:88
+msgid "No slides found in Trash"
+msgstr "Слайды ў кошыку не знойдзены"
+
+#: meteor-slides-plugin.php:127
+msgid "Slideshows"
+msgstr "Слайд шоў"
+
+#: meteor-slides-plugin.php:128
+msgid "Slideshow"
+msgstr "Слайд шоў"
+
+#: meteor-slides-plugin.php:129
+msgid "Search Slideshows"
+msgstr "Пошук слайд шоў"
+
+#: meteor-slides-plugin.php:130
+msgid "Popular Slideshows"
+msgstr "Папулярныя слайдшоў"
+
+#: meteor-slides-plugin.php:131
+msgid "All Slideshows"
+msgstr "Усё слайдшоў"
+
+#: meteor-slides-plugin.php:132
+msgid "Parent Slideshow"
+msgstr "Бацькоўскае слайдшоў"
+
+#: meteor-slides-plugin.php:133
+msgid "Parent Slideshow:"
+msgstr "Бацькоўскае слайдшоў:"
+
+#: meteor-slides-plugin.php:134
+msgid "Edit Slideshow"
+msgstr "Кіраваць слайдшоў"
+
+#: meteor-slides-plugin.php:135
+msgid "Update Slideshow"
+msgstr "Абнавіць слайдшоў"
+
+#: meteor-slides-plugin.php:136
+msgid "Add New Slideshow"
+msgstr "Дадаць новае слайдшоў"
+
+#: meteor-slides-plugin.php:137
+msgid "New Slideshow Name"
+msgstr "Імя новага слайдшоў"
+
+#: meteor-slides-plugin.php:159
+msgid "Slide Image"
+msgstr "Малюначак слайда"
+
+#: meteor-slides-plugin.php:194
+msgid "Add the URL this slide should link to."
+msgstr "Пакажыце адрас пераходу (url) са слайда."
+
+#: meteor-slides-plugin.php:206
+msgid "Slide Link"
+msgstr "Спасылка са слайда"
+
+#: meteor-slides-plugin.php:324
+msgid "Slides Settings"
+msgstr "Налады слайдаў"
+
+#: meteor-slides-plugin.php:324
+msgid "Settings"
+msgstr "Налады"
+
+#: meteor-slides-plugin.php:358
+msgid "Configure Slideshow"
+msgstr "Налада слайдшоў"
+
+#: meteor-slides-plugin.php:360
+msgid "Slideshow Quantity"
+msgstr "Колькасць слайдаў у слайдшоў"
+
+#: meteor-slides-plugin.php:362
+msgid "Slide Height"
+msgstr "Вышыня слайда"
+
+#: meteor-slides-plugin.php:364
+msgid "Slide Width"
+msgstr "Шырыня слайда"
+
+#: meteor-slides-plugin.php:366
+msgid "Transition Style"
+msgstr "Стыль змены слайдаў"
+
+#: meteor-slides-plugin.php:368
+msgid "Transition Speed"
+msgstr "Хуткасць змены слайдаў"
+
+#: meteor-slides-plugin.php:370
+msgid "Slide Duration"
+msgstr "Час паказу слайда"
+
+#: meteor-slides-plugin.php:372
+msgid "Slideshow Navigation"
+msgstr "Навишация па слайдшоў"
+
+#: meteor-slides-plugin.php:605
+msgid "Add a slideshow widget to a sidebar"
+msgstr "Дадаць виджет слайдшоў у бакавую панэль"
+
+#: meteor-slides-plugin.php:609
+msgid "Meteor Slides Widget"
+msgstr "Виджет Метэор Слайдшоў"
+
+#: meteor-slides-plugin.php:653
+msgid "Title:"
+msgstr "Загаловак:"
+
+#: meteor-slides-plugin.php:656
+msgid "Slideshow:"
+msgstr "Слайдшоў:"
+
+#: meteor-slides-plugin.php:659
+msgid "Metadata:"
+msgstr "Метададзеныя:"
+
+#: meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "Наладзьце ваша слайдшоў выкарыстоўваючы опцыі размешчаныя ніжэй."
+
+#: meteor-slides-settings.php:21
+#: meteor-slides-settings.php:31
+msgid "px"
+msgstr "px"
+
+#: meteor-slides-settings.php:41
+msgid "blindX"
+msgstr "гарызантальны падвойны зрух"
+
+#: meteor-slides-settings.php:41
+msgid "blindY"
+msgstr "вертыкальны падвойны зрух"
+
+#: meteor-slides-settings.php:41
+msgid "blindZ"
+msgstr "падвойны зрух па дыяганалі"
+
+#: meteor-slides-settings.php:41
+msgid "cover"
+msgstr "накладанне"
+
+#: meteor-slides-settings.php:41
+msgid "curtainX"
+msgstr "гарызантальная заслона"
+
+#: meteor-slides-settings.php:41
+msgid "curtainY"
+msgstr "вертыкальная заслона"
+
+#: meteor-slides-settings.php:41
+msgid "fade"
+msgstr "плыўны пераход"
+
+#: meteor-slides-settings.php:41
+msgid "fadeZoom"
+msgstr "плыўны пераход з наездам"
+
+#: meteor-slides-settings.php:41
+msgid "growX"
+msgstr "рассоўныя вароты па гарызанталі"
+
+#: meteor-slides-settings.php:41
+msgid "growY"
+msgstr "рассоўныя вароты па вертыкалі"
+
+#: meteor-slides-settings.php:41
+msgid "none"
+msgstr "не"
+
+#: meteor-slides-settings.php:41
+msgid "scrollUp"
+msgstr "прагортка ўгару"
+
+#: meteor-slides-settings.php:41
+msgid "scrollDown"
+msgstr "прагортка ўніз"
+
+#: meteor-slides-settings.php:41
+msgid "scrollLeft"
+msgstr "прагортка налева"
+
+#: meteor-slides-settings.php:41
+msgid "scrollRight"
+msgstr "прагортка направа"
+
+#: meteor-slides-settings.php:41
+msgid "scrollHorz"
+msgstr "прагортка гарызантальная"
+
+#: meteor-slides-settings.php:41
+msgid "scrollVert"
+msgstr "прагортка вертыкальная"
+
+#: meteor-slides-settings.php:41
+msgid "slideX"
+msgstr "гарызантальны зрух"
+
+#: meteor-slides-settings.php:41
+msgid "slideY"
+msgstr "вертыкальны зрух"
+
+#: meteor-slides-settings.php:41
+msgid "shuffle"
+msgstr "случаный выбар"
+
+#: meteor-slides-settings.php:41
+msgid "turnUp"
+msgstr "наезд знізу"
+
+#: meteor-slides-settings.php:41
+msgid "turnDown"
+msgstr "наезд зверху"
+
+#: meteor-slides-settings.php:41
+msgid "turnLeft"
+msgstr "наезд справа"
+
+#: meteor-slides-settings.php:41
+msgid "turnRight"
+msgstr "наезд злева"
+
+#: meteor-slides-settings.php:41
+msgid "uncover"
+msgstr "сняти верхняга"
+
+#: meteor-slides-settings.php:41
+msgid "wipe"
+msgstr "выціранне"
+
+#: meteor-slides-settings.php:41
+msgid "zoom"
+msgstr "павелічэнне"
+
+#: meteor-slides-settings.php:63
+#: meteor-slides-settings.php:73
+msgid "seconds"
+msgstr "секунды"
+
+#: meteor-slides-settings.php:83
+msgid "None"
+msgstr "Не"
+
+#: meteor-slides-settings.php:84
+msgid "Previous/Next"
+msgstr "Папярэдні/Наступны"
+
+#: meteor-slides-settings.php:85
+msgid "Paged"
+msgstr "Старонкі"
+
+#: meteor-slides-settings.php:86
+msgid "Both"
+msgstr "Абодва"
+
+#: meteor-slides-settings.php:112
+msgid "Meteor Slides Settings"
+msgstr "Налады Meteor Slides"
+
+#: meteor-slides-settings.php:126
+msgid "Save Changes"
+msgstr "Захаваць змены"
+
+#: meteor-slides-settings.php:132
+msgid "Install Slideshow"
+msgstr "Усталяваць слайдшоў"
+
+#: meteor-slides-settings.php:134
+#, php-format
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
+msgstr "Выкарыстоўвайце %1$s для дадання гэтага слайдшоў у сваю тэму, выкарыстоўвайце %2$s для дадання яго ў ваш пост ці старонку, ці выкарыстоўвайце виджет Meteor Slides. %3$sПодробнее%4$s"
+
+#: meteor-slides-settings.php:136
+#, php-format
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr "Калі ласка %1$sзадавайте любыя пытанні ці паведамляйце пра праблемы%2$s на форуме тэхпадтрымкі WordPress.org."
+
+#: meteor-slideshow.php:17
+#: meteor-slideshow.php:29
+msgid "Previous"
+msgstr "Папярэдні"
+
+#: meteor-slideshow.php:19
+#: meteor-slideshow.php:31
+msgid "Next"
+msgstr "Наступны"
+
