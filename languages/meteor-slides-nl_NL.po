@@ -1,0 +1,354 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2010-10-13 16:51+0000\n"
+"PO-Revision-Date: 2011-11-16 19:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: JLeuze <mail@jleuze.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: meteor-slides-plugin.php:78
+msgid "Slides"
+msgstr "Dia's"
+
+#: meteor-slides-plugin.php:79
+msgid "Slide"
+msgstr "Dia"
+
+#: meteor-slides-plugin.php:80
+msgid "Add New"
+msgstr "Toevoegen"
+
+#: meteor-slides-plugin.php:81
+msgid "Add New Slide"
+msgstr "Nieuwe dia toevoegen"
+
+#: meteor-slides-plugin.php:82
+msgid "Edit Slide"
+msgstr "Dia bewerken"
+
+#: meteor-slides-plugin.php:83
+msgid "Edit"
+msgstr "Bewerken"
+
+#: meteor-slides-plugin.php:84
+msgid "New Slide"
+msgstr "Nieuwe dia"
+
+#: meteor-slides-plugin.php:85
+#: meteor-slides-plugin.php:89
+msgid "View Slide"
+msgstr "Bekijk dia"
+
+#: meteor-slides-plugin.php:86
+msgid "Search Slides"
+msgstr "Zoek dia's"
+
+#: meteor-slides-plugin.php:87
+msgid "No slides found"
+msgstr "Geen dia's gevonden"
+
+#: meteor-slides-plugin.php:88
+msgid "No slides found in Trash"
+msgstr "Geen dia's gevonden in de prullenbak"
+
+#: meteor-slides-plugin.php:127
+msgid "Slideshows"
+msgstr "Diavoorstellingen"
+
+#: meteor-slides-plugin.php:128
+msgid "Slideshow"
+msgstr "Diavoorstelling"
+
+#: meteor-slides-plugin.php:129
+msgid "Search Slideshows"
+msgstr "Zoek diavoorstellingen"
+
+#: meteor-slides-plugin.php:130
+msgid "Popular Slideshows"
+msgstr "Populaire diavoorstellingen"
+
+#: meteor-slides-plugin.php:131
+msgid "All Slideshows"
+msgstr "Alle diavoorstellingen"
+
+#: meteor-slides-plugin.php:132
+msgid "Parent Slideshow"
+msgstr "Hoofd diavoorstelling"
+
+#: meteor-slides-plugin.php:133
+msgid "Parent Slideshow:"
+msgstr "Hoofd diavoorstelling:"
+
+#: meteor-slides-plugin.php:134
+msgid "Edit Slideshow"
+msgstr "Bewerk diavoorstelling"
+
+#: meteor-slides-plugin.php:135
+msgid "Update Slideshow"
+msgstr "Update diavoorstelling"
+
+#: meteor-slides-plugin.php:136
+msgid "Add New Slideshow"
+msgstr "Nieuwe diavoorstelling toevoegen"
+
+#: meteor-slides-plugin.php:137
+msgid "New Slideshow Name"
+msgstr "Naam van nieuwe diavoorstelling"
+
+#: meteor-slides-plugin.php:159
+msgid "Slide Image"
+msgstr "Dia afbeelding"
+
+#: meteor-slides-plugin.php:194
+msgid "Add the URL this slide should link to."
+msgstr "Voeg de URL toe waar de dia naar toe linkt."
+
+#: meteor-slides-plugin.php:206
+msgid "Slide Link"
+msgstr "Dia link"
+
+#: meteor-slides-plugin.php:324
+msgid "Slides Settings"
+msgstr "Dia's instellingen"
+
+#: meteor-slides-plugin.php:324
+msgid "Settings"
+msgstr "Instellingen"
+
+#: meteor-slides-plugin.php:358
+msgid "Configure Slideshow"
+msgstr "Configureer diavoorstelling"
+
+#: meteor-slides-plugin.php:360
+msgid "Slideshow Quantity"
+msgstr "Aantal dia's in voorstelling"
+
+#: meteor-slides-plugin.php:362
+msgid "Slide Height"
+msgstr "Hoogte van dia"
+
+#: meteor-slides-plugin.php:364
+msgid "Slide Width"
+msgstr "Breedte van dia"
+
+#: meteor-slides-plugin.php:366
+msgid "Transition Style"
+msgstr "Overgangsstijl"
+
+#: meteor-slides-plugin.php:368
+msgid "Transition Speed"
+msgstr "Overgangssnelheid"
+
+#: meteor-slides-plugin.php:370
+msgid "Slide Duration"
+msgstr "Tijdsduur van dia"
+
+#: meteor-slides-plugin.php:372
+msgid "Slideshow Navigation"
+msgstr "Diavoorstelling navigatie"
+
+#: meteor-slides-plugin.php:605
+msgid "Add a slideshow widget to a sidebar"
+msgstr "Voeg diavoorstelling-widget toe aan zijbalk"
+
+#: meteor-slides-plugin.php:609
+msgid "Meteor Slides Widget"
+msgstr "Meteor Slides Widget"
+
+#: meteor-slides-plugin.php:653
+msgid "Title:"
+msgstr "Titel:"
+
+#: meteor-slides-plugin.php:656
+msgid "Slideshow:"
+msgstr "DIavoorstelling:"
+
+#: meteor-slides-plugin.php:659
+msgid "Metadata:"
+msgstr "Metadata:"
+
+#: meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "Stel de diavoorstelling in d.m.v. onderstaande opties."
+
+#: meteor-slides-settings.php:21
+#: meteor-slides-settings.php:31
+msgid "px"
+msgstr "pixels"
+
+#: meteor-slides-settings.php:41
+msgid "blindX"
+msgstr "lamelX"
+
+#: meteor-slides-settings.php:41
+msgid "blindY"
+msgstr "lamelY"
+
+#: meteor-slides-settings.php:41
+msgid "blindZ"
+msgstr "lamelZ"
+
+#: meteor-slides-settings.php:41
+msgid "cover"
+msgstr "bedekking"
+
+#: meteor-slides-settings.php:41
+msgid "curtainX"
+msgstr "gordijnX"
+
+#: meteor-slides-settings.php:41
+msgid "curtainY"
+msgstr "gordijnY"
+
+#: meteor-slides-settings.php:41
+msgid "fade"
+msgstr "vervaging"
+
+#: meteor-slides-settings.php:41
+msgid "fadeZoom"
+msgstr "vervagingZoom"
+
+#: meteor-slides-settings.php:41
+msgid "growX"
+msgstr "groterX"
+
+#: meteor-slides-settings.php:41
+msgid "growY"
+msgstr "groterY"
+
+#: meteor-slides-settings.php:41
+msgid "none"
+msgstr "geen"
+
+#: meteor-slides-settings.php:41
+msgid "scrollUp"
+msgstr "scrollBoven"
+
+#: meteor-slides-settings.php:41
+msgid "scrollDown"
+msgstr "scrollBeneden"
+
+#: meteor-slides-settings.php:41
+msgid "scrollLeft"
+msgstr "scrolllLinks"
+
+#: meteor-slides-settings.php:41
+msgid "scrollRight"
+msgstr "scrollRechts"
+
+#: meteor-slides-settings.php:41
+msgid "scrollHorz"
+msgstr "scrollHorz"
+
+#: meteor-slides-settings.php:41
+msgid "scrollVert"
+msgstr "scrollVert"
+
+#: meteor-slides-settings.php:41
+msgid "slideX"
+msgstr "glijdenX"
+
+#: meteor-slides-settings.php:41
+msgid "slideY"
+msgstr "glijdenY"
+
+#: meteor-slides-settings.php:41
+msgid "shuffle"
+msgstr "willekeurig"
+
+#: meteor-slides-settings.php:41
+msgid "turnUp"
+msgstr "draaiBoven"
+
+#: meteor-slides-settings.php:41
+msgid "turnDown"
+msgstr "draaiBeneden"
+
+#: meteor-slides-settings.php:41
+msgid "turnLeft"
+msgstr "draaiLinks"
+
+#: meteor-slides-settings.php:41
+msgid "turnRight"
+msgstr "draaiRechts"
+
+#: meteor-slides-settings.php:41
+msgid "uncover"
+msgstr "blootleggen"
+
+#: meteor-slides-settings.php:41
+msgid "wipe"
+msgstr "vegen"
+
+#: meteor-slides-settings.php:41
+msgid "zoom"
+msgstr "zoom"
+
+#: meteor-slides-settings.php:63
+#: meteor-slides-settings.php:73
+msgid "seconds"
+msgstr "seconden"
+
+#: meteor-slides-settings.php:83
+msgid "None"
+msgstr "Geen"
+
+#: meteor-slides-settings.php:84
+msgid "Previous/Next"
+msgstr "Vorige/Volgende"
+
+#: meteor-slides-settings.php:85
+msgid "Paged"
+msgstr "Gepagineerd"
+
+#: meteor-slides-settings.php:86
+msgid "Both"
+msgstr "Beide"
+
+#: meteor-slides-settings.php:112
+msgid "Meteor Slides Settings"
+msgstr "Meteor Slides instellingen"
+
+#: meteor-slides-settings.php:126
+msgid "Save Changes"
+msgstr "Instellingen opslaan"
+
+#: meteor-slides-settings.php:132
+msgid "Install Slideshow"
+msgstr "Slideshow installeren"
+
+#: meteor-slides-settings.php:134
+#, php-format
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
+msgstr "Gebruik %1$s om deze diavoorstelling toe te voegen aan uw thema, gebruik %2$s om dit toe te voegen aan uw pagina of bericht, of gebruik de Meteor Slides widget. %3$sMeer informatie%4$s"
+
+#: meteor-slides-settings.php:136
+#, php-format
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr "Graag vragen of problemen %1$sposten%2$s in de WordPress.org support forums."
+
+#: meteor-slideshow.php:17
+#: meteor-slideshow.php:29
+msgid "Previous"
+msgstr "Vorige"
+
+#: meteor-slideshow.php:19
+#: meteor-slideshow.php:31
+msgid "Next"
+msgstr "Volgende"
+
