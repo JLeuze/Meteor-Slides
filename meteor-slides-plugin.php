@@ -502,4 +502,9 @@
 
 	}
 	
+/*
+	Now slides the silent meteor on, and leaves
+	A shining furrow, as thy thoughts in me.
+*/
+	
 ?>
