@@ -26,6 +26,10 @@
 		
 	) ); ?>
 	
+	<?php // Check for slides
+	
+	if ( $loop->have_posts() ) : ?>
+	
 	<div id="meteor-slideshow<?php echo $slideshow; ?>" class="meteor-slides <?php
 	
 		// Adds classes to slideshow
@@ -61,6 +65,10 @@
 		}
 			
 	?>">
+	
+	<?php // Check for multiple slides
+	
+	if ( $loop->post_count > 1 ) : ?>
 		
 		<?php // Adds Previous/Next and Paged navigation
 		
@@ -95,6 +103,8 @@
 			<div id="meteor-buttons<?php echo $slideshow; ?>" class="meteor-buttons"></div>
 			
 		<?php endif; ?>
+		
+	<?php endif; ?>
 		
 		<div class="meteor-clip">
 	
@@ -137,3 +147,5 @@
 		<?php wp_reset_postdata(); ?>
 			
 	</div><!-- .meteor-slides -->
+	
+	<?php endif; ?>
