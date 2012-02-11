@@ -1,4 +1,4 @@
-/*  Options for the jQuery Cycle script which powers the slideshow: http://jquery.malsup.com/cycle/
+/*  Script for the Meteor Slides 1.5 slideshow
 	
 	Copy "slideshow.js" from "/meteor-slides/js/" to your theme's directory to replace
 	the plugin's default slideshow script.
@@ -38,5 +38,11 @@ $j(document).ready(function() {
 		slideExpr: '.mslide'
 		
 	});
-
+	
+    $j('.meteor-slides').hover(function () {
+		$j(this).addClass('navhover');
+    }, function () {
+		$j(this).removeClass('navhover');
+    });
+	
 });

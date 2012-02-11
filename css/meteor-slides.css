@@ -1,4 +1,4 @@
-/*  Stylesheet for the Meteor Slides 1.4 slideshow
+/*  Stylesheet for the Meteor Slides 1.5 slideshow
 	
 	Copy "meteor-slides.css" from "/meteor-slides/css/" to your theme's directory to replace
 	the plugin's default stylesheet.
@@ -14,17 +14,34 @@
 /* =Slideshow
 -------------------------------------------------------------- */
 
-.meteor-slides {
+div.meteor-slides {
+    height: 100% !important;
+	line-height: 0;
 	margin: 0;
-	overflow: hidden;
+	max-width: 100%;
+	overflow: visible;
 	padding: 0;
 	position: relative;
 	z-index: 1;
 }
 
-.navpaged,
-.navboth {
-	padding: 0 0 20px 0;
+div.navpaged,
+div.navboth {
+	margin: 0 0 20px 0;
+}
+
+.meteor-slides .meteor-clip {
+	line-height: 0;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+.meteor-slides img {
+	height: auto !important;
+	max-width: 100%;
+	visibility: hidden;
 }
 
 /* =Slide
@@ -33,6 +50,7 @@
 .meteor-slides .mslide {
 	display: none;
 	margin: 0;
+	max-width: 100%;
 	padding: 0;
 }
 
@@ -52,6 +70,7 @@
 	margin: auto !important;
 	max-width: 100%;
 	padding: 0;
+	visibility: visible;
 }
 
 .meteor-slides .mslide img[src$='.png'] {
@@ -64,19 +83,14 @@
 -------------------------------------------------------------- */
 
 .meteor-slides ul.meteor-nav {
+	display: none;
 	list-style: none;
 	height: inherit;
-	margin: 0;
+	margin: 0 !important;
 	padding: 0;
 }
 
-body .meteor-slides ul.meteor-nav {
-	display: none;
-	*display: block;
-	_display: block;
-}
-
-body .meteor-slides:hover ul.meteor-nav {
+.meteor-slides.navhover ul.meteor-nav {
 	display: block;
 }
 
@@ -125,12 +139,15 @@ ul.meteor-nav li {
 /* =Paged Navigation
 -------------------------------------------------------------- */
 
-.meteor-buttons {
-	bottom: 5px;
-	left: 0px;
-	margin: 0;
-	position: absolute;
-	z-index: 50;
+.meteor-slides .meteor-buttons {
+    bottom: -15px;
+    height: 9px;
+    left: 0;
+    margin: 0;
+    padding: 6px 0 0;
+    position: absolute;
+    width: 100%;
+    z-index: 50;
 }
 
 header#branding .meteor-buttons {

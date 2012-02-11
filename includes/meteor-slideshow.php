@@ -1,5 +1,5 @@
 <?php
-/*  Loop template for the Meteor Slides slideshow
+/*  Loop template for the Meteor Slides 1.5 slideshow
 	
 	Copy "meteor-slideshow.php" from "/meteor-slides/" to your theme's directory to replace
 	the plugin's default slideshow loop.
@@ -95,10 +95,20 @@
 			<div id="meteor-buttons<?php echo $slideshow; ?>" class="meteor-buttons"></div>
 			
 		<?php endif; ?>
+		
+		<div class="meteor-clip">
 	
 		<?php // Loop which loads the slideshow
 			
 		while ( $loop->have_posts() ) : $loop->the_post(); ?>
+		
+			<?php // Use first slide image as shim to scale slideshow
+			
+			if ( $i == 1 ) {
+			
+				the_post_thumbnail( 'featured-slide' );
+				
+			} ?>
 
 			<div class="mslide mslide-<?php echo $i; ?>">
 				
@@ -121,6 +131,8 @@
 			<?php $i++; ?>
 			
 		<?php endwhile; ?>
+		
+		</div><!-- .meteor-clip -->
 				
 		<?php wp_reset_query(); ?>
 			

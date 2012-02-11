@@ -3,8 +3,8 @@ Contributors: jleuze
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: slide, slides, slider, slideshow, image, custom post types, jquery
 Requires at least: 3.3
-Tested up to: 3.3
-Stable tag: 1.4.1
+Tested up to: 3.3.1
+Stable tag: 1.5
 
 Meteor Slides makes it simple to create slideshows with WordPress by adding a custom post type for slides.
 
@@ -99,7 +99,8 @@ You can help right on this page by rating the plugin or voting for its compatibi
 6. Meteor Slides Settings
 
 == Changelog ==
-= 1.4.1 =
+= 1.5 =
+* Updated slideshow to scale for responsive and fluid width themes
 * Added slideshow taxonomy selector to widget
 * Updated JQuery Cycle to 2.9999, switch to un-minimized version
 * Added Belarusian, Czech, Dutch, and Persian translations
@@ -174,8 +175,8 @@ You can help right on this page by rating the plugin or voting for its compatibi
 
 == Upgrade Notice ==
 
-= 1.4.1 =
-Meteor Slides 1.4.1 adds an improved slideshow widget, updates jQuery Cycle and adds new translations.
+= 1.5 =
+Meteor Slides 1.5 adds responsive slideshow support, an improved slideshow widget, new translations, and updates jQuery Cycle.
 
 = 1.4 =
 Meteor Slides 1.4 replaces the navigation graphics, adds support for custom scripts and the Members plugin, updates jQuery Cycle and adds new and updated translations.
