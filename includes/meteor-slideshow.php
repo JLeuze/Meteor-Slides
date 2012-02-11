@@ -134,6 +134,6 @@
 		
 		</div><!-- .meteor-clip -->
 				
-		<?php wp_reset_query(); ?>
+		<?php wp_reset_postdata(); ?>
 			
 	</div><!-- .meteor-slides -->
