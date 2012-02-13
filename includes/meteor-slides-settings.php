@@ -10,105 +10,105 @@
 	
 	function slideshow_quantity() {
 		
-		$slides = __( 'slides', 'meteor-slides' );
+		$meteor_slides = __( 'slides', 'meteor-slides' );
 		
-		$options = get_option('meteorslides_options');
+		$meteor_options = get_option('meteorslides_options');
 			
-		echo "<input id='slideshow_quantity' name='meteorslides_options[slideshow_quantity]' size='20' type='text' value='{$options['slideshow_quantity']}' /> $slides";
+		echo "<input id='slideshow_quantity' name='meteorslides_options[slideshow_quantity]' size='20' type='text' value='{$meteor_options['slideshow_quantity']}' /> $meteor_slides";
 
 	}
 	
 	function slide_height() {
 		
-		$px = __( 'px', 'meteor-slides' );
+		$meteor_px = __( 'px', 'meteor-slides' );
 		
-		$options = get_option('meteorslides_options');
+		$meteor_options = get_option('meteorslides_options');
 
-		echo "<input id='slide_height' name='meteorslides_options[slide_height]' size='20' type='text' value='{$options['slide_height']}' /> $px";
+		echo "<input id='slide_height' name='meteorslides_options[slide_height]' size='20' type='text' value='{$meteor_options['slide_height']}' /> $meteor_px";
 
 	}
 		
 	function slide_width() {
 		
-		$px = __( 'px', 'meteor-slides' );
+		$meteor_px = __( 'px', 'meteor-slides' );
 		
-		$options = get_option('meteorslides_options');
+		$meteor_options = get_option('meteorslides_options');
 
-		echo "<input id='slide_width' name='meteorslides_options[slide_width]' size='20' type='text' value='{$options['slide_width']}' /> $px";
+		echo "<input id='slide_width' name='meteorslides_options[slide_width]' size='20' type='text' value='{$meteor_options['slide_width']}' /> $meteor_px";
 
 	}
 	
 	function transition_style() {
 				
-		$blindX      = __( 'blindX', 'meteor-slides' );
-		$blindY      = __( 'blindY', 'meteor-slides' );
-		$blindZ      = __( 'blindZ', 'meteor-slides' );
-		$cover       = __( 'cover', 'meteor-slides' );
-		$curtainX    = __( 'curtainX', 'meteor-slides' );
-		$curtainY    = __( 'curtainY', 'meteor-slides' );
-		$fade        = __( 'fade', 'meteor-slides' );
-		$fadeZoom    = __( 'fadeZoom', 'meteor-slides' );
-		$growX       = __( 'growX', 'meteor-slides' );
-		$growY       = __( 'growY', 'meteor-slides' );
-		$none        = __( 'none', 'meteor-slides' );
-		$scrollUp    = __( 'scrollUp', 'meteor-slides' );
-		$scrollDown  = __( 'scrollDown', 'meteor-slides' );
-		$scrollLeft  = __( 'scrollLeft', 'meteor-slides' );
-		$scrollRight = __( 'scrollRight', 'meteor-slides' );
-		$scrollHorz  = __( 'scrollHorz', 'meteor-slides' );
-		$scrollVert  = __( 'scrollVert', 'meteor-slides' );
-		$slideX      = __( 'slideX', 'meteor-slides' );
-		$slideY      = __( 'slideY', 'meteor-slides' );
-		$shuffle     = __( 'shuffle', 'meteor-slides' );
-		$turnUp      = __( 'turnUp', 'meteor-slides' );
-		$turnDown    = __( 'turnDown', 'meteor-slides' );
-		$turnLeft    = __( 'turnLeft', 'meteor-slides' );
-		$turnRight   = __( 'turnRight', 'meteor-slides' );
-		$uncover     = __( 'uncover', 'meteor-slides' );
-		$wipe        = __( 'wipe', 'meteor-slides' );
-		$zoom        = __( 'zoom', 'meteor-slides' );
+		$meteor_blindX      = __( 'blindX', 'meteor-slides' );
+		$meteor_blindY      = __( 'blindY', 'meteor-slides' );
+		$meteor_blindZ      = __( 'blindZ', 'meteor-slides' );
+		$meteor_cover       = __( 'cover', 'meteor-slides' );
+		$meteor_curtainX    = __( 'curtainX', 'meteor-slides' );
+		$meteor_curtainY    = __( 'curtainY', 'meteor-slides' );
+		$meteor_fade        = __( 'fade', 'meteor-slides' );
+		$meteor_fadeZoom    = __( 'fadeZoom', 'meteor-slides' );
+		$meteor_growX       = __( 'growX', 'meteor-slides' );
+		$meteor_growY       = __( 'growY', 'meteor-slides' );
+		$meteor_none        = __( 'none', 'meteor-slides' );
+		$meteor_scrollUp    = __( 'scrollUp', 'meteor-slides' );
+		$meteor_scrollDown  = __( 'scrollDown', 'meteor-slides' );
+		$meteor_scrollLeft  = __( 'scrollLeft', 'meteor-slides' );
+		$meteor_scrollRight = __( 'scrollRight', 'meteor-slides' );
+		$meteor_scrollHorz  = __( 'scrollHorz', 'meteor-slides' );
+		$meteor_scrollVert  = __( 'scrollVert', 'meteor-slides' );
+		$meteor_slideX      = __( 'slideX', 'meteor-slides' );
+		$meteor_slideY      = __( 'slideY', 'meteor-slides' );
+		$meteor_shuffle     = __( 'shuffle', 'meteor-slides' );
+		$meteor_turnUp      = __( 'turnUp', 'meteor-slides' );
+		$meteor_turnDown    = __( 'turnDown', 'meteor-slides' );
+		$meteor_turnLeft    = __( 'turnLeft', 'meteor-slides' );
+		$meteor_turnRight   = __( 'turnRight', 'meteor-slides' );
+		$meteor_uncover     = __( 'uncover', 'meteor-slides' );
+		$meteor_wipe        = __( 'wipe', 'meteor-slides' );
+		$meteor_zoom        = __( 'zoom', 'meteor-slides' );
 		
-		$options = get_option( 'meteorslides_options' );
+		$meteor_options = get_option( 'meteorslides_options' );
 		
-		$item = array(
+		$meteor_item = array(
 			
-			'blindX'      => $blindX,
-			'blindY'      => $blindY,
-			'blindZ'      => $blindZ,
-			'cover'       => $cover,
-			'curtainX'    => $curtainX,
-			'curtainY'    => $curtainY,
-			'fade'        => $fade,
-			'fadeZoom'    => $fadeZoom,
-			'growX'       => $growX,
-			'growY'       => $growY,
-			'none'        => $none,
-			'scrollUp'    => $scrollUp,
-			'scrollDown'  => $scrollDown,
-			'scrollLeft'  => $scrollLeft,
-			'scrollRight' => $scrollRight,
-			'scrollHorz'  => $scrollHorz,
-			'scrollVert'  => $scrollVert,
-			'slideX'      => $slideX,
-			'slideY'      => $slideY,
-			'shuffle'     => $shuffle,
-			'turnUp'      => $turnUp,
-			'turnDown'    => $turnDown,
-			'turnLeft'    => $turnLeft,
-			'turnRight'   => $turnRight,
-			'uncover'     => $uncover,
-			'wipe'        => $wipe,
-			'zoom'        => $zoom
+			'blindX'      => $meteor_blindX,
+			'blindY'      => $meteor_blindY,
+			'blindZ'      => $meteor_blindZ,
+			'cover'       => $meteor_cover,
+			'curtainX'    => $meteor_curtainX,
+			'curtainY'    => $meteor_curtainY,
+			'fade'        => $meteor_fade,
+			'fadeZoom'    => $meteor_fadeZoom,
+			'growX'       => $meteor_growX,
+			'growY'       => $meteor_growY,
+			'none'        => $meteor_none,
+			'scrollUp'    => $meteor_scrollUp,
+			'scrollDown'  => $meteor_scrollDown,
+			'scrollLeft'  => $meteor_scrollLeft,
+			'scrollRight' => $meteor_scrollRight,
+			'scrollHorz'  => $meteor_scrollHorz,
+			'scrollVert'  => $meteor_scrollVert,
+			'slideX'      => $meteor_slideX,
+			'slideY'      => $meteor_slideY,
+			'shuffle'     => $meteor_shuffle,
+			'turnUp'      => $meteor_turnUp,
+			'turnDown'    => $meteor_turnDown,
+			'turnLeft'    => $meteor_turnLeft,
+			'turnRight'   => $meteor_turnRight,
+			'uncover'     => $meteor_uncover,
+			'wipe'        => $meteor_wipe,
+			'zoom'        => $meteor_zoom
 			
 		);
 		
 		echo "<select id='transition_style' name='meteorslides_options[transition_style]' style='width:142px;'>";
 		
-		while ( list( $key, $val ) = each( $item ) ) {
+		while ( list( $meteor_key, $meteor_val ) = each( $meteor_item ) ) {
 
-			$selected = ( $options['transition_style']==$key ) ? ' selected="selected"' : '';
+			$meteor_selected = ( $meteor_options['transition_style']==$meteor_key ) ? ' selected="selected"' : '';
 		
-			echo "<option value='$key'$selected>$val</option>";
+			echo "<option value='$meteor_key'$meteor_selected>$meteor_val</option>";
 	
 		}
 		
@@ -118,49 +118,49 @@
 		
 	function transition_speed() {
 		
-		$seconds = __( 'seconds', 'meteor-slides' );
+		$meteor_seconds = __( 'seconds', 'meteor-slides' );
 		
-		$options = get_option( 'meteorslides_options' );
+		$meteor_options = get_option( 'meteorslides_options' );
 
-		echo "<input id='transition_speed' name='meteorslides_options[transition_speed]' size='20' type='text' value='{$options['transition_speed']}' /> $seconds";
+		echo "<input id='transition_speed' name='meteorslides_options[transition_speed]' size='20' type='text' value='{$meteor_options['transition_speed']}' /> $meteor_seconds";
 
 	}
 		
 	function slide_duration() {
 
-		$seconds = __( 'seconds', 'meteor-slides' );
+		$meteor_seconds = __( 'seconds', 'meteor-slides' );
 		
-		$options = get_option( 'meteorslides_options' );
+		$meteor_options = get_option( 'meteorslides_options' );
 
-		echo "<input id='slide_duration' name='meteorslides_options[slide_duration]' size='20' type='text' value='{$options['slide_duration']}' /> $seconds";
+		echo "<input id='slide_duration' name='meteorslides_options[slide_duration]' size='20' type='text' value='{$meteor_options['slide_duration']}' /> $meteor_seconds";
 
 	}
 		
 	function  slideshow_navigation() {
 		
-		$navnone     = __( 'None', 'meteor-slides' );
-		$navprevnext = __( 'Previous/Next', 'meteor-slides' );
-		$navpaged    = __( 'Paged', 'meteor-slides' );
-		$navboth     = __( 'Both', 'meteor-slides' );
+		$meteor_navnone     = __( 'None', 'meteor-slides' );
+		$meteor_navprevnext = __( 'Previous/Next', 'meteor-slides' );
+		$meteor_navpaged    = __( 'Paged', 'meteor-slides' );
+		$meteor_navboth     = __( 'Both', 'meteor-slides' );
 			
-		$options = get_option( 'meteorslides_options' );
+		$meteor_options = get_option( 'meteorslides_options' );
 		
-		$item = array(
+		$meteor_item = array(
 			
-			'navnone'     => $navnone,
-			'navprevnext' => $navprevnext,
-			'navpaged'    => $navpaged,
-			'navboth'     => $navboth
+			'navnone'     => $meteor_navnone,
+			'navprevnext' => $meteor_navprevnext,
+			'navpaged'    => $meteor_navpaged,
+			'navboth'     => $meteor_navboth
 				
 		);
 		
 		echo "<select id='slideshow_navigation' name='meteorslides_options[slideshow_navigation]' style='width:142px;'>";
 		
-		while ( list( $key, $val ) = each( $item ) ) {
+		while ( list( $meteor_key, $meteor_val ) = each( $meteor_item ) ) {
 	
-			$selected = ( $options['slideshow_navigation']==$key ) ? ' selected="selected"' : '';
+			$meteor_selected = ( $meteor_options['slideshow_navigation']==$meteor_key ) ? ' selected="selected"' : '';
 		
-			echo "<option value='$key'$selected>$val</option>";
+			echo "<option value='$meteor_key'$meteor_selected>$meteor_val</option>";
 	
 		}
 		

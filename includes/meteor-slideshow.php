@@ -12,29 +12,29 @@
 
 	global $post;
 	
-	$options = get_option( 'meteorslides_options' );
+	$meteor_options = get_option( 'meteorslides_options' );
 	
-	$meteornav = $options['slideshow_navigation'];
+	$meteor_nav = $meteor_options['slideshow_navigation'];
 	
-	$i = 1;
+	$meteor_count = 1;
 	
-	$loop = new WP_Query( array(
+	$meteor_loop = new WP_Query( array(
 	
 		'post_type'      => 'slide',
 		'slideshow'      => $slideshow,
-		'posts_per_page' => $options['slideshow_quantity']
+		'posts_per_page' => $meteor_options['slideshow_quantity']
 		
 	) ); ?>
 	
 	<?php // Check for slides
 	
-	if ( $loop->have_posts() ) : ?>
+	if ( $meteor_loop->have_posts() ) : ?>
 	
 	<div id="meteor-slideshow<?php echo $slideshow; ?>" class="meteor-slides <?php
 	
 		// Adds classes to slideshow
 	
-		echo $slideshow . ' ' . $meteornav;
+		echo $slideshow . ' ' . $meteor_nav;
 		
 		// Adds metadata to slideshow
 		
@@ -68,11 +68,11 @@
 	
 	<?php // Check for multiple slides
 	
-	if ( $loop->post_count > 1 ) : ?>
+	if ( $meteor_loop->post_count > 1 ) : ?>
 		
 		<?php // Adds Previous/Next and Paged navigation
 		
-		if ( $meteornav == "navboth" ) : ?>
+		if ( $meteor_nav == "navboth" ) : ?>
 	
 			<ul class="meteor-nav">
 		
@@ -86,7 +86,7 @@
 		
 		<?php // Adds Previous/Next navigation
 		
-		elseif ( $meteornav == "navprevnext" ) : ?>
+		elseif ( $meteor_nav == "navprevnext" ) : ?>
 	
 			<ul class="meteor-nav">
 		
@@ -98,7 +98,7 @@
 		
 		<?php // Adds Paged navigation
 		
-		elseif ( $meteornav == "navpaged" ): ?>
+		elseif ( $meteor_nav == "navpaged" ): ?>
 	
 			<div id="meteor-buttons<?php echo $slideshow; ?>" class="meteor-buttons"></div>
 			
@@ -110,17 +110,17 @@
 	
 		<?php // Loop which loads the slideshow
 			
-		while ( $loop->have_posts() ) : $loop->the_post(); ?>
+		while ( $meteor_loop->have_posts() ) : $meteor_loop->the_post(); ?>
 		
 			<?php // Use first slide image as shim to scale slideshow
 			
-			if ( $i == 1 ) {
+			if ( $meteor_count == 1 ) {
 			
 				the_post_thumbnail( 'featured-slide' );
 				
 			} ?>
 
-			<div class="mslide mslide-<?php echo $i; ?>">
+			<div class="mslide mslide-<?php echo $meteor_count; ?>">
 				
 				<?php // Adds slide image with Slide URL link
 					
@@ -138,7 +138,7 @@
 			
 			</div><!-- .mslide -->
 			
-			<?php $i++; ?>
+			<?php $meteor_count++; ?>
 			
 		<?php endwhile; ?>
 		

@@ -4,11 +4,11 @@
 
 	add_filter( 'post_updated_messages', 'meteorslides_updated_messages' );
 
-	function meteorslides_updated_messages( $messages ) {
+	function meteorslides_updated_messages( $meteor_messages ) {
 
 		global $post, $post_ID;
 
-		$messages['slide'] = array( 
+		$meteor_messages['slide'] = array( 
   
 			0  => '',
 			1  => sprintf( __( 'Slide updated. <a href="%s">View slide</a>', 'meteor-slides' ), esc_url( get_permalink($post_ID) ) ),
@@ -24,7 +24,7 @@
  
 		);
 
-		return $messages;
+		return $meteor_messages;
   
 	}
 	
@@ -34,13 +34,13 @@
 	
 	function meteorslides_image_box() {
 		
-		$options = get_option('meteorslides_options');
+		$meteor_image_options = get_option('meteorslides_options');
 		
-		$title = __( 'Slide Image', 'meteor-slides' ) . ' (' . $options['slide_width'] . 'x' . $options['slide_height'] . ')';
+		$eteor_image_title = __( 'Slide Image', 'meteor-slides' ) . ' (' . $meteor_image_options['slide_width'] . 'x' . $meteor_image_options['slide_height'] . ')';
 	
 		remove_meta_box( 'postimagediv', 'slide', 'side' );
 	
-		add_meta_box( 'postimagediv', $title, 'post_thumbnail_meta_box', 'slide', 'normal', 'high' );
+		add_meta_box( 'postimagediv', $eteor_image_title, 'post_thumbnail_meta_box', 'slide', 'normal', 'high' );
 	
 	}
 	
@@ -134,21 +134,21 @@
 
 			}
 
-			$data = $_POST[$meteorslides_meta_box['name'].'_value'];
+			$meteor_data = $_POST[$meteorslides_meta_box['name'].'_value'];
 
 			if ( get_post_meta( $post_id, $meteorslides_meta_box['name'].'_value' ) == "" ) {
 			
-				add_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', $data, true );
+				add_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', $meteor_data, true );
 			
 			}
 			
-			elseif ( $data != get_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', true ) ) {
+			elseif ( $meteor_data != get_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', true ) ) {
 
-				update_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', $data );
+				update_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', $meteor_data );
 			
 			}
 
-			elseif ( $data == "" ) {
+			elseif ( $meteor_data == "" ) {
 
 				delete_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', get_post_meta( $post_id, $meteorslides_meta_box['name'].'_value', true ) );
 			
@@ -162,9 +162,9 @@
 	
 	add_filter( 'manage_edit-slide_columns', 'meteorslides_edit_columns' );
  
-	function meteorslides_edit_columns( $columns ) {
+	function meteorslides_edit_columns( $meteor_columns ) {
 	
-		$columns = array(
+		$meteor_columns = array(
 		
 			'cb'         => '<input type="checkbox" />',
 			'slide'      => __( 'Slide Image', 'meteor-slides' ),
@@ -174,17 +174,17 @@
 
 		);
  
-		return $columns;
+		return $meteor_columns;
   
 	}
 	
 	add_action( 'manage_posts_custom_column', 'meteorslides_custom_columns' );
 	
-	function meteorslides_custom_columns( $column ) {
+	function meteorslides_custom_columns( $meteor_column ) {
 	
 		global $post;
  
-		switch ( $column ) {
+		switch ( $meteor_column ) {
 		
 			case 'slide' :
 			
@@ -366,15 +366,15 @@
 		
 	add_filter( 'plugin_action_links', 'meteorslides_settings_link', 10, 2 );
 	
-	function meteorslides_settings_link( $links, $file ) {
+	function meteorslides_settings_link( $meteor_links, $meteor_file ) {
 		
-		if ( $file == plugin_basename( 'meteor-slides/meteor-slides-plugin.php' ) ) {
+		if ( $meteor_file == plugin_basename( 'meteor-slides/meteor-slides-plugin.php' ) ) {
 		
-			$links[] = '<a href="edit.php?post_type=slide&page=slides_settings">'.__( 'Settings', 'meteor-slides' ).'</a>';
+			$meteor_links[] = '<a href="edit.php?post_type=slide&page=slides_settings">'.__( 'Settings', 'meteor-slides' ).'</a>';
 	
 		}
 		
-		return $links;
+		return $meteor_links;
 		
 	}
 	
@@ -406,67 +406,67 @@
 	
 	// Validates values for options on settings page
 	
-	function meteorslides_options_validate( $input ) {
+	function meteorslides_options_validate( $meteor_input ) {
 
-		$options = get_option( 'meteorslides_options' );
+		$meteor_options = get_option( 'meteorslides_options' );
 
-		$options['slideshow_quantity'] = trim( $input['slideshow_quantity'] );
+		$meteor_options['slideshow_quantity'] = trim( $meteor_input['slideshow_quantity'] );
 
-		if ( !preg_match( '/^[0-9]{1,3}$/i', $options['slideshow_quantity'] ) ) {
+		if ( !preg_match( '/^[0-9]{1,3}$/i', $meteor_options['slideshow_quantity'] ) ) {
 
-			$options['slideshow_quantity'] = '';
-
-		}
-		
-		$options['slide_height'] = trim( $input['slide_height'] );
-
-		if ( !preg_match( '/^[0-9]{1,4}$/i', $options['slide_height'] ) ) {
-
-			$options['slide_height'] = '';
+			$meteor_options['slideshow_quantity'] = '';
 
 		}
 		
-		$options['slide_width'] = trim( $input['slide_width'] );
+		$meteor_options['slide_height'] = trim( $meteor_input['slide_height'] );
 
-		if ( !preg_match( '/^[0-9]{1,5}$/i', $options['slide_width'] ) ) {
+		if ( !preg_match( '/^[0-9]{1,4}$/i', $meteor_options['slide_height'] ) ) {
 
-			$options['slide_width'] = '';
-
-		}
-		
-		$options['transition_style'] = trim( $input['transition_style'] );
-
-		if ( !preg_match( '/^[a-z]{4,20}$/i', $options['transition_style'] ) ) {
-
-			$options['transition_style'] = '';
+			$meteor_options['slide_height'] = '';
 
 		}
 		
-		$options['transition_speed'] = trim( $input['transition_speed'] );
+		$meteor_options['slide_width'] = trim( $meteor_input['slide_width'] );
 
-		if ( !preg_match( '/^[0-9]{1,3}$/i', $options['transition_speed'] ) ) {
+		if ( !preg_match( '/^[0-9]{1,5}$/i', $meteor_options['slide_width'] ) ) {
 
-			$options['transition_speed'] = '';
-
-		}
-		
-		$options['slide_duration'] = trim( $input['slide_duration'] );
-
-		if ( !preg_match( '/^[0-9]{1,3}$/i', $options['slide_duration'] ) ) {
-
-			$options['slide_duration'] = '';
+			$meteor_options['slide_width'] = '';
 
 		}
 		
-		$options['slideshow_navigation'] = trim( $input['slideshow_navigation'] );
+		$meteor_options['transition_style'] = trim( $meteor_input['transition_style'] );
 
-		if ( !preg_match( '/^[a-z]{4,20}$/i', $options['slideshow_navigation'] ) ) {
+		if ( !preg_match( '/^[a-z]{4,20}$/i', $meteor_options['transition_style'] ) ) {
 
-			$options['slideshow_navigation'] = '';
+			$meteor_options['transition_style'] = '';
+
+		}
+		
+		$meteor_options['transition_speed'] = trim( $meteor_input['transition_speed'] );
+
+		if ( !preg_match( '/^[0-9]{1,3}$/i', $meteor_options['transition_speed'] ) ) {
+
+			$meteor_options['transition_speed'] = '';
+
+		}
+		
+		$meteor_options['slide_duration'] = trim( $meteor_input['slide_duration'] );
+
+		if ( !preg_match( '/^[0-9]{1,3}$/i', $meteor_options['slide_duration'] ) ) {
+
+			$meteor_options['slide_duration'] = '';
+
+		}
+		
+		$meteor_options['slideshow_navigation'] = trim( $meteor_input['slideshow_navigation'] );
+
+		if ( !preg_match( '/^[a-z]{4,20}$/i', $meteor_options['slideshow_navigation'] ) ) {
+
+			$meteor_options['slideshow_navigation'] = '';
 
 		}
 
-		return $options;
+		return $meteor_options;
 		
 	}
 	
