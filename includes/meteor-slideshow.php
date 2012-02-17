@@ -12,6 +12,8 @@
 
 	global $post;
 	
+	$meteor_posttemp = $post;
+	
 	$meteor_options = get_option( 'meteorslides_options' );
 	
 	$meteor_nav = $meteor_options['slideshow_navigation'];
@@ -144,7 +146,11 @@
 		
 		</div><!-- .meteor-clip -->
 				
-		<?php wp_reset_postdata(); ?>
+		<?php // Reset the slideshow loop
+		
+		$post = $meteor_posttemp;
+		
+		wp_reset_postdata(); ?>
 			
 	</div><!-- .meteor-slides -->
 	
