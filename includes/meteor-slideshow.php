@@ -128,13 +128,13 @@
 					
 				if ( get_post_meta( $post->ID, "slide_url_value", $single = true ) != "" ): ?>
 						
-					<a href="<?php echo get_post_meta( $post->ID, "slide_url_value", $single = true ); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'featured-slide' ); ?></a>
+					<a href="<?php echo get_post_meta( $post->ID, "slide_url_value", $single = true ); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail( 'featured-slide', array( 'title' => get_the_title() ) ); ?></a>
 			
 				<?php // Adds slide image without Slide URL link
 					
 				else: ?>
 					
-					<?php the_post_thumbnail( 'featured-slide' ); ?>
+					<?php the_post_thumbnail( 'featured-slide', array( 'title' => get_the_title() ) ); ?>
 					
 				<?php endif; ?>
 			
