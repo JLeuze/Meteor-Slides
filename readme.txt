@@ -83,6 +83,12 @@ Copy **meteor-slideshow.php** from **/meteor-slides/** to your theme's directory
 
 Your theme or plugin is probably loading an extra copy of jQuery from the theme or plugin, or a third party server. This is unnecessary because WordPress already uses jQuery and it is included in the WordPress install. Meteor Slides loads the version that is within WordPress, to fix this, change your theme or plugin to use the copy of jQuery that comes with WordPress, like this `<?php wp_enqueue_script("jquery"); ?>`.
 
+It's also possible that a script in your theme or another plugin is using the "$" shortcut instead of "jQuery", which will break because WordPress loads jQuery in ["no conflict" mode](http://codex.wordpress.org/Function_Reference/wp_enqueue_script#jQuery_noConflict_wrappers "no conflict mode"). Try inspecting the site with Firebug or another tool to look for JavaScript errors.
+
+= I just installed Meteor Slides, but the Slides menu is missing, where do I go? =
+
+If the Slides menu is missing, you probably have the [Members](http://wordpress.org/extend/plugins/members/ "Members plugin") plugin activated. Meteor Slides supports the Members plugin, so if you have them both running you can use Members to choose which roles can manage the slides or slideshow settings. Take a look at [this blog post](http://www.jleuze.com/using-the-members-plugin-with-meteor-slides/ "Using the Members plugin with Meteor Slides") for more info on using these plugins together.
+
 = Meteor Slides is awesome, what can I do to help? =
 
 You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://www.jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://www.jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8 "Donate").
