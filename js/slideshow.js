@@ -22,7 +22,6 @@ var $slidetransition = meteorslidessettings.meteorslideshowtransition;
 $j(document).ready(function() {
 	
     $j('.meteor-slides').cycle({
-	
 		height: $slideheight,
 		width: $slidewidth,
 		fit: 1,
@@ -36,8 +35,16 @@ $j(document).ready(function() {
 		pagerEvent: 'click',
 		cleartypeNoBg: 'true',
 		slideExpr: '.mslide'
-		
 	});
+
+    $j('.meteor-slides').touchwipe({
+        wipeLeft: function() {
+            $j('.meteor-slides').cycle('next');
+        },
+        wipeRight: function() {
+            $j('.meteor-slides').cycle('prev');
+        }
+    });
 	
     $j('.meteor-slides').hover(function () {
 		$j(this).addClass('navhover');

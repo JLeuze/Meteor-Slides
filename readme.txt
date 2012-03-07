@@ -102,6 +102,7 @@ You can help right on this page by rating the plugin or voting for its compatibi
 = 1.5 =
 * Updated slideshow to scale for responsive and fluid width themes
 * Added slideshow taxonomy selector to widget
+* Added jQuery Touchwipe plugin to enable touch navigation
 * Updated JQuery Cycle to 2.9999, switch to un-minimized version
 * Added Belarusian, Czech, Danish, Dutch, and Persian translations
 
@@ -176,7 +177,7 @@ You can help right on this page by rating the plugin or voting for its compatibi
 == Upgrade Notice ==
 
 = 1.5 =
-Meteor Slides 1.5 adds responsive slideshow support, an improved slideshow widget, new translations, and updates jQuery Cycle.
+Meteor Slides 1.5 adds responsive slideshow support, touch navigation, an improved slideshow widget, new translations, and updates jQuery Cycle.
 
 = 1.4 =
 Meteor Slides 1.4 replaces the navigation graphics, adds support for custom scripts and the Members plugin, updates jQuery Cycle and adds new and updated translations.
