@@ -117,7 +117,7 @@ ul.meteor-nav li {
 	text-indent: -9999px;
 	width: 27px;
 	height: inherit;
-	z-index: 50;
+	z-index: 998;
 }
 	
 .meteor-nav .prev a {
@@ -147,7 +147,7 @@ ul.meteor-nav li {
     padding: 6px 0 0;
     position: absolute;
     width: 100%;
-    z-index: 50;
+    z-index: 999;
 }
 
 header#branding .meteor-buttons {
