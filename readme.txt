@@ -109,6 +109,7 @@ You can help right on this page by rating the plugin or voting for its compatibi
 * Updated slideshow to scale for responsive and fluid width themes
 * Added slideshow taxonomy selector to widget
 * Added jQuery Touchwipe plugin to enable touch navigation
+* Updated and expand contextual help
 * Updated JQuery Cycle to 2.9999, switch to un-minimized version
 * Added Belarusian, Czech, Danish, Dutch, and Persian translations
 
