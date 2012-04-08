@@ -103,6 +103,7 @@ You can help right on this page by rating the plugin or voting for its compatibi
 4. Slides Column View
 5. Manage Slideshows
 6. Meteor Slides Settings
+7. Meteor Slides Widget
 
 == Changelog ==
 = 1.5 =
