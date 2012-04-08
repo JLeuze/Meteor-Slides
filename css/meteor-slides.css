@@ -81,7 +81,7 @@ div.navboth {
 .meteor-slides ul.meteor-nav {
 	display: none;
 	list-style: none;
-	height: inherit;
+    height: 100%;
 	margin: 0 !important;
 	padding: 0;
 }
@@ -92,7 +92,7 @@ div.navboth {
 
 ul.meteor-nav li {
 	display: inline;
-	height: inherit;
+    height: 100%;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -112,7 +112,7 @@ ul.meteor-nav li {
 	position: absolute;
 	text-indent: -9999px;
 	width: 27px;
-	height: inherit;
+    height: 100%;
 	z-index: 998;
 }
 	
@@ -130,6 +130,22 @@ ul.meteor-nav li {
 
 .meteor-nav .next a:hover {
 	background: url('../images/next.png') no-repeat center right;
+}	
+
+* html .meteor-nav .prev a {
+	background: url('../images/prev.gif') no-repeat center right; /* IE6 */
+}
+
+* html .meteor-nav .prev a:hover {
+	background: url('../images/prev.gif') no-repeat center left; /* IE6 */
+}
+
+* html .meteor-nav .next a {
+	background: url('../images/next.gif') no-repeat center left; /* IE6 */
+}
+
+* html .meteor-nav .next a:hover {
+	background: url('../images/next.gif') no-repeat center right; /* IE6 */
 }
 
 /* =Paged Navigation
@@ -167,4 +183,16 @@ header#branding .meteor-buttons {
 
 .meteor-buttons a.activeSlide {
 	background: url('../images/buttons.png') no-repeat bottom right;
+}
+
+* html .meteor-buttons a {
+	background: url('../images/buttons.gif') no-repeat bottom left; /* IE6 */
+}
+
+* html .meteor-buttons a:hover {
+	background: url('../images/buttons.gif') no-repeat bottom right; /* IE6 */
+}
+
+* html .meteor-buttons a.activeSlide {
+	background: url('../images/buttons.gif') no-repeat bottom right; /* IE6 */
 }
