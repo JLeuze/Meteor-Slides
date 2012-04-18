@@ -42,6 +42,7 @@ div.navboth {
 	height: auto !important;
 	max-width: 100%;
 	visibility: hidden;
+	width: auto\9; /* IE8 */
 }
 
 /* =Slide
