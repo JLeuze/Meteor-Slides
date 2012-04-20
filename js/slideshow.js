@@ -22,19 +22,19 @@ $j(document).ready(function() {
 	// Setup jQuery Cycle
 	
     $j('.meteor-slides').cycle({
-		height:        $slideheight,
-		width:         $slidewidth,
+		cleartypeNoBg: true,
 		fit:           1,
 		fx:            $slidetransition,
-		speed:         $slidespeed,
-		timeout:       $slidetimeout,
-		pause:         1,
-		prev:          '#meteor-prev',
+		height:        $slideheight,
 		next:          '#meteor-next',
 		pager:         '#meteor-buttons',
 		pagerEvent:    'click',
-		cleartypeNoBg: 'true',
-		slideExpr:     '.mslide'
+		pause:         1,
+		prev:          '#meteor-prev',
+		slideExpr:     '.mslide',
+		speed:         $slidespeed,
+		timeout:       $slidetimeout,
+		width:         $slidewidth
 	});
 	
 	// Setup jQuery TouchWipe
