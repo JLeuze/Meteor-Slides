@@ -8,7 +8,7 @@
 
 	}
 	
-	function slideshow_quantity() {
+	function meteorslides_slideshow_quantity() {
 		
 		$meteor_slides = __( 'slides', 'meteor-slides' );
 		
@@ -18,7 +18,7 @@
 
 	}
 	
-	function slide_height() {
+	function meteorslides_slide_height() {
 		
 		$meteor_px = __( 'px', 'meteor-slides' );
 		
@@ -28,7 +28,7 @@
 
 	}
 		
-	function slide_width() {
+	function meteorslides_slide_width() {
 		
 		$meteor_px = __( 'px', 'meteor-slides' );
 		
@@ -38,7 +38,7 @@
 
 	}
 	
-	function transition_style() {
+	function meteorslides_transition_style() {
 				
 		$meteor_blindX      = __( 'blindX', 'meteor-slides' );
 		$meteor_blindY      = __( 'blindY', 'meteor-slides' );
@@ -116,7 +116,7 @@
 		
 	}
 		
-	function transition_speed() {
+	function meteorslides_transition_speed() {
 		
 		$meteor_seconds = __( 'seconds', 'meteor-slides' );
 		
@@ -126,7 +126,7 @@
 
 	}
 		
-	function slide_duration() {
+	function meteorslides_slide_duration() {
 
 		$meteor_seconds = __( 'seconds', 'meteor-slides' );
 		
@@ -136,7 +136,7 @@
 
 	}
 		
-	function  slideshow_navigation() {
+	function  meteorslides_slideshow_navigation() {
 		
 		$meteor_navnone     = __( 'None', 'meteor-slides' );
 		$meteor_navprevnext = __( 'Previous/Next', 'meteor-slides' );

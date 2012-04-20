@@ -528,19 +528,19 @@
 		
 		add_settings_section( 'meteorslides_slideshow', __( 'Configure Slideshow', 'meteor-slides' ), 'meteorslides_section_text', 'meteorslides' );
 		
-		add_settings_field( 'slideshow_quantity', __( 'Slideshow Quantity', 'meteor-slides' ), 'slideshow_quantity', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'slideshow_quantity', __( 'Slideshow Quantity', 'meteor-slides' ), 'meteorslides_slideshow_quantity', 'meteorslides', 'meteorslides_slideshow' );
 
-		add_settings_field( 'slide_height', __( 'Slide Height', 'meteor-slides' ), 'slide_height', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'slide_height', __( 'Slide Height', 'meteor-slides' ), 'meteorslides_slide_height', 'meteorslides', 'meteorslides_slideshow' );
 		
-		add_settings_field( 'slide_width', __( 'Slide Width', 'meteor-slides' ), 'slide_width', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'slide_width', __( 'Slide Width', 'meteor-slides' ), 'meteorslides_slide_width', 'meteorslides', 'meteorslides_slideshow' );
 
-		add_settings_field( 'transition_style', __( 'Transition Style', 'meteor-slides' ), 'transition_style', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'transition_style', __( 'Transition Style', 'meteor-slides' ), 'meteorslides_transition_style', 'meteorslides', 'meteorslides_slideshow' );
 
-		add_settings_field( 'transition_speed', __( 'Transition Speed', 'meteor-slides' ), 'transition_speed', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'transition_speed', __( 'Transition Speed', 'meteor-slides' ), 'meteorslides_transition_speed', 'meteorslides', 'meteorslides_slideshow' );
 
-		add_settings_field( 'slide_duration', __( 'Slide Duration', 'meteor-slides' ), 'slide_duration', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'slide_duration', __( 'Slide Duration', 'meteor-slides' ), 'meteorslides_slide_duration', 'meteorslides', 'meteorslides_slideshow' );
 	
-		add_settings_field( 'slideshow_navigation', __( 'Slideshow Navigation', 'meteor-slides' ), 'slideshow_navigation', 'meteorslides', 'meteorslides_slideshow' );
+		add_settings_field( 'slideshow_navigation', __( 'Slideshow Navigation', 'meteor-slides' ), 'meteorslides_slideshow_navigation', 'meteorslides', 'meteorslides_slideshow' );
 
 	}
 	
