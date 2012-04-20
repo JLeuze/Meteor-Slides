@@ -38,10 +38,12 @@ div.navboth {
 	position: relative;
 }
 
-.meteor-slides img {
+.meteor-slides .meteor-shim {
+	border: 0;
 	height: auto !important;
+	margin: 0;
 	max-width: 100%;
-	visibility: hidden;
+	padding: 0;
 	width: auto\9; /* IE8 */
 }
 
@@ -68,7 +70,6 @@ div.navboth {
 	margin: auto !important;
 	max-width: 100%;
 	padding: 0;
-	visibility: visible;
 }
 
 .meteor-slides .mslide img[src$='.png'] {

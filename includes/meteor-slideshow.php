@@ -118,7 +118,9 @@
 			
 			if ( $meteor_count == 1 ) {
 			
-				the_post_thumbnail( 'featured-slide' );
+				$meteor_shim = wp_get_attachment_image_src( get_post_thumbnail_id(), 'featured-slide');
+				
+				echo '<img style="visibility: hidden;" class="meteor-shim" src="' . $meteor_shim[0] . '" alt="" />';
 				
 			} ?>
 
