@@ -10,8 +10,7 @@
 	
 	function meteorslides_slideshow_quantity() {
 		
-		$meteor_slides = __( 'slides', 'meteor-slides' );
-		
+		$meteor_slides  = __( 'slides', 'meteor-slides' );
 		$meteor_options = get_option('meteorslides_options');
 			
 		echo "<input id='slideshow_quantity' name='meteorslides_options[slideshow_quantity]' size='20' type='text' value='{$meteor_options['slideshow_quantity']}' /> $meteor_slides";
@@ -20,8 +19,7 @@
 	
 	function meteorslides_slide_height() {
 		
-		$meteor_px = __( 'px', 'meteor-slides' );
-		
+		$meteor_px      = __( 'px', 'meteor-slides' );
 		$meteor_options = get_option('meteorslides_options');
 
 		echo "<input id='slide_height' name='meteorslides_options[slide_height]' size='20' type='text' value='{$meteor_options['slide_height']}' /> $meteor_px";
@@ -30,8 +28,7 @@
 		
 	function meteorslides_slide_width() {
 		
-		$meteor_px = __( 'px', 'meteor-slides' );
-		
+		$meteor_px      = __( 'px', 'meteor-slides' );
 		$meteor_options = get_option('meteorslides_options');
 
 		echo "<input id='slide_width' name='meteorslides_options[slide_width]' size='20' type='text' value='{$meteor_options['slide_width']}' /> $meteor_px";
@@ -67,10 +64,8 @@
 		$meteor_uncover     = __( 'uncover', 'meteor-slides' );
 		$meteor_wipe        = __( 'wipe', 'meteor-slides' );
 		$meteor_zoom        = __( 'zoom', 'meteor-slides' );
-		
-		$meteor_options = get_option( 'meteorslides_options' );
-		
-		$meteor_item = array(
+		$meteor_options     = get_option( 'meteorslides_options' );
+		$meteor_item        = array(
 			
 			'blindX'      => $meteor_blindX,
 			'blindY'      => $meteor_blindY,
@@ -119,7 +114,6 @@
 	function meteorslides_transition_speed() {
 		
 		$meteor_seconds = __( 'seconds', 'meteor-slides' );
-		
 		$meteor_options = get_option( 'meteorslides_options' );
 
 		echo "<input id='transition_speed' name='meteorslides_options[transition_speed]' size='20' type='text' value='{$meteor_options['transition_speed']}' /> $meteor_seconds";
@@ -129,7 +123,6 @@
 	function meteorslides_slide_duration() {
 
 		$meteor_seconds = __( 'seconds', 'meteor-slides' );
-		
 		$meteor_options = get_option( 'meteorslides_options' );
 
 		echo "<input id='slide_duration' name='meteorslides_options[slide_duration]' size='20' type='text' value='{$meteor_options['slide_duration']}' /> $meteor_seconds";
