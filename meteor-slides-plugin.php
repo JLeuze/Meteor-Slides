@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: Meteor Slides
-	Description: Meteor Slides makes it simple to create slideshows with WordPress by adding a custom post type for slides.
+	Description: Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
 	Plugin URI: http://www.jleuze.com/plugins/meteor-slides
 	Author: Josh Leuze
 	Author URI: http://www.jleuze.com/
