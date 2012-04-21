@@ -13,14 +13,10 @@
 	global $post;
 	
 	$meteor_posttemp = $post;
-	
-	$meteor_options = get_option( 'meteorslides_options' );
-	
-	$meteor_nav = $meteor_options['slideshow_navigation'];
-	
-	$meteor_count = 1;
-	
-	$meteor_loop = new WP_Query( array(
+	$meteor_options  = get_option( 'meteorslides_options' );
+	$meteor_nav      = $meteor_options['slideshow_navigation'];
+	$meteor_count    = 1;
+	$meteor_loop     = new WP_Query( array(
 	
 		'post_type'      => 'slide',
 		'slideshow'      => $slideshow,
