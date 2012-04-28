@@ -6,7 +6,7 @@
 	Author: Josh Leuze
 	Author URI: http://www.jleuze.com/
 	License: GPL2
-	Version: 1.5
+	Version: 1.5.1
 */
 
 /*  Copyright 2012 Josh Leuze (email : mail@jleuze.com)

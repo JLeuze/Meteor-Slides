@@ -1,5 +1,5 @@
 <?php
-/*  Loop template for the Meteor Slides 1.5 slideshow
+/*  Loop template for the Meteor Slides 1.5.1 slideshow
 	
 	Copy "meteor-slideshow.php" from "/meteor-slides/" to your theme's directory to replace
 	the plugin's default slideshow loop.
@@ -33,6 +33,12 @@
 		// Adds classes to slideshow
 	
 		echo $slideshow . ' ' . $meteor_nav;
+		
+		if ( $meteor_loop->post_count == 1 ) {
+		
+			echo ' single-slide';
+		
+		}
 		
 		// Adds metadata to slideshow
 		
@@ -112,7 +118,9 @@
 		
 			<?php // Use first slide image as shim to scale slideshow
 			
-			if ( $meteor_count == 1 ) {
+			// if ( $meteor_count == 1 ) {
+			
+			if ( $meteor_count == 1 && $meteor_loop->post_count > 1 ) {
 			
 				$meteor_shim = wp_get_attachment_image_src( get_post_thumbnail_id(), 'featured-slide');
 				
