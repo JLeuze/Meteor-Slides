@@ -62,4 +62,16 @@ $j(document).ready(function() {
 		$j('.meteor-nav a').height($slideheight);
 	}
 	
+	// Add align class if set in metadata
+	
+	var data = $j('.meteor-slides').metadata();
+
+	if ( data.align && data.align == 'left' ) {
+		$j('.meteor-slides').addClass('meteor-left');
+	} else if ( data.align && data.align == 'right' ) {
+		$j('.meteor-slides').addClass('meteor-right');
+	} else if ( data.align && data.align == 'center' ) {
+		$j('.meteor-slides').addClass('meteor-center');
+	}
+	
 });
