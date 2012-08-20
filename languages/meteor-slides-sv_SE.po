@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Meteor Slides 1.3\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
 "POT-Creation-Date: 2010-10-13 16:51+0000\n"
-"PO-Revision-Date: 2010-10-19 10:23+0100\n"
+"PO-Revision-Date: 2012-05-09 13:45+0100\n"
 "Last-Translator: Simon Wämmerfors <simon@wonderville.se>\n"
 "Language-Team: JLeuze <mail@jleuze.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: meteor-slides-plugin.php:78
 msgid "Slides"
-msgstr "Bilder"
+msgstr "Bildspel"
 
 #: meteor-slides-plugin.php:79
 msgid "Slide"
