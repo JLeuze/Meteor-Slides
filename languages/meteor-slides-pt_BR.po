@@ -1,351 +1,718 @@
-# Translation of the WordPress plugin   by .
-# Copyright (C) 2010
-# This file is distributed under the same license as the  package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Meteor Slides 1.3\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
-"POT-Creation-Date: 2010-10-13 16:51+0000\n"
-"PO-Revision-Date: 2010-10-13 22:33-0600\n"
-"Last-Translator: Josh Leuze <mail@jleuze.com>\n"
-"Language-Team: JLeuze <mail@jleuze.com>\n"
+"Project-Id-Version: Meteor Slides v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-26 13:45-0300\n"
+"PO-Revision-Date: 2012-05-15 14:12-0300\n"
+"Last-Translator: DJIO <translations@djio.com.br>\n"
+"Language-Team: DJIO | www.djio.com.br <wordpress@djio.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-KeywordsList: __;_e\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
 
-#: meteor-slides-plugin.php:78
+#: meteor-slides-plugin.php:36
+#: meteor-slides-plugin.php:47
+#@ meteor-slides
 msgid "Slides"
 msgstr "Slides"
 
-#: meteor-slides-plugin.php:79
+#: meteor-slides-plugin.php:37
+#@ meteor-slides
 msgid "Slide"
 msgstr "Slide"
 
-#: meteor-slides-plugin.php:80
+#: meteor-slides-plugin.php:38
+#@ meteor-slides
 msgid "Add New"
 msgstr "Adicionar Novo"
 
-#: meteor-slides-plugin.php:81
+#: includes/meteor-slides-admin.php:265
+#: meteor-slides-plugin.php:39
+#@ meteor-slides
 msgid "Add New Slide"
 msgstr "Adicionar Novo Slide"
 
-#: meteor-slides-plugin.php:82
+#: includes/meteor-slides-admin.php:269
+#: meteor-slides-plugin.php:40
+#@ meteor-slides
 msgid "Edit Slide"
 msgstr "Editar Slide"
 
-#: meteor-slides-plugin.php:83
-msgid "Edit"
-msgstr "Editar"
-
-#: meteor-slides-plugin.php:84
+#: meteor-slides-plugin.php:41
+#@ meteor-slides
 msgid "New Slide"
 msgstr "Novo Slide"
 
-#: meteor-slides-plugin.php:85
-#: meteor-slides-plugin.php:89
+#: meteor-slides-plugin.php:42
+#@ meteor-slides
 msgid "View Slide"
 msgstr "Ver Slide"
 
-#: meteor-slides-plugin.php:86
+#: meteor-slides-plugin.php:43
+#@ meteor-slides
 msgid "Search Slides"
 msgstr "Procurar Slides"
 
-#: meteor-slides-plugin.php:87
+#: meteor-slides-plugin.php:44
+#@ meteor-slides
 msgid "No slides found"
 msgstr "Slides não encontrados"
 
-#: meteor-slides-plugin.php:88
+#: meteor-slides-plugin.php:45
+#@ meteor-slides
 msgid "No slides found in Trash"
 msgstr "Nenhum slide encontrado na lixeira"
 
-#: meteor-slides-plugin.php:127
+#: meteor-slides-plugin.php:124
+#: meteor-slides-plugin.php:135
+#@ meteor-slides
 msgid "Slideshows"
-msgstr ""
+msgstr "Slideshows"
+
+#: meteor-slides-plugin.php:125
+#@ meteor-slides
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: meteor-slides-plugin.php:126
+#@ meteor-slides
+msgid "Search Slideshows"
+msgstr "Pesquisar Slideshows"
+
+#: meteor-slides-plugin.php:127
+#@ meteor-slides
+msgid "Popular Slideshows"
+msgstr "Slideshows Populares"
 
 #: meteor-slides-plugin.php:128
-msgid "Slideshow"
-msgstr ""
+#@ meteor-slides
+msgid "All Slideshows"
+msgstr "Todos os Slideshows"
 
 #: meteor-slides-plugin.php:129
-msgid "Search Slideshows"
-msgstr ""
+#@ meteor-slides
+msgid "Parent Slideshow"
+msgstr "Slideshow-Pai"
 
 #: meteor-slides-plugin.php:130
-msgid "Popular Slideshows"
-msgstr ""
+#@ meteor-slides
+msgid "Parent Slideshow:"
+msgstr "Slideshow-Pai:"
 
 #: meteor-slides-plugin.php:131
-msgid "All Slideshows"
-msgstr ""
+#@ meteor-slides
+msgid "Edit Slideshow"
+msgstr "Editar Slideshow"
 
 #: meteor-slides-plugin.php:132
-msgid "Parent Slideshow"
-msgstr ""
+#@ meteor-slides
+msgid "Update Slideshow"
+msgstr "Atualizar Slideshow"
 
 #: meteor-slides-plugin.php:133
-msgid "Parent Slideshow:"
-msgstr ""
+#@ meteor-slides
+msgid "Add New Slideshow"
+msgstr "Adicionar Novo Slideshow"
 
 #: meteor-slides-plugin.php:134
-msgid "Edit Slideshow"
-msgstr ""
-
-#: meteor-slides-plugin.php:135
-msgid "Update Slideshow"
-msgstr ""
-
-#: meteor-slides-plugin.php:136
-msgid "Add New Slideshow"
-msgstr ""
-
-#: meteor-slides-plugin.php:137
+#@ meteor-slides
 msgid "New Slideshow Name"
-msgstr ""
+msgstr "Nome do Novo Slideshow"
 
-#: meteor-slides-plugin.php:159
-msgid "Slide Image"
-msgstr "Imagem do Slide"
-
-#: meteor-slides-plugin.php:194
-msgid "Add the URL this slide should link to."
-msgstr "Adicionar Link no Slide"
-
-#: meteor-slides-plugin.php:206
-msgid "Slide Link"
-msgstr "Link do Slide"
-
-#: meteor-slides-plugin.php:324
-msgid "Slides Settings"
-msgstr "Configurações dos Slides"
-
-#: meteor-slides-plugin.php:324
-msgid "Settings"
-msgstr "Configurações"
-
-#: meteor-slides-plugin.php:358
-msgid "Configure Slideshow"
-msgstr "Configurar Slideshow"
-
-#: meteor-slides-plugin.php:360
-msgid "Slideshow Quantity"
-msgstr "Quantidade de Slides"
-
-#: meteor-slides-plugin.php:362
-msgid "Slide Height"
-msgstr "Altura do Slide"
-
-#: meteor-slides-plugin.php:364
-msgid "Slide Width"
-msgstr "Largura do Slide"
-
-#: meteor-slides-plugin.php:366
-msgid "Transition Style"
-msgstr "Estilo de Transição"
-
-#: meteor-slides-plugin.php:368
-msgid "Transition Speed"
-msgstr "Velocidade da Transição"
-
-#: meteor-slides-plugin.php:370
-msgid "Slide Duration"
-msgstr "Duração do Slide"
-
-#: meteor-slides-plugin.php:372
-msgid "Slideshow Navigation"
-msgstr ""
-
-#: meteor-slides-plugin.php:605
+#: meteor-slides-plugin.php:409
+#@ meteor-slides
 msgid "Add a slideshow widget to a sidebar"
 msgstr "Adicionar Meteor Slides em uma sidebar"
 
-#: meteor-slides-plugin.php:609
+#: meteor-slides-plugin.php:415
+#@ meteor-slides
 msgid "Meteor Slides Widget"
 msgstr "Widget do Meteor Slides"
 
-#: meteor-slides-plugin.php:653
+#: meteor-slides-plugin.php:464
+#@ meteor-slides
 msgid "Title:"
-msgstr ""
+msgstr "Título:"
 
-#: meteor-slides-plugin.php:656
+#: meteor-slides-plugin.php:475
+#@ meteor-slides
 msgid "Slideshow:"
-msgstr ""
+msgstr "Slideshow:"
 
-#: meteor-slides-plugin.php:659
+#: meteor-slides-plugin.php:499
+#@ meteor-slides
 msgid "Metadata:"
-msgstr ""
+msgstr "Metadata:"
 
-#: meteor-slides-settings.php:7
+#: includes/meteor-slides-admin.php:14
+#, php-format
+#@ meteor-slides
+msgid "Slide updated. <a href=\"%s\">View slide</a>"
+msgstr "O slide foi atualizado. <a href=\"%s\">Ver Slide</a>"
+
+#: includes/meteor-slides-admin.php:15
+#@ meteor-slides
+msgid "Custom field updated."
+msgstr "O campo personalizado foi atualizado."
+
+#: includes/meteor-slides-admin.php:16
+#@ meteor-slides
+msgid "Custom field deleted."
+msgstr "O campo personalizado foi excluído."
+
+#: includes/meteor-slides-admin.php:17
+#@ meteor-slides
+msgid "Slide updated."
+msgstr "O Slide foi atualizado."
+
+#: includes/meteor-slides-admin.php:18
+#, php-format
+#@ meteor-slides
+msgid "Slide restored to revision from %s"
+msgstr "O Slide foi restaurado para a revisão de %s"
+
+#: includes/meteor-slides-admin.php:19
+#, php-format
+#@ meteor-slides
+msgid "Slide published. <a href=\"%s\">View slide</a>"
+msgstr "O Slide foi publicado. <a href=\"%s\">Ver Slide</a>"
+
+#: includes/meteor-slides-admin.php:20
+#@ meteor-slides
+msgid "Slide saved."
+msgstr "O Slide foi salvo."
+
+#: includes/meteor-slides-admin.php:21
+#, php-format
+#@ meteor-slides
+msgid "Slide submitted. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "O Slide foi enviado. <a target=\"_blank\" href=\"%s\">Visualizar Slide</a>"
+
+#: includes/meteor-slides-admin.php:22
+#, php-format
+#@ meteor-slides
+msgid "Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview slide</a>"
+msgstr "O Slide foi agendado para: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Visualizar Slide</a>"
+
+#: includes/meteor-slides-admin.php:22
+#@ meteor-slides
+msgid "M j, Y @ G:i"
+msgstr "j \\d\\e F \\d\\e Y \\à\\s G:i"
+
+#: includes/meteor-slides-admin.php:23
+#, php-format
+#@ meteor-slides
+msgid "Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "O rascunho do Slide foi atualizado. <a target=\"_blank\" href=\"%s\">Visualizar Slide</a>"
+
+#: includes/meteor-slides-admin.php:39
+#: includes/meteor-slides-admin.php:170
+#@ meteor-slides
+msgid "Slide Image"
+msgstr "Imagem do Slide"
+
+#: includes/meteor-slides-admin.php:87
+#@ meteor-slides
+msgid "Add the URL this slide should link to."
+msgstr "Adicionar Link no Slide"
+
+#: includes/meteor-slides-admin.php:99
+#: includes/meteor-slides-admin.php:172
+#@ meteor-slides
+msgid "Slide Link"
+msgstr "Link do Slide"
+
+#: includes/meteor-slides-admin.php:171
+#@ meteor-slides
+msgid "Slide Title"
+msgstr "Título do Slide"
+
+#: includes/meteor-slides-admin.php:173
+#@ meteor-slides
+msgid "Date"
+msgstr "Data"
+
+#: includes/meteor-slides-admin.php:205
+#@ meteor-slides
+msgid "No Link"
+msgstr "Sem Link"
+
+#: includes/meteor-slides-admin.php:283
+#: includes/meteor-slides-admin.php:306
+#: includes/meteor-slides-admin.php:339
+#: includes/meteor-slides-admin.php:394
+#@ meteor-slides
+msgid "For more information"
+msgstr "Para mais informações"
+
+#: includes/meteor-slides-admin.php:285
+#: includes/meteor-slides-admin.php:308
+#: includes/meteor-slides-admin.php:341
+#: includes/meteor-slides-admin.php:396
+#@ meteor-slides
+msgid "<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin Support Forum</a>"
+msgstr "<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Fórum de Suporte do Plugin</a>"
+
+#: includes/meteor-slides-admin.php:307
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Meteor Slides Documentation</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Documentação do Meteor Slides</a>"
+
+#: includes/meteor-slides-admin.php:325
+#@ meteor-slides
+msgid "Slides can be organized into slideshows, just as posts can be organized into categories."
+msgstr "Slides podem ser organizados em apresentações de slides, assim como posts podem ser organizados em categorias."
+
+#: includes/meteor-slides-admin.php:334
+#@ meteor-slides
+msgid "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+msgstr "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+
+#: includes/meteor-slides-admin.php:363
+#: includes/meteor-slides-admin.php:529
+#@ meteor-slides
+msgid "Configure Slideshow"
+msgstr "Configurar Slideshow"
+
+#: includes/meteor-slides-admin.php:366
+#@ meteor-slides
+msgid "<em>Before adding any slides, enter the slide height and width in the settings so the slides are the correct dimensions.</em>"
+msgstr "<em>Antes de adicionar quaisquer slides, informe a altura e largura do slide nas configurações para que os slides fiquem nas dimensões corretas.</em>"
+
+#: includes/meteor-slides-admin.php:384
+#: includes/meteor-slides-settings.php:190
+#@ meteor-slides
+msgid "Add Slideshow"
+msgstr "Adicionar Slideshow"
+
+#: includes/meteor-slides-admin.php:465
+#@ meteor-slides
+msgid "Slides Settings"
+msgstr "Configurações dos Slides"
+
+#: includes/meteor-slides-admin.php:465
+#: includes/meteor-slides-admin.php:513
+#@ meteor-slides
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/meteor-slides-admin.php:531
+#@ meteor-slides
+msgid "Slideshow Quantity"
+msgstr "Quantidade de Slides"
+
+#: includes/meteor-slides-admin.php:533
+#@ meteor-slides
+msgid "Slide Height"
+msgstr "Altura do Slide"
+
+#: includes/meteor-slides-admin.php:535
+#@ meteor-slides
+msgid "Slide Width"
+msgstr "Largura do Slide"
+
+#: includes/meteor-slides-admin.php:537
+#@ meteor-slides
+msgid "Transition Style"
+msgstr "Estilo de Transição"
+
+#: includes/meteor-slides-admin.php:539
+#@ meteor-slides
+msgid "Transition Speed"
+msgstr "Velocidade da Transição"
+
+#: includes/meteor-slides-admin.php:541
+#@ meteor-slides
+msgid "Slide Duration"
+msgstr "Duração do Slide"
+
+#: includes/meteor-slides-admin.php:543
+#@ meteor-slides
+msgid "Slideshow Navigation"
+msgstr "Navegação do Slideshow"
+
+#: includes/meteor-slides-settings.php:7
+#@ meteor-slides
 msgid "Set up your slideshow using the options below."
-msgstr ""
+msgstr "Configure seu slideshow usando as opções abaixo."
 
-#: meteor-slides-settings.php:21
-#: meteor-slides-settings.php:31
+#: includes/meteor-slides-settings.php:13
+#@ meteor-slides
+msgid "slides"
+msgstr "slides"
+
+#: includes/meteor-slides-settings.php:22
+#: includes/meteor-slides-settings.php:31
+#@ meteor-slides
 msgid "px"
-msgstr ""
+msgstr "px"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:40
+#@ meteor-slides
 msgid "blindX"
-msgstr ""
+msgstr "persianaX"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:41
+#@ meteor-slides
 msgid "blindY"
-msgstr ""
+msgstr "persianaY"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:42
+#@ meteor-slides
 msgid "blindZ"
-msgstr ""
+msgstr "persianaZ"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:43
+#@ meteor-slides
 msgid "cover"
-msgstr ""
+msgstr "cobrir"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:44
+#@ meteor-slides
 msgid "curtainX"
-msgstr ""
+msgstr "cortinaX"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:45
+#@ meteor-slides
 msgid "curtainY"
-msgstr ""
+msgstr "cortinaY"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:46
+#@ meteor-slides
 msgid "fade"
-msgstr ""
+msgstr "dissolve"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:47
+#@ meteor-slides
 msgid "fadeZoom"
-msgstr ""
+msgstr "dissolveZoom"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:48
+#@ meteor-slides
 msgid "growX"
-msgstr ""
+msgstr "cresceX"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:49
+#@ meteor-slides
 msgid "growY"
-msgstr ""
+msgstr "cresceY"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:50
+#@ meteor-slides
 msgid "none"
 msgstr "nenhum"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:51
+#@ meteor-slides
 msgid "scrollUp"
-msgstr ""
+msgstr "rolaAcima"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:52
+#@ meteor-slides
 msgid "scrollDown"
-msgstr ""
+msgstr "rolaAbaixo"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:53
+#@ meteor-slides
 msgid "scrollLeft"
-msgstr ""
+msgstr "rolaEsquerda"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:54
+#@ meteor-slides
 msgid "scrollRight"
-msgstr ""
+msgstr "rolaDireita"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:55
+#@ meteor-slides
 msgid "scrollHorz"
-msgstr ""
+msgstr "rolaHorizontal"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:56
+#@ meteor-slides
 msgid "scrollVert"
-msgstr ""
+msgstr "rolaVertical"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:57
+#@ meteor-slides
 msgid "slideX"
-msgstr ""
+msgstr "deslizaX"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:58
+#@ meteor-slides
 msgid "slideY"
-msgstr ""
+msgstr "deslizaY"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:59
+#@ meteor-slides
 msgid "shuffle"
-msgstr ""
+msgstr "embaralhar"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:60
+#@ meteor-slides
 msgid "turnUp"
-msgstr ""
+msgstr "viraAcima"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:61
+#@ meteor-slides
 msgid "turnDown"
-msgstr ""
+msgstr "viraAbaixo"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:62
+#@ meteor-slides
 msgid "turnLeft"
-msgstr ""
+msgstr "viraEsquerda"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:63
+#@ meteor-slides
 msgid "turnRight"
-msgstr ""
+msgstr "viraDireita"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:64
+#@ meteor-slides
 msgid "uncover"
-msgstr ""
+msgstr "descobrir"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:65
+#@ meteor-slides
 msgid "wipe"
-msgstr ""
+msgstr "limpa"
 
-#: meteor-slides-settings.php:41
+#: includes/meteor-slides-settings.php:66
+#@ meteor-slides
 msgid "zoom"
-msgstr ""
+msgstr "zoom"
 
-#: meteor-slides-settings.php:63
-#: meteor-slides-settings.php:73
+#: includes/meteor-slides-settings.php:116
+#: includes/meteor-slides-settings.php:125
+#@ meteor-slides
 msgid "seconds"
 msgstr "segundos"
 
-#: meteor-slides-settings.php:83
+#: includes/meteor-slides-settings.php:134
+#@ meteor-slides
 msgid "None"
-msgstr ""
+msgstr "Nenhum"
 
-#: meteor-slides-settings.php:84
+#: includes/meteor-slides-settings.php:135
+#@ meteor-slides
 msgid "Previous/Next"
-msgstr ""
+msgstr "Anterior/Próximo"
 
-#: meteor-slides-settings.php:85
+#: includes/meteor-slides-settings.php:136
+#@ meteor-slides
 msgid "Paged"
-msgstr ""
+msgstr "Paginado"
 
-#: meteor-slides-settings.php:86
+#: includes/meteor-slides-settings.php:137
+#@ meteor-slides
 msgid "Both"
-msgstr ""
+msgstr "Ambos"
 
-#: meteor-slides-settings.php:112
+#: includes/meteor-slides-settings.php:170
+#@ meteor-slides
 msgid "Meteor Slides Settings"
 msgstr "Configurações do Meteor Slides"
 
-#: meteor-slides-settings.php:126
+#: includes/meteor-slides-settings.php:184
+#@ meteor-slides
 msgid "Save Changes"
 msgstr "Salvar Alterações"
 
-#: meteor-slides-settings.php:132
-msgid "Install Slideshow"
-msgstr "Instalar Slideshow"
-
-#: meteor-slides-settings.php:134
+#: includes/meteor-slides-settings.php:192
 #, php-format
-msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget. %3$sMore information%4$s"
-msgstr "Use %1$s para incluir esse slideshow em seu tema, use %2$s para incluir no seu Post ou Página, ou use o Widget Meteor Slides para incluir em uma sidebar. %3$sMore information%4$s"
+#@ meteor-slides
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget."
+msgstr "Use %1$s para adicionar este slideshow em seu tema, use %2$s para adicioná-lo ao conteúdo do Post ou Página, ou use o Widget do Meteor Slides."
 
-#: meteor-slides-settings.php:136
+#: includes/meteor-slides-settings.php:194
 #, php-format
+#@ meteor-slides
+msgid "Visit the %1$sMeteor Slides homepage%2$s for documentation, tutorials, and videos."
+msgstr "Visite o %1$sWebsite do Meteor Slides%2$s para ver a documentação, tutoriais e vídeos."
+
+#: includes/meteor-slides-settings.php:196
+#, php-format
+#@ meteor-slides
 msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
-msgstr ""
+msgstr "Por favor, %1$sposte quaisquer perguntas e problemas%2$s nos fóruns de suporte do WordPress.org."
 
-#: meteor-slideshow.php:17
-#: meteor-slideshow.php:29
+#: includes/meteor-slideshow.php:77
+#: includes/meteor-slideshow.php:91
+#@ meteor-slides
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
-#: meteor-slideshow.php:19
-#: meteor-slideshow.php:31
+#: includes/meteor-slideshow.php:79
+#: includes/meteor-slideshow.php:93
+#@ meteor-slides
 msgid "Next"
-msgstr ""
+msgstr "Próximo"
+
+#: includes/meteor-slides-admin.php:275
+#@ meteor-slides
+msgid "<strong>Title</strong> - Name the slide so it can be easily found later."
+msgstr "<strong>Título</strong> - Nome do Slide para que possa ser localizado facilmente depois."
+
+#: includes/meteor-slides-admin.php:276
+#@ meteor-slides
+msgid "<strong>Slide Image</strong> - To add an image to a slide, click the \"Set featured image\" link. Upload an image, or browse the media library for one, click the \"Use as featured image\" link to add the image and then close the media uploader. The Slide Image metabox should now have a thumbnail image."
+msgstr "<strong>Imagem do Slide</strong> - Para adicionar uma imagem a um slide, clique no link \"Usar Imagem Destacada\". Envie a imagem, ou procure na biblioteca de mídia, clique no link \\\"Usar como imagem destacada\\\" para adicionar a imagem e, em seguida, feche o media uploader. A metabox imagem do Slide agora deve ter uma imagem em miniatura."
+
+#: includes/meteor-slides-admin.php:277
+#@ meteor-slides
+msgid "<strong>Slide Link</strong> - Add the full URL to the Slide Link metabox, such as <em>http://www.jleuze.com/</em> (Optional)"
+msgstr "<strong>Link do Slide</strong> - Adicione uma URL completa no metabox Link do Slide, ex: <em>http://www.jleuze.com/</em> (Opcional)"
+
+#: includes/meteor-slides-admin.php:278
+#@ meteor-slides
+msgid "<strong>Slideshows</strong> - A slide can be added <a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\">to a slideshow</a> by selecting the slideshow from the Slideshows metabox."
+msgstr "<strong>Slideshows</strong> - Um slide pode ser adicionado <a href=\\\"\\http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\">a uma apresentação de slides</a> selecionando o slideshow desejado da metabox Slideshows."
+
+#: includes/meteor-slides-admin.php:279
+#@ meteor-slides
+msgid "<strong>Slide Order</strong> - Slides are sorted chronologically, edit the slide's published date to change the order of the slide."
+msgstr "<strong>Ordem dos Slides</strong> - Slides são ordenados cronologicamente, edite a data de publicação do Slide para alterar a ordem dos slides."
+
+#: includes/meteor-slides-admin.php:284
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" target=\"_blank\">Documentation on Creating Slides</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" target=\"_blank\">Documentação sobre a Criação de Slides</a>"
+
+#: includes/meteor-slides-admin.php:286
+#: includes/meteor-slides-admin.php:309
+#: includes/meteor-slides-admin.php:342
+#: includes/meteor-slides-admin.php:397
+#, php-format
+#@ meteor-slides
+msgid "<a class=\"button\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8\" target=\"_blank\">Donate</a>"
+msgstr "<a class=\"button\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8\" target=\"_blank\">Doar</a>"
+
+#: includes/meteor-slides-admin.php:299
+#@ meteor-slides
+msgid "Slides Overview"
+msgstr "Visão Geral dos Slides"
+
+#: includes/meteor-slides-admin.php:302
+#@ meteor-slides
+msgid "From the slides overview the image, title, and link of each slide can be viewed. Choose a slide to edit, or add a new slide."
+msgstr "A partir da Visão Geral de Slides você pode ver a imagem, título e link de cada slide. Escolha um slide para editar, ou adicione um novo slide."
+
+#: includes/meteor-slides-admin.php:322
+#@ meteor-slides
+msgid "Multiple Slideshows"
+msgstr "Slideshows Múltiplos"
+
+#: includes/meteor-slides-admin.php:326
+#@ meteor-slides
+msgid "<strong>Add New Slideshow</strong> - Name the slideshow, specify a Slug or one will be generated from the name, skip the Parent and Description and click \"Add New Slideshow\"."
+msgstr "<strong>Adicionar Novo Slideshow</strong> - Informe um nome para o Slideshow, especifique uma slug (ou uma será gerada a partir do nome), ignore o Pai e a Descrição e clique em \"Adicionar Novo Slideshow\"."
+
+#: includes/meteor-slides-admin.php:327
+#@ meteor-slides
+msgid "<strong>Add Slide to Slideshow</strong> - Edit a slide and select the slideshow in the Slideshows metabox."
+msgstr "<strong>Adicionar Slide ao Slideshow</strong> - Edite um slide e escolha o Slideshow desejado na metabox de Slideshows."
+
+#: includes/meteor-slides-admin.php:330
+#@ meteor-slides
+msgid "Adding A Specific Slideshow"
+msgstr "Adicionando Um Slideshow Específico"
+
+#: includes/meteor-slides-admin.php:333
+#@ meteor-slides
+msgid "Add a slideshow slug to a template tag, shortcode, or select a slideshow in the widget to load a specific slideshow. Here is an example using the shortcode:"
+msgstr "Adicione a slug do slideshow numa tags de modelo, no shortcode, ou selecione o slideshow desejado no widget para carregar uma apresentação de slides específica. Aqui está um exemplo usando a shortcode:"
+
+#: includes/meteor-slides-admin.php:340
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" target=\"_blank\">Documentation on Adding Multiple Slideshows</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" target=\"_blank\">Documentação para Adicionar Múltiplos Slideshows</a>"
+
+#: includes/meteor-slides-admin.php:367
+#@ meteor-slides
+msgid "<strong>Slideshow Quantity</strong> - Choose the number of slides that are loaded in the slideshow."
+msgstr "<strong>Quantidade de Slideshows</strong> - Escolha o número de slides carregados por slideshow."
+
+#: includes/meteor-slides-admin.php:368
+#@ meteor-slides
+msgid "<strong>Slide Height</strong> - Enter the height of your slides in pixels. For slides of different heights, use the height of the tallest slide."
+msgstr "<strong>Altura do Slide</strong> - Informe a altura de seus slides em pixels. Para slides de alturas diferentes, use a altura do slide mais alto."
+
+#: includes/meteor-slides-admin.php:369
+#@ meteor-slides
+msgid "<strong>Slide Width</strong> - Enter the width of your slides in pixels. Slides that are narrower than this will be centered in the slideshow."
+msgstr "<strong>Largura do Slide</strong> - Informe a largura de seus slides em pixels. Slides mais estreitos que isso serão centralizados no slideshow."
+
+#: includes/meteor-slides-admin.php:370
+#@ meteor-slides
+msgid "<strong>Transition Style</strong> - Choose the effect that is used to transition between slides."
+msgstr "<strong>Estilo de Transição</strong> - Escolha o efeito que será usado na transição entre slides."
+
+#: includes/meteor-slides-admin.php:371
+#@ meteor-slides
+msgid "<strong>Transition Speed</strong> - Enter the number of seconds that it should take for a transition between slides to complete."
+msgstr "<strong>Velocidade da Transição</strong> - Informe o número de segundos que a transição entre slides deverá demorar para ser completada."
+
+#: includes/meteor-slides-admin.php:372
+#@ meteor-slides
+msgid "<strong>Slide Duration</strong> - Enter the number of seconds that each slide should be paused on in the slideshow."
+msgstr "<strong>Duração do Slide</strong> - Informe o número de segundos que cada slide deverá ser exibido no slideshow."
+
+#: includes/meteor-slides-admin.php:373
+#@ meteor-slides
+msgid "<strong>Slideshow Navigation</strong> - Slideshows have no navigation by default, previous/next and/or paged navigation can be added."
+msgstr "<strong>Navegação do Slideshow</strong> - Slideshow não tem navegação por padrão, mas você pode definir uma entre: anterior/próxima e/ou paginada."
+
+#: includes/meteor-slides-admin.php:376
+#@ meteor-slides
+msgid "Additional Options"
+msgstr "Opções Adicionais"
+
+#: includes/meteor-slides-admin.php:379
+#@ meteor-slides
+msgid "Only the options below are required, but jQuery Cycle has <a href=\"http://jquery.malsup.com/cycle/options.html\">additional options</a> that can be changed <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/\">using metadata</a>."
+msgstr "Somente as opções abaixo são obrigatórias, mas o jQuery Cycle tem <a href=\"http://jquery.malsup.com/cycle/options.html\">opções adicionais</a> que podem ser modificadas <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/\">usando metadados</a>."
+
+#: includes/meteor-slides-admin.php:380
+#@ meteor-slides
+msgid "Here is an example using metadata with the shortcode to set the slide order to random:"
+msgstr "Aqui está um exemplo usando metadados com o shortcode para definir a ordem dos slides como aleatória:"
+
+#: includes/meteor-slides-admin.php:381
+#@ meteor-slides
+msgid "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+msgstr "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+
+#: includes/meteor-slides-admin.php:387
+#@ meteor-slides
+msgid "<strong>Template Tag</strong> - Use this template tag in a theme file: <code><&#63;php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } &#63;></code>"
+msgstr "<strong>Tags de Modelo</strong> - Use esta tag de modelo em um arquivo de tema: <code><&#63;php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } &#63;></code>"
+
+#: includes/meteor-slides-admin.php:388
+#@ meteor-slides
+msgid "<strong>Shortcode</strong> - Use this shortcode to add a slideshow via the Post or Page editor: <code>[meteor_slideshow]</code>"
+msgstr "<strong>Shortcode</strong> - Use este shortcode para adicionar um slideshow via editor de Post/Página: <code>[meteor_slideshow]</code>"
+
+#: includes/meteor-slides-admin.php:389
+#@ meteor-slides
+msgid "<strong>Widget</strong> - Use the Meteor Slides Widget to add a slideshow to a widgetized area."
+msgstr "<strong>Widget</strong> - Use o Widget Meteor Slides para adicionar um slideshow a um sidebar."
+
+#: includes/meteor-slides-admin.php:390
+#@ meteor-slides
+msgid "Check out the documentation on <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding a slideshow</a> for more info."
+msgstr "Verifique a documentação sobre <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-a-slideshow/\" target=\"_blank\">adicionar um slideshow</a> para mais informações."
+
+#: includes/meteor-slides-admin.php:395
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Documentation on Configuring Meteor Slides</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Documentação sobre Configuração do Meteor Slides</a>"
 
