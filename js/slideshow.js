@@ -38,14 +38,15 @@ $j(document).ready(function() {
 	});
 	
 	// Setup jQuery TouchWipe
-
+	
     $j('.meteor-slides').touchwipe({
         wipeLeft: function() {
             $j('.meteor-slides').cycle('next');
         },
         wipeRight: function() {
             $j('.meteor-slides').cycle('prev');
-        }
+        },
+		preventDefaultEvents: false
     });
 	
 	// Add class to hide and show prev/next nav on hover
