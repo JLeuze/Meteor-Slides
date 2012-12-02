@@ -20,7 +20,6 @@ var $slidetransition = meteorslidessettings.meteorslideshowtransition;
 $j(document).ready(function() {
 
 	// Setup jQuery Cycle
-	
     $j('.meteor-slides').cycle({
 		cleartypeNoBg: true,
 		fit:           1,
@@ -38,7 +37,6 @@ $j(document).ready(function() {
 	});
 	
 	// Setup jQuery TouchWipe
-	
     $j('.meteor-slides').touchwipe({
         wipeLeft: function() {
             $j('.meteor-slides').cycle('next');
@@ -50,7 +48,6 @@ $j(document).ready(function() {
     });
 	
 	// Add class to hide and show prev/next nav on hover
-	
     $j('.meteor-slides').hover(function () {
 		$j(this).addClass('navhover');
     }, function () {
@@ -58,21 +55,20 @@ $j(document).ready(function() {
     });
 	
 	// Set a fixed height for prev/next nav in IE6
-	
 	if(typeof document.body.style.maxWidth === 'undefined') {
 		$j('.meteor-nav a').height($slideheight);
 	}
 	
 	// Add align class if set in metadata
-	
-	var data = $j('.meteor-slides').metadata();
-
-	if ( data.align && data.align == 'left' ) {
-		$j('.meteor-slides').addClass('meteor-left');
-	} else if ( data.align && data.align == 'right' ) {
-		$j('.meteor-slides').addClass('meteor-right');
-	} else if ( data.align && data.align == 'center' ) {
-		$j('.meteor-slides').addClass('meteor-center');
-	}
+	$j('.meteor-slides').each(function () {
+		meteormetadata = $j(this).metadata();
+		if (meteormetadata.align == 'left') {
+			$j(this).addClass('meteor-left');
+		} else if (meteormetadata.align == 'right') {
+			$j(this).addClass('meteor-right');
+		} else if (meteormetadata.align == 'center') {
+			$j(this).addClass('meteor-center');
+		}
+	});
 	
 });
