@@ -17,6 +17,7 @@ Meteor Slides makes it simple to create slideshows and publish them with a short
 * **Slideshow transition styles:** blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, slideX, slideY, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom.
 * **Slideshow navigation:** Optional previous/next and/or paged slide navigation.
 * **Multiple languages:** Belarusian, Chinese, Czech, Danish, Dutch, English, French, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish, Vietnamese.
+* **Multisite Compatible:** Add Meteor Slides to any site on your network.
 
 ####Installation
 
