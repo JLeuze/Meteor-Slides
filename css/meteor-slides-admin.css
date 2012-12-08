@@ -9,12 +9,3 @@
 .row-actions .view {
 	display: none;	
 }
-
-#select-featured-image img {
-	display: block;
-}
-
-#select-featured-image a {
-	float: none;
-	margin: 0 5px 0 0;
-}
