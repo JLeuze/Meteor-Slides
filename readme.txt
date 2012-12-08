@@ -2,9 +2,9 @@
 Contributors: jleuze
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
-Requires at least: 3.3
-Tested up to: 3.3.2
-Stable tag: 1.5
+Requires at least: 3.5
+Tested up to: 3.5
+Stable tag: 1.5.1
 
 Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
 
