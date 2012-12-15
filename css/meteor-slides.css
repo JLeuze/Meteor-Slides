@@ -64,6 +64,10 @@ div.navboth {
 	width: auto\9; /* IE8 */
 }
 
+.meteor-slides a:focus {
+	outline: none;
+}
+
 /* =Slide
 -------------------------------------------------------------- */
 
