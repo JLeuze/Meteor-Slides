@@ -10,14 +10,14 @@
 // Set custom shortcut to avoid conflicts
 var $j = jQuery.noConflict();
 
-// Get the slideshow options
-var $slidespeed      = parseInt( meteorslidessettings.meteorslideshowspeed );
-var $slidetimeout    = parseInt( meteorslidessettings.meteorslideshowduration );
-var $slideheight     = parseInt( meteorslidessettings.meteorslideshowheight );
-var $slidewidth      = parseInt( meteorslidessettings.meteorslideshowwidth );
-var $slidetransition = meteorslidessettings.meteorslideshowtransition;
-
 $j(document).ready(function() {
+
+	// Get the slideshow options
+	var $slidespeed      = parseInt( meteorslidessettings.meteorslideshowspeed );
+	var $slidetimeout    = parseInt( meteorslidessettings.meteorslideshowduration );
+	var $slideheight     = parseInt( meteorslidessettings.meteorslideshowheight );
+	var $slidewidth      = parseInt( meteorslidessettings.meteorslideshowwidth );
+	var $slidetransition = meteorslidessettings.meteorslideshowtransition;
 
 	// Setup jQuery Cycle
     $j('.meteor-slides').cycle({
