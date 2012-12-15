@@ -1,676 +1,795 @@
+# Rune Rønde Møller <runermoeller@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
 "POT-Creation-Date: 2010-10-13 16:51+0000\n"
-"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2012-12-15 12:23-0600\n"
+"Last-Translator: Josh Leuze <mail@jleuze.com>\n"
+"Language-Team: Danish <>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: \n"
-"X-Poedit-Country: \n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
-"X-Poedit-Basepath: \n"
-"X-Poedit-Bookmarks: \n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yesLanguage: da\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Textdomain-Support: yes"
 
-#: includes/meteor-slides-admin.php:238
-#: meteor-slides-plugin.php:36
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:238 meteor-slides-plugin.php:36
 #: meteor-slides-plugin.php:47
-#@ meteor-slides
 msgid "Slides"
-msgstr "lysbilleder"
+msgstr "Lysbilleder"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:37
-#@ meteor-slides
 msgid "Slide"
-msgstr "lysbillede"
+msgstr "Lysbillede"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:38
-#@ meteor-slides
 msgid "Add New"
 msgstr "Tilføj nyt"
 
-#: includes/meteor-slides-admin.php:224
-#: meteor-slides-plugin.php:39
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:224 meteor-slides-plugin.php:39
 msgid "Add New Slide"
 msgstr "Tilføj nyt lysbillede"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:40
-#@ meteor-slides
 msgid "Edit Slide"
 msgstr "Redigér lysbillede"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:41
-#@ meteor-slides
 msgid "New Slide"
 msgstr "Nyt lysbillede"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:42
-#@ meteor-slides
 msgid "View Slide"
 msgstr "Se lysbillede"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:43
-#@ meteor-slides
 msgid "Search Slides"
 msgstr "Søg lysbilleder"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:44
-#@ meteor-slides
 msgid "No slides found"
 msgstr "Ingen lysbilleder fundet"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:45
-#@ meteor-slides
 msgid "No slides found in Trash"
 msgstr "Ingen lysbilleder fundet i papirkurven"
 
-#: includes/meteor-slides-admin.php:248
-#: meteor-slides-plugin.php:124
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:248 meteor-slides-plugin.php:124
 #: meteor-slides-plugin.php:135
-#@ meteor-slides
 msgid "Slideshows"
 msgstr "Lysbilledshows"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:125
-#@ meteor-slides
 msgid "Slideshow"
 msgstr "Lysbilledshow"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:126
-#@ meteor-slides
 msgid "Search Slideshows"
 msgstr "Søg lysbilledshows"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:127
-#@ meteor-slides
 msgid "Popular Slideshows"
 msgstr "Populære lysbilledshows"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:128
-#@ meteor-slides
 msgid "All Slideshows"
 msgstr "Alle lysbilledshows"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:129
-#@ meteor-slides
 msgid "Parent Slideshow"
-msgstr "Forældre lysbilledshow"
+msgstr "Forælderlysbilledshow"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:130
-#@ meteor-slides
 msgid "Parent Slideshow:"
-msgstr "Forældre lysbilledshow:"
+msgstr "Forælderlysbilledshow:"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:131
-#@ meteor-slides
 msgid "Edit Slideshow"
 msgstr "Redigér lysbilledshow"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:132
-#@ meteor-slides
 msgid "Update Slideshow"
 msgstr "Opdatér lysbilledshow"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:133
-#@ meteor-slides
 msgid "Add New Slideshow"
 msgstr "Tilføj nyt lysbilledshow"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:134
-#@ meteor-slides
 msgid "New Slideshow Name"
 msgstr "Nyt lysbilledshow-navn"
 
-#: includes/meteor-slides-admin.php:39
-#: includes/meteor-slides-admin.php:170
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:39 includes/meteor-slides-admin.php:170
 msgid "Slide Image"
 msgstr "Lysbillede"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:87
-#@ meteor-slides
 msgid "Add the URL this slide should link to."
 msgstr "Tilføj URL som dette lysbillede skal linke til."
 
-#: includes/meteor-slides-admin.php:99
-#: includes/meteor-slides-admin.php:172
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:99 includes/meteor-slides-admin.php:172
 msgid "Slide Link"
-msgstr "Lysbillede-link"
+msgstr "Lysbilledlink"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:325
-#@ meteor-slides
 msgid "Slides Settings"
-msgstr "Lysbillede-indstillinger"
+msgstr "Lysbilledindstillinger"
 
-#: includes/meteor-slides-admin.php:325
-#: includes/meteor-slides-admin.php:373
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:325 includes/meteor-slides-admin.php:373
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: includes/meteor-slides-admin.php:262
-#: includes/meteor-slides-admin.php:389
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:262 includes/meteor-slides-admin.php:389
 msgid "Configure Slideshow"
-msgstr "Konfigurer lysbilledshow"
+msgstr "Konfigurér lysbilledshow"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:391
-#@ meteor-slides
 msgid "Slideshow Quantity"
-msgstr "Lysbilledshow-kvantitet"
+msgstr "Lysbilledshowkvantitet"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:393
-#@ meteor-slides
 msgid "Slide Height"
-msgstr "Lysbillede-højde"
+msgstr "Lysbilledhøjde"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:395
-#@ meteor-slides
 msgid "Slide Width"
-msgstr "Lysbillede-bredde"
+msgstr "Lysbilledbredde"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:397
-#@ meteor-slides
 msgid "Transition Style"
 msgstr "Overgangstypografi"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:399
-#@ meteor-slides
 msgid "Transition Speed"
 msgstr "Overgangshastighed"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:401
-#@ meteor-slides
 msgid "Slide Duration"
-msgstr "Lysbillede-visningsvarighed"
+msgstr "Lysbilledvisningsvarighed"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:403
-#@ meteor-slides
 msgid "Slideshow Navigation"
-msgstr "Lysbilledshow navigering"
+msgstr "Lysbilledshownavigering"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:408
-#@ meteor-slides
 msgid "Add a slideshow widget to a sidebar"
 msgstr "Tilføj en lysbilledshow-widget til et sidepanel"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:414
-#@ meteor-slides
 msgid "Meteor Slides Widget"
-msgstr "Meteor lysbillede-widget"
+msgstr "Meteor lysbilledwidget"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:463
-#@ meteor-slides
 msgid "Title:"
 msgstr "Titel:"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:466
-#@ meteor-slides
 msgid "Slideshow:"
 msgstr "Lysbilledshow:"
 
+# @ meteor-slides
 #: meteor-slides-plugin.php:469
-#@ meteor-slides
 msgid "Metadata:"
 msgstr "Metadata:"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:7
-#@ meteor-slides
 msgid "Set up your slideshow using the options below."
 msgstr "Tilpas dit lysbilledshow ved hjælp af indstillingerne herunder:"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:23
 #: includes/meteor-slides-settings.php:33
-#@ meteor-slides
 msgid "px"
 msgstr "px"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:43
-#@ meteor-slides
 msgid "blindX"
 msgstr "blindX"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:44
-#@ meteor-slides
 msgid "blindY"
 msgstr "blindY"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:45
-#@ meteor-slides
 msgid "blindZ"
 msgstr "blindZ"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:46
-#@ meteor-slides
 msgid "cover"
 msgstr "cover"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:47
-#@ meteor-slides
 msgid "curtainX"
 msgstr "curtainX"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:48
-#@ meteor-slides
 msgid "curtainY"
 msgstr "curtainY"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:49
-#@ meteor-slides
 msgid "fade"
 msgstr "fade"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:50
-#@ meteor-slides
 msgid "fadeZoom"
 msgstr "fadeZoom"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:51
-#@ meteor-slides
 msgid "growX"
 msgstr "growX"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:52
-#@ meteor-slides
 msgid "growY"
 msgstr "growY"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:53
-#@ meteor-slides
 msgid "none"
 msgstr "Ingen"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:54
-#@ meteor-slides
 msgid "scrollUp"
 msgstr "scrollUp"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:55
-#@ meteor-slides
 msgid "scrollDown"
 msgstr "scrollDown"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:56
-#@ meteor-slides
 msgid "scrollLeft"
 msgstr "scrollLeft"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:57
-#@ meteor-slides
 msgid "scrollRight"
 msgstr "scrollRight"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:58
-#@ meteor-slides
 msgid "scrollHorz"
 msgstr "scrollHorz"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:59
-#@ meteor-slides
 msgid "scrollVert"
 msgstr "scrollVert"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:60
-#@ meteor-slides
 msgid "slideX"
 msgstr "slideX"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:61
-#@ meteor-slides
 msgid "slideY"
 msgstr "slideY"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:62
-#@ meteor-slides
 msgid "shuffle"
 msgstr "shuffle"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:63
-#@ meteor-slides
 msgid "turnUp"
 msgstr "turnUp"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:64
-#@ meteor-slides
 msgid "turnDown"
 msgstr "turnDown"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:65
-#@ meteor-slides
 msgid "turnLeft"
 msgstr "turnLeft"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:66
-#@ meteor-slides
 msgid "turnRight"
 msgstr "turnRight"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:67
-#@ meteor-slides
 msgid "uncover"
 msgstr "uncover"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:68
-#@ meteor-slides
 msgid "wipe"
 msgstr "wipe"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:69
-#@ meteor-slides
 msgid "zoom"
 msgstr "zoom"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:121
 #: includes/meteor-slides-settings.php:131
-#@ meteor-slides
 msgid "seconds"
 msgstr "sekunder"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:141
-#@ meteor-slides
 msgid "None"
 msgstr "Ingen"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:142
-#@ meteor-slides
 msgid "Previous/Next"
 msgstr "Forrige/Næste"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:143
-#@ meteor-slides
 msgid "Paged"
 msgstr "Sideinddelte"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:144
-#@ meteor-slides
 msgid "Both"
 msgstr "Begge"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:177
-#@ meteor-slides
 msgid "Meteor Slides Settings"
 msgstr "Meteor Slides indstillinger"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:191
-#@ meteor-slides
 msgid "Save Changes"
 msgstr "Gem ændringer"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:203
 #, php-format
-#@ meteor-slides
-msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
-msgstr "%1$sOpret indlæg på evt. spørgsmål eller problemer%2$s i WordPress.org support forum."
+msgid ""
+"Please %1$spost any questions or problems%2$s in the WordPress.org support "
+"forums."
+msgstr ""
+"%1$sOpret indlæg på evt. spørgsmål eller problemer%2$s i WordPress.org "
+"support forum."
 
-#: includes/meteor-slideshow.php:71
-#: includes/meteor-slideshow.php:85
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slideshow.php:71 includes/meteor-slideshow.php:85
 msgid "Previous"
 msgstr "Forrige"
 
-#: includes/meteor-slideshow.php:73
-#: includes/meteor-slideshow.php:87
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slideshow.php:73 includes/meteor-slideshow.php:87
 msgid "Next"
 msgstr "Næste"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:14
 #, php-format
-#@ meteor-slides
 msgid "Slide updated. <a href=\"%s\">View slide</a>"
 msgstr "Lysbillede opdateret. <a href=\"%s\">Se lysbillede</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:15
-#@ meteor-slides
 msgid "Custom field updated."
 msgstr "Tilpasset felt opdateret."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:16
-#@ meteor-slides
 msgid "Custom field deleted."
 msgstr "Tilpasset felt slettet."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:17
-#@ meteor-slides
 msgid "Slide updated."
 msgstr "Lysbillede opdateret."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:18
 #, php-format
-#@ meteor-slides
 msgid "Slide restored to revision from %s"
 msgstr "Lysbillede gendannet til revision fra %s"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:19
 #, php-format
-#@ meteor-slides
 msgid "Slide published. <a href=\"%s\">View slide</a>"
 msgstr "Lysbillede offentliggjort. <a href=\"%s\">Se lysbillede</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:20
-#@ meteor-slides
 msgid "Slide saved."
 msgstr "Lysbillede gemt."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:21
 #, php-format
-#@ meteor-slides
 msgid "Slide submitted. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
-msgstr "Lysbillede indsendt. <a target=\"_blank\" href=\"%s\">Forhåndsvisning af lysbillede</a>"
+msgstr ""
+"Lysbillede indsendt. <a target=\"_blank\" href=\"%s\">Forhåndsvisning af "
+"lysbillede</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:22
 #, php-format
-#@ meteor-slides
-msgid "Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview slide</a>"
-msgstr "Lysbillede planlagt for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Forhåndsvisning af lysbillede</a>"
+msgid ""
+"Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview slide</a>"
+msgstr ""
+"Lysbillede planlagt for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Forhåndsvisning af lysbillede</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:22
-#@ meteor-slides
 msgid "M j, Y @ G:i"
 msgstr "M j, Y @ G:i"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:23
 #, php-format
-#@ meteor-slides
 msgid "Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
-msgstr "Lysbillede-kladde opdateret. <a target=\"_blank\" href=\"%s\">Forhåndsvisning af lysbillede</a>"
+msgstr ""
+"Lysbilledkladde opdateret. <a target=\"_blank\" href=\"%s\">Forhåndsvisning "
+"af lysbillede</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:171
-#@ meteor-slides
 msgid "Slide Title"
-msgstr "Lysbillede-titel"
+msgstr "Lysbilledtitel"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:173
-#@ meteor-slides
 msgid "Date"
 msgstr "Dato"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:205
-#@ meteor-slides
 msgid "No Link"
 msgstr "Intet link"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:225
-#@ meteor-slides
-msgid "<strong>Title:</strong> Each slide needs a title in order to be published."
-msgstr "<strong>Titel:</strong> Ethvert lysbillede skal have en titel for at kunne offentliggøres."
+msgid ""
+"<strong>Title:</strong> Each slide needs a title in order to be published."
+msgstr ""
+"<strong>Titel:</strong> Ethvert lysbillede skal have en titel for at kunne "
+"offentliggøres."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:226
-#@ meteor-slides
-msgid "<strong>Slide Image:</strong> To add an image to a slide, click the <strong>Set featured image</strong> link. Upload an image, or browse the media library for one, click the <strong>Use as featured image</strong> link to add the image and then close the media uploader. The Slide Image metabox should now have a thumbnail image."
-msgstr "<strong>Lysbillede: </strong> Hvis du vil føje et lysbillede, skal du klikke på <strong>Angiv udvalgt billede</strong> link'et. Overfør et billede, eller gennemse mediebiblioteket for at finde ét, klik på <strong>Brug som udvalgt billede</strong> link, for at tilføje billedet og luk derefter medie-overførsel. Billede-METABOX for lysbilledet skulle nu indeholde et miniaturebillede."
+msgid ""
+"<strong>Slide Image:</strong> To add an image to a slide, click the "
+"<strong>Set featured image</strong> link. Upload an image, or browse the "
+"media library for one, click the <strong>Use as featured image</strong> link "
+"to add the image and then close the media uploader. The Slide Image metabox "
+"should now have a thumbnail image."
+msgstr ""
+"<strong>Lysbillede: </strong> Hvis du vil føje et lysbillede, skal du klikke "
+"på <strong>Angiv udvalgt billede</strong> link'et. Overfør et billede, eller "
+"gennemse mediebiblioteket for at finde ét, klik på <strong>Brug som udvalgt "
+"billede</strong> link, for at tilføje billedet og luk derefter medie-"
+"overførsel. Billede-METABOX for lysbilledet skulle nu indeholde et "
+"miniaturebillede."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:227
-#@ meteor-slides
-msgid "<strong>Slide Link:</strong> Add the full URL to the Slide Link metabox, such as <em>http://wordpress.org/</em> (Optional)"
-msgstr "<strong>Lysbillede-link:</strong> Tilføj komplet URL til lysbillede Link metabox, som f.eks. <em>http://wordpress.org/</em> (Valgfri)"
+msgid ""
+"<strong>Slide Link:</strong> Add the full URL to the Slide Link metabox, "
+"such as <em>http://wordpress.org/</em> (Optional)"
+msgstr ""
+"<strong>Lysbilledlink:</strong> Tilføj komplet URL til lysbilled-link "
+"metabox, som f.eks. <em>http://wordpress.org/</em> (Valgfri)"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:228
-#@ meteor-slides
-msgid "<strong>Slideshows:</strong> A slide can be added to a slideshow by selecting the slideshow from the Slideshows metabox."
-msgstr "<strong>Lysbilledshows:</strong> Et lysbillede kan tilføjes et lysbilledeshow ved at vælge lysbilledshow fra lysbilledshow-metabox'en."
+msgid ""
+"<strong>Slideshows:</strong> A slide can be added to a slideshow by "
+"selecting the slideshow from the Slideshows metabox."
+msgstr ""
+"<strong>Lysbilledshows:</strong> Et lysbillede kan tilføjes et lysbilledshow "
+"ved at vælge lysbilledshow fra lysbilledshow-metabox'en."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:229
-#@ meteor-slides
-msgid "<strong>Slide Order:</strong> Slides are sorted chronologically, edit the slide's published date to change the order of the slide."
-msgstr "<strong>Lysbillede-rækkefølge:</strong> Lysbilleder sorteres kronologisk, rediger lysbilledets offentliggjort-dato for at ændre rækkefølgen på lysbilledet."
+msgid ""
+"<strong>Slide Order:</strong> Slides are sorted chronologically, edit the "
+"slide's published date to change the order of the slide."
+msgstr ""
+"<strong>Lysbilledrækkefølge:</strong> Lysbilleder sorteres kronologisk. "
+"Redigér lysbilledets offentliggørelsesdato for at ændre lysbilledets "
+"rækkefølgen."
 
-#: includes/meteor-slides-admin.php:230
-#: includes/meteor-slides-admin.php:240
-#: includes/meteor-slides-admin.php:254
-#: includes/meteor-slides-admin.php:279
-#@ meteor-slides
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:230 includes/meteor-slides-admin.php:240
+#: includes/meteor-slides-admin.php:254 includes/meteor-slides-admin.php:279
 msgid "For more information"
 msgstr "For mere information"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:231
-#@ meteor-slides
-msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" target=\"_blank\">Using Meteor Slides Documentation</a>"
-msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" target=\"_blank\">Brug Meteor Slides dokumentationen</a>"
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" "
+"target=\"_blank\">Using Meteor Slides Documentation</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" "
+"target=\"_blank\">Brug Meteor Slides dokumentationen</a>"
 
-#: includes/meteor-slides-admin.php:232
-#: includes/meteor-slides-admin.php:242
-#: includes/meteor-slides-admin.php:256
-#: includes/meteor-slides-admin.php:281
-#@ meteor-slides
-msgid "<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin Support Forum</a>"
-msgstr "<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin Support Forum</a>"
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:232 includes/meteor-slides-admin.php:242
+#: includes/meteor-slides-admin.php:256 includes/meteor-slides-admin.php:281
+msgid ""
+"<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin "
+"Support Forum</a>"
+msgstr ""
+"<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin "
+"supportforum</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:239
-#@ meteor-slides
 msgid "Choose a slide to edit, or add a new slide."
 msgstr "Vælg et lysbillede der skal redigeres, eller tilføj et nyt."
 
-#: includes/meteor-slides-admin.php:241
-#: includes/meteor-slides-admin.php:280
-#@ meteor-slides
-msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Meteor Slides Documentation</a>"
-msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Meteor Slides dokumentationen</a>"
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:241 includes/meteor-slides-admin.php:280
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Meteor Slides Documentation</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Meteor Slides dokumentationen</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:249
-#@ meteor-slides
-msgid "Slides can be organized into slideshows, just as posts can be organized into categories."
-msgstr "Lysbilleder kan organiseres i lysbilledshows, ligesom indlæg kan organiseres i kategorier."
+msgid ""
+"Slides can be organized into slideshows, just as posts can be organized into "
+"categories."
+msgstr ""
+"Lysbilleder kan organiseres i lysbilledshows, ligesom indlæg kan organiseres "
+"i kategorier."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:250
-#@ meteor-slides
-msgid "<strong>Add New Slideshow:</strong> Name the slideshow, specify a Slug or one will be generated from the name, skip the Parent and Description and click <strong>Add New Slideshow</strong>."
-msgstr "<strong>Tilføj nyt lysbilledshow:</strong> Navngiv lysbilledshowet, specificer en Slug eller der genereres en fra navnet, springover Forælder og beskrivelse og klik <strong>Tilføj nyt lysbilledshow</strong>."
+msgid ""
+"<strong>Add New Slideshow:</strong> Name the slideshow, specify a Slug or "
+"one will be generated from the name, skip the Parent and Description and "
+"click <strong>Add New Slideshow</strong>."
+msgstr ""
+"<strong>Tilføj nyt lysbilledshow:</strong> Navngiv lysbilledshowet, "
+"specificér en slug, ellers genereres der en ud fra navnet. Spring over "
+"forælder og beskrivelse og klik <strong>Tilføj nyt lysbilledshow</strong>."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:251
-#@ meteor-slides
-msgid "<strong>Add Slide to Slideshow:</strong> Edit a slide and select the slideshow in the Slideshows metabox."
-msgstr "<strong>Tilføj lysbillede til lysbilledshow</strong> Rediger et lysbillede og vælg et lysbilledshow i lysbilledshow-metabox'en."
+msgid ""
+"<strong>Add Slide to Slideshow:</strong> Edit a slide and select the "
+"slideshow in the Slideshows metabox."
+msgstr ""
+"<strong>Tilføj lysbillede til lysbilledshow</strong> Redigér et lysbillede "
+"og vælg et lysbilledshow i lysbilledshow-metabox'en."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:252
-#@ meteor-slides
-msgid "<strong>Adding a specific Slideshow:</strong> Add a slideshow slug to a template tag, shortcode, or widget to load a specific slideshow. Here is an example using the shortcode:"
-msgstr "<strong>Tilføj et specifikt lysbilledshow:</strong> Tilføj et lysbillede-slug til en template tag, shortcode, eller widget for at indlæse et specifikt lysbilledshow. Her er et eksempel ved brug af shortcode:"
+msgid ""
+"<strong>Adding a specific Slideshow:</strong> Add a slideshow slug to a "
+"template tag, shortcode, or widget to load a specific slideshow. Here is an "
+"example using the shortcode:"
+msgstr ""
+"<strong>Tilføj et specifikt lysbilledshow:</strong> Tilføj en lysbilledslug "
+"til et template tag, shortcode, eller widget for at indlæse et specifikt "
+"lysbilledshow. Her er et eksempel ved brug af shortcode:"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:253
-#@ meteor-slides
 msgid "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
 msgstr "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:255
-#@ meteor-slides
-msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" target=\"_blank\">Multiple Slideshows Documentation</a>"
-msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" target=\"_blank\">Multiple Slideshows dokumentation</a>"
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" "
+"target=\"_blank\">Multiple Slideshows Documentation</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" "
+"target=\"_blank\">Multiple Slideshows dokumentation</a>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:263
-#@ meteor-slides
-msgid "<em>Before adding any slides, enter the slide height and width in the settings so the slides are the correct dimensions.</em>"
-msgstr "<em>Før du tilføjer lysbilleder, så indtast lysbilled-højde og bredde under indstillinger, så lysbillederne får de korrekte dimensioner.</em>"
+msgid ""
+"<em>Before adding any slides, enter the slide height and width in the "
+"settings so the slides are the correct dimensions.</em>"
+msgstr ""
+"<em>Før du tilføjer lysbilleder, så angiv lysbilledhøjde og bredde under "
+"indstillinger, så lysbillederne får de korrekte dimensioner.</em>"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:264
-#@ meteor-slides
-msgid "<strong>Slideshow Quantity:</strong> Choose the number of slides that are loaded in the slideshow. (Leave this option blank to reset the settings)"
-msgstr "<strong>Lysbilledshow-kvantitet:</strong> Vælg antallet af lysbilleder som indlæses i lysbilledshowet. (Sæt denne til blank for at nulstille indstillingerne)"
+msgid ""
+"<strong>Slideshow Quantity:</strong> Choose the number of slides that are "
+"loaded in the slideshow. (Leave this option blank to reset the settings)"
+msgstr ""
+"<strong>Antal:</strong> Vælg antallet af lysbilleder som indlæses i "
+"lysbilledshowet. (Sæt denne til blank for at nulstille indstillingerne)"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:265
-#@ meteor-slides
-msgid "<strong>Slide Height:</strong> Enter the height of your slides in pixels. For slides of different heights, use the height of the tallest slide."
-msgstr "<strong>Lysbillede-højde:</strong> Indtast højden på dine lysbilleder i pixels. For lysbilleder af forskellig højde, brug højden på det højeste lysbillede."
+msgid ""
+"<strong>Slide Height:</strong> Enter the height of your slides in pixels. "
+"For slides of different heights, use the height of the tallest slide."
+msgstr ""
+"<strong>Højde:</strong> Indtast højden på dine lysbilleder i pixler. For "
+"lysbilleder af forskellig højde, brug højden på det højeste lysbillede."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:266
-#@ meteor-slides
-msgid "<strong>Slide Width:</strong> Enter the width of your slides in pixels. Slides that are narrower than this will be centered in the slideshow."
-msgstr "<strong>Lysbillede-bredde:</strong> Indtast bredden på dine lysbilleder i pixels. Lysbilleder der er smallere end denne indstilling vil blive centreret i lysbilledshowet."
+msgid ""
+"<strong>Slide Width:</strong> Enter the width of your slides in pixels. "
+"Slides that are narrower than this will be centered in the slideshow."
+msgstr ""
+"<strong>Bredde:</strong> Indtast bredden på dine lysbilleder i pixler. "
+"Lysbilleder der er smallere end denne indstilling vil blive centreret i "
+"lysbilledshowet."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:267
-#@ meteor-slides
-msgid "<strong>Transition Style:</strong> Choose the effect that is used to transition between slides."
-msgstr "<strong>Overgangstypografi:</strong> Vælg effekt som skal benyttes som overgang mellem lysbillederne."
+msgid ""
+"<strong>Transition Style:</strong> Choose the effect that is used to "
+"transition between slides."
+msgstr ""
+"<strong>Overgang:</strong> Vælg den effekt som skal benyttes som overgang "
+"mellem lysbillederne."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:268
-#@ meteor-slides
-msgid "<strong>Transition Speed:</strong> Enter the number of seconds that it should take for a transition between slides to complete."
-msgstr "<strong>Overgangshastighed:</strong> Indtast det antal sekunder som overgangen mellem lysbillederne maksimalt må tage."
+msgid ""
+"<strong>Transition Speed:</strong> Enter the number of seconds that it "
+"should take for a transition between slides to complete."
+msgstr ""
+"<strong>Overgangshastighed:</strong> Indtast det antal sekunder som "
+"overgangen mellem lysbillederne maksimalt må tage."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:269
-#@ meteor-slides
-msgid "<strong>Slide Duration:</strong> Enter the number of seconds that each slide should be paused on in the slideshow."
-msgstr "<strong>Lysbillede-visningsvarighed:</strong> Indtast det antal sekunder som hvert lysbillede maksimalt skal vises i lysbilledshowet."
+msgid ""
+"<strong>Slide Duration:</strong> Enter the number of seconds that each slide "
+"should be paused on in the slideshow."
+msgstr ""
+"<strong>Visningsvarighed:</strong> Indtast det antal sekunder som hvert "
+"lysbillede maksimalt skal vises i lysbilledshowet."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:270
-#@ meteor-slides
 msgid "<strong>Slideshow Navigation:</strong> "
-msgstr "<strong>Lysbilledshow-navigering:</strong> "
+msgstr "<strong>Navigering:</strong> "
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:272
-#@ meteor-slides
-msgid "<strong>None:</strong> The default option, no navigation is added to the slideshow."
-msgstr "<strong>Ingen:</strong> Standard-indstillingen, ingen navigering er tilføjet lysbilledshowet."
+msgid ""
+"<strong>None:</strong> The default option, no navigation is added to the "
+"slideshow."
+msgstr ""
+"<strong>Ingen:</strong> Standardindstillingen. Ingen navigering er tilføjet "
+"lysbilledshowet."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:273
-#@ meteor-slides
-msgid "<strong>Previous/Next:</strong> Left and right buttons are added to the slideshow to cycle through the slides."
-msgstr "<strong>Forrige/Næste:</strong> En venstre og højre-knap er tilføjet lysbilledshowet for at kunne navigere gennem lysbillederne."
+msgid ""
+"<strong>Previous/Next:</strong> Left and right buttons are added to the "
+"slideshow to cycle through the slides."
+msgstr ""
+"<strong>Forrige/næste:</strong> En venstre- og højreknap er tilføjet "
+"lysbilledshowet for at kunne navigere i lysbillederne."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:274
-#@ meteor-slides
-msgid "<strong>Paged:</strong> Small round buttons are added below the slideshow to choose a specific slide and highlight the current slide."
-msgstr "<strong>Sideinddelt:</strong> Små runde knapper er tilføjet under lysbilledshowet for at kunne vælge et specifikt lysbillede og fremhæve det nuværende lysbillede."
+msgid ""
+"<strong>Paged:</strong> Small round buttons are added below the slideshow to "
+"choose a specific slide and highlight the current slide."
+msgstr ""
+"<strong>Sideinddelt:</strong> Små runde knapper er tilføjet under "
+"lysbilledshowet, for at kunne vælge et specifikt lysbillede og fremhæve det "
+"nuværende."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:275
-#@ meteor-slides
-msgid "<strong>Both:</strong> Previous/Next and Paged navigation are both added to the slideshow."
-msgstr "<strong>Begge:</strong> Forrige/Næste og Sideinddelt navigering er begge tilføjet lysbilledshowet."
+msgid ""
+"<strong>Both:</strong> Previous/Next and Paged navigation are both added to "
+"the slideshow."
+msgstr ""
+"<strong>Begge:</strong> Forrige/næste og sideinddelt navigering er begge "
+"tilføjet lysbilledshowet."
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:277
 #: includes/meteor-slides-settings.php:197
-#@ meteor-slides
 msgid "Add Slideshow"
 msgstr "Tilføj lysbilledshow"
 
+# @ meteor-slides
 #: includes/meteor-slides-admin.php:278
-#@ meteor-slides
-msgid "Check out the documentation for <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding a slideshow</a>."
-msgstr "Tjek dokumentationen for <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding et lysbilledshow</a>."
+msgid ""
+"Check out the documentation for <a href=\"http://www.jleuze.com/plugins/"
+"meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding a slideshow</a>."
+msgstr ""
+"Læs dokumentationen for <a href=\"http://www.jleuze.com/plugins/meteor-"
+"slides/adding-a-slideshow/\" target=\"_blank\">tilføjelse af et "
+"lysbilledshow</a>."
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:13
-#@ meteor-slides
 msgid "slides"
 msgstr "Lysbilleder"
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:199
 #, php-format
-#@ meteor-slides
-msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget."
-msgstr "Brug %1$s for at tilføje dette lysbilledshow til dit tema, brug %2$s for at tilføje det til dit indlægs eller sideindhold, eller brug Meteor Slides Widget."
+msgid ""
+"Use %1$s to add this slideshow to your theme, use %2$s to add it to your "
+"Post or Page content, or use the Meteor Slides Widget."
+msgstr ""
+"Brug %1$s for at tilføje dette lysbilledshow til dit tema, brug %2$s for at "
+"tilføje det til dit indlæg- eller sideindhold, eller brug Meteor Slides "
+"Widget."
 
+# @ meteor-slides
 #: includes/meteor-slides-settings.php:201
 #, php-format
-#@ meteor-slides
-msgid "Visit the %1$sMeteor Slides homepage%2$s for documentation, tutorials, and videos."
-msgstr "Besøg %1$sMeteor Slides hjemmesiden%2$s for dokumentation, vejledninger, og videoer."
-
+msgid ""
+"Visit the %1$sMeteor Slides homepage%2$s for documentation, tutorials, and "
+"videos."
+msgstr ""
+"Besøg %1$sMeteor Slides hjemmesiden%2$s for dokumentation, vejledninger og "
+"videoer."
