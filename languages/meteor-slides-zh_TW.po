@@ -1,0 +1,785 @@
+# Translation of the WordPress plugin   by .
+# Copyright (C) 2010
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides 正體中文\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/meteor-slides\n"
+"POT-Creation-Date: 2013-01-01 18:10+0800\n"
+"PO-Revision-Date: 2013-01-01 18:14+0800\n"
+"Last-Translator: 張香腸 <s9011514@gmail.com>\n"
+"Language-Team: 香腸炒魷魚 <service@sofree.cc>\n"
+"Language: 正體中文\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\Portable\\TWAMPd\\htdocs\\wp-content\\plugins\\meteor-"
+"slides\\\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\\includes\n"
+
+#: meteor-slides-plugin.php:36 meteor-slides-plugin.php:47
+msgid "Slides"
+msgstr "幻燈片"
+
+#: meteor-slides-plugin.php:37
+msgid "Slide"
+msgstr "幻燈片"
+
+#: meteor-slides-plugin.php:38
+msgid "Add New"
+msgstr "新增"
+
+#: meteor-slides-plugin.php:39 includes/meteor-slides-admin.php:265
+#: .\includes/meteor-slides-admin.php:265
+msgid "Add New Slide"
+msgstr "新增幻燈片"
+
+#: meteor-slides-plugin.php:40 includes/meteor-slides-admin.php:269
+#: .\includes/meteor-slides-admin.php:269
+msgid "Edit Slide"
+msgstr "編輯幻燈片"
+
+#: meteor-slides-plugin.php:41
+msgid "New Slide"
+msgstr "新幻燈片"
+
+#: meteor-slides-plugin.php:42
+msgid "View Slide"
+msgstr "檢視幻燈片"
+
+#: meteor-slides-plugin.php:43
+msgid "Search Slides"
+msgstr "搜尋幻燈片"
+
+#: meteor-slides-plugin.php:44
+msgid "No slides found"
+msgstr "找不到幻燈片"
+
+#: meteor-slides-plugin.php:45
+msgid "No slides found in Trash"
+msgstr "在回收桶內找不到幻燈片"
+
+#: meteor-slides-plugin.php:124 meteor-slides-plugin.php:135
+msgid "Slideshows"
+msgstr "幻燈片集"
+
+#: meteor-slides-plugin.php:125
+msgid "Slideshow"
+msgstr "幻燈片集"
+
+#: meteor-slides-plugin.php:126
+msgid "Search Slideshows"
+msgstr "搜尋幻燈片集"
+
+#: meteor-slides-plugin.php:127
+msgid "Popular Slideshows"
+msgstr "熱門幻燈片集"
+
+#: meteor-slides-plugin.php:128
+msgid "All Slideshows"
+msgstr "全部幻燈片集"
+
+#: meteor-slides-plugin.php:129
+msgid "Parent Slideshow"
+msgstr "父幻燈片集"
+
+#: meteor-slides-plugin.php:130
+msgid "Parent Slideshow:"
+msgstr "父幻燈片集："
+
+#: meteor-slides-plugin.php:131
+msgid "Edit Slideshow"
+msgstr "編輯幻燈片集"
+
+#: meteor-slides-plugin.php:132
+msgid "Update Slideshow"
+msgstr "更新幻燈片集"
+
+#: meteor-slides-plugin.php:133
+msgid "Add New Slideshow"
+msgstr "新增幻燈片集"
+
+#: meteor-slides-plugin.php:134
+msgid "New Slideshow Name"
+msgstr "新幻燈片集名稱"
+
+#: meteor-slides-plugin.php:409
+msgid "Add a slideshow widget to a sidebar"
+msgstr "新增一個幻燈片集到側邊模組"
+
+#: meteor-slides-plugin.php:415
+msgid "Meteor Slides Widget"
+msgstr "Meteor Slides 模組"
+
+#: meteor-slides-plugin.php:464
+msgid "Title:"
+msgstr "標題："
+
+#: meteor-slides-plugin.php:475
+msgid "Slideshow:"
+msgstr "幻燈片集："
+
+#: meteor-slides-plugin.php:499
+msgid "Metadata:"
+msgstr "展示方式："
+
+#: includes/meteor-slides-admin.php:14 .\includes/meteor-slides-admin.php:14
+#, php-format
+msgid "Slide updated. <a href=\"%s\">View slide</a>"
+msgstr "幻燈片已經更新。<a href=\"%s\">查看幻燈片</a>"
+
+#: includes/meteor-slides-admin.php:15 .\includes/meteor-slides-admin.php:15
+msgid "Custom field updated."
+msgstr "自訂欄位已經更新。"
+
+#: includes/meteor-slides-admin.php:16 .\includes/meteor-slides-admin.php:16
+msgid "Custom field deleted."
+msgstr "自訂欄位已經刪除。"
+
+#: includes/meteor-slides-admin.php:17 .\includes/meteor-slides-admin.php:17
+msgid "Slide updated."
+msgstr "幻燈片已經更新。"
+
+#: includes/meteor-slides-admin.php:18 .\includes/meteor-slides-admin.php:18
+#, php-format
+msgid "Slide restored to revision from %s"
+msgstr "幻燈片回存就版本，從 %s"
+
+#: includes/meteor-slides-admin.php:19 .\includes/meteor-slides-admin.php:19
+#, php-format
+msgid "Slide published. <a href=\"%s\">View slide</a>"
+msgstr "幻燈片已經發表。<a href=\"%s\">檢視幻燈片</a>"
+
+#: includes/meteor-slides-admin.php:20 .\includes/meteor-slides-admin.php:20
+msgid "Slide saved."
+msgstr "幻燈片已經儲存。"
+
+#: includes/meteor-slides-admin.php:21 .\includes/meteor-slides-admin.php:21
+#, php-format
+msgid "Slide submitted. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "幻燈片已經送出。 <a target=\"_blank\" href=\"%s\">預覽幻燈片</a>"
+
+#: includes/meteor-slides-admin.php:22 .\includes/meteor-slides-admin.php:22
+#, php-format
+msgid ""
+"Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview slide</a>"
+msgstr ""
+"幻燈片排程： <strong>%1$s</strong>。 <a target=\"_blank\" href=\"%2$s\">預覽"
+"幻燈片</a>"
+
+#: includes/meteor-slides-admin.php:22 .\includes/meteor-slides-admin.php:22
+msgid "M j, Y @ G:i"
+msgstr "Y-m-d @ H:i:s"
+
+#: includes/meteor-slides-admin.php:23 .\includes/meteor-slides-admin.php:23
+#, php-format
+msgid "Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "幻燈片草稿已經更新。. <a target=\"_blank\" href=\"%s\">預覽幻燈片</a>"
+
+#: includes/meteor-slides-admin.php:39 includes/meteor-slides-admin.php:170
+#: .\includes/meteor-slides-admin.php:39
+#: .\includes/meteor-slides-admin.php:170
+msgid "Slide Image"
+msgstr "幻燈片圖片"
+
+#: includes/meteor-slides-admin.php:87 .\includes/meteor-slides-admin.php:87
+msgid "Add the URL this slide should link to."
+msgstr "新增一個連到此幻燈片的URL。"
+
+#: includes/meteor-slides-admin.php:99 includes/meteor-slides-admin.php:172
+#: .\includes/meteor-slides-admin.php:99
+#: .\includes/meteor-slides-admin.php:172
+msgid "Slide Link"
+msgstr "幻燈片連結"
+
+#: includes/meteor-slides-admin.php:171 .\includes/meteor-slides-admin.php:171
+msgid "Slide Title"
+msgstr "幻燈片標題"
+
+#: includes/meteor-slides-admin.php:173 .\includes/meteor-slides-admin.php:173
+msgid "Date"
+msgstr "日期"
+
+#: includes/meteor-slides-admin.php:205 .\includes/meteor-slides-admin.php:205
+msgid "No Link"
+msgstr "無連結"
+
+#: includes/meteor-slides-admin.php:275 .\includes/meteor-slides-admin.php:275
+msgid ""
+"<strong>Title</strong> - Name the slide so it can be easily found later."
+msgstr "<strong>標題</strong> - 替幻燈片取個標題，方便以後可以找到。"
+
+#: includes/meteor-slides-admin.php:276 .\includes/meteor-slides-admin.php:276
+msgid ""
+"<strong>Slide Image</strong> - To add an image to a slide, click the \"Set "
+"featured image\" link. Upload an image, or browse the media library for one, "
+"click the \"Use as featured image\" link to add the image and then close the "
+"media uploader. The Slide Image metabox should now have a thumbnail image."
+msgstr ""
+"<strong>幻燈片圖片</strong> - 若要新增一張圖片給幻燈片，請點擊 \"設為特色圖片"
+"\" 連結並上傳一張圖片或是透過媒體庫選擇一張圖片並點 \"設為特色圖片\" ，接著請"
+"關閉媒體庫。 在「幻燈片圖片」欄位可以看到一張縮圖。"
+
+#: includes/meteor-slides-admin.php:277 .\includes/meteor-slides-admin.php:277
+msgid ""
+"<strong>Slide Link</strong> - Add the full URL to the Slide Link metabox, "
+"such as <em>http://www.jleuze.com/</em> (Optional)"
+msgstr ""
+"<strong>幻燈片連結</strong> - 指定一個完整連結到此幻燈片，例如： <em>http://"
+"www.jleuze.com/</em> (可選)"
+
+#: includes/meteor-slides-admin.php:278 .\includes/meteor-slides-admin.php:278
+msgid ""
+"<strong>Slideshows</strong> - A slide can be added <a href=\"http://www."
+"jleuze.com/plugins/meteor-slides/multiple-slideshows/\">to a slideshow</a> "
+"by selecting the slideshow from the Slideshows metabox."
+msgstr ""
+"<strong>幻燈片集</strong> - 幻燈片可以設定幻燈片集，可參考 <a href=\"http://"
+"www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\">加入到幻燈片集</"
+"a>。您可以透過右邊的「幻燈片集」設定所屬分類，可以多選。"
+
+#: includes/meteor-slides-admin.php:279 .\includes/meteor-slides-admin.php:279
+msgid ""
+"<strong>Slide Order</strong> - Slides are sorted chronologically, edit the "
+"slide's published date to change the order of the slide."
+msgstr ""
+"<strong>幻燈片排序</strong> - 幻燈片預設按照時間排序，修改時間則可以變更排"
+"序。"
+
+#: includes/meteor-slides-admin.php:283 includes/meteor-slides-admin.php:306
+#: includes/meteor-slides-admin.php:339 includes/meteor-slides-admin.php:394
+#: .\includes/meteor-slides-admin.php:283
+#: .\includes/meteor-slides-admin.php:306
+#: .\includes/meteor-slides-admin.php:339
+#: .\includes/meteor-slides-admin.php:394
+msgid "For more information"
+msgstr "取得更多資訊"
+
+#: includes/meteor-slides-admin.php:284 .\includes/meteor-slides-admin.php:284
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" "
+"target=\"_blank\">Documentation on Creating Slides</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" "
+"target=\"_blank\">官方說明文件</a>"
+
+#: includes/meteor-slides-admin.php:285 includes/meteor-slides-admin.php:308
+#: includes/meteor-slides-admin.php:341 includes/meteor-slides-admin.php:396
+#: .\includes/meteor-slides-admin.php:285
+#: .\includes/meteor-slides-admin.php:308
+#: .\includes/meteor-slides-admin.php:341
+#: .\includes/meteor-slides-admin.php:396
+msgid ""
+"<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin "
+"Support Forum</a>"
+msgstr ""
+"<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">外掛支"
+"援論壇</a>"
+
+#: includes/meteor-slides-admin.php:286 includes/meteor-slides-admin.php:309
+#: includes/meteor-slides-admin.php:342 includes/meteor-slides-admin.php:397
+#: .\includes/meteor-slides-admin.php:286
+#: .\includes/meteor-slides-admin.php:309
+#: .\includes/meteor-slides-admin.php:342
+#: .\includes/meteor-slides-admin.php:397
+msgid ""
+"<a class=\"button\" href=\"https://www.paypal.com/cgi-bin/webscr?"
+"cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides"
+"%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP"
+"%2dDonationsBF&charset=UTF%2d8\" target=\"_blank\">Donate</a>"
+msgstr ""
+"正體中文化：<a href=\"http://sofree.cc\" target=\"blank\">香腸</a><br /><br /"
+"><a class=\"button\" href=\"https://www.paypal.com/cgi-bin/webscr?"
+"cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides"
+"%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP"
+"%2dDonationsBF&charset=UTF%2d8\" target=\"_blank\">贊助</a>"
+
+#: includes/meteor-slides-admin.php:299 .\includes/meteor-slides-admin.php:299
+msgid "Slides Overview"
+msgstr "幻燈片說明"
+
+#: includes/meteor-slides-admin.php:302 .\includes/meteor-slides-admin.php:302
+msgid ""
+"From the slides overview the image, title, and link of each slide can be "
+"viewed. Choose a slide to edit, or add a new slide."
+msgstr ""
+"在幻燈片管理中，你可以看到標題、連結、圖片與發表時間，你可以修改、刪除或是新"
+"增幻燈片。"
+
+#: includes/meteor-slides-admin.php:307 .\includes/meteor-slides-admin.php:307
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Meteor Slides Documentation</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">官方說明文件</a>"
+
+#: includes/meteor-slides-admin.php:322 .\includes/meteor-slides-admin.php:322
+msgid "Multiple Slideshows"
+msgstr "多個幻燈片集"
+
+#: includes/meteor-slides-admin.php:325 .\includes/meteor-slides-admin.php:325
+msgid ""
+"Slides can be organized into slideshows, just as posts can be organized into "
+"categories."
+msgstr "幻燈片可以組織化成為幻燈片集，就跟文章可以套用所屬分類一樣。"
+
+#: includes/meteor-slides-admin.php:326 .\includes/meteor-slides-admin.php:326
+msgid ""
+"<strong>Add New Slideshow</strong> - Name the slideshow, specify a Slug or "
+"one will be generated from the name, skip the Parent and Description and "
+"click \"Add New Slideshow\"."
+msgstr ""
+"<strong>新增幻燈片集</strong> - 幻燈片集名稱，輸入一個特別的代稱或是讓系統自"
+"動產生，上層、描述皆可以不填寫，直接點  \"新增幻燈片集\"。"
+
+#: includes/meteor-slides-admin.php:327 .\includes/meteor-slides-admin.php:327
+msgid ""
+"<strong>Add Slide to Slideshow</strong> - Edit a slide and select the "
+"slideshow in the Slideshows metabox."
+msgstr ""
+"<strong>新增幻燈片到幻燈片集</strong> - 修改幻燈片，即可將幻燈片加入到所屬幻"
+"燈片集。"
+
+#: includes/meteor-slides-admin.php:330 .\includes/meteor-slides-admin.php:330
+msgid "Adding A Specific Slideshow"
+msgstr "新增特定幻燈片集"
+
+#: includes/meteor-slides-admin.php:333 .\includes/meteor-slides-admin.php:333
+msgid ""
+"Add a slideshow slug to a template tag, shortcode, or select a slideshow in "
+"the widget to load a specific slideshow. Here is an example using the "
+"shortcode:"
+msgstr ""
+"新增一個幻燈片集，請將下方短代碼中的 slug (代稱) 更換為幻燈片集的代稱，您可以"
+"將此短代碼貼到側邊模組、文章或是網誌分頁。"
+
+#: includes/meteor-slides-admin.php:334 .\includes/meteor-slides-admin.php:334
+msgid "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+msgstr "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+
+#: includes/meteor-slides-admin.php:340 .\includes/meteor-slides-admin.php:340
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" "
+"target=\"_blank\">Documentation on Adding Multiple Slideshows</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" "
+"target=\"_blank\">官方說明文件</a>"
+
+#: includes/meteor-slides-admin.php:363 includes/meteor-slides-admin.php:529
+#: .\includes/meteor-slides-admin.php:363
+#: .\includes/meteor-slides-admin.php:529
+msgid "Configure Slideshow"
+msgstr "設定幻燈片集"
+
+#: includes/meteor-slides-admin.php:366 .\includes/meteor-slides-admin.php:366
+msgid ""
+"<em>Before adding any slides, enter the slide height and width in the "
+"settings so the slides are the correct dimensions.</em>"
+msgstr ""
+"<em>在新增幻燈片之前，請先設定幻燈片的高度與寬度，這將會被正確顯示在新增幻燈"
+"片頁面中。</em>"
+
+#: includes/meteor-slides-admin.php:367 .\includes/meteor-slides-admin.php:367
+msgid ""
+"<strong>Slideshow Quantity</strong> - Choose the number of slides that are "
+"loaded in the slideshow."
+msgstr "<strong>幻燈片數量</strong> - 設定幻燈片顯示數量。"
+
+#: includes/meteor-slides-admin.php:368 .\includes/meteor-slides-admin.php:368
+msgid ""
+"<strong>Slide Height</strong> - Enter the height of your slides in pixels. "
+"For slides of different heights, use the height of the tallest slide."
+msgstr ""
+"<strong>幻燈片高度</strong> - 請輸入幻燈片高度，單位為像素(px)。對於不同的高"
+"度，這個設定只可以代表最大高度。"
+
+#: includes/meteor-slides-admin.php:369 .\includes/meteor-slides-admin.php:369
+msgid ""
+"<strong>Slide Width</strong> - Enter the width of your slides in pixels. "
+"Slides that are narrower than this will be centered in the slideshow."
+msgstr ""
+"<strong>幻燈片寬度</strong> - 請輸入幻燈片寬度，單位為像素(px)。比這個設定值"
+"小的幻燈片，將會集中在幻燈片中。"
+
+#: includes/meteor-slides-admin.php:370 .\includes/meteor-slides-admin.php:370
+msgid ""
+"<strong>Transition Style</strong> - Choose the effect that is used to "
+"transition between slides."
+msgstr "<strong>轉場方式</strong> - 選擇幻燈片轉場效果。"
+
+#: includes/meteor-slides-admin.php:371 .\includes/meteor-slides-admin.php:371
+msgid ""
+"<strong>Transition Speed</strong> - Enter the number of seconds that it "
+"should take for a transition between slides to complete."
+msgstr ""
+"<strong>轉場速度</strong> - 請輸入一個數字，單位為秒(seconds)。這是在幻燈片轉"
+"場之間的停留時間。"
+
+#: includes/meteor-slides-admin.php:372 .\includes/meteor-slides-admin.php:372
+msgid ""
+"<strong>Slide Duration</strong> - Enter the number of seconds that each "
+"slide should be paused on in the slideshow."
+msgstr ""
+"<strong>幻燈片停留時間</strong> - 請輸入一個數字，單位為秒(seconds)。這是在幻"
+"燈片展示時間。"
+
+#: includes/meteor-slides-admin.php:373 .\includes/meteor-slides-admin.php:373
+msgid ""
+"<strong>Slideshow Navigation</strong> - Slideshows have no navigation by "
+"default, previous/next and/or paged navigation can be added."
+msgstr ""
+"<strong>幻燈片集導覽列</strong> - 預設不顯示幻燈片集導覽列，可選項目：上一頁/"
+"下一頁、數字分頁、以上兩者皆使用。"
+
+#: includes/meteor-slides-admin.php:376 .\includes/meteor-slides-admin.php:376
+msgid "Additional Options"
+msgstr "附加選項"
+
+#: includes/meteor-slides-admin.php:379 .\includes/meteor-slides-admin.php:379
+msgid ""
+"Only the options below are required, but jQuery Cycle has <a href=\"http://"
+"jquery.malsup.com/cycle/options.html\">additional options</a> that can be "
+"changed <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/"
+"\">using metadata</a>."
+msgstr ""
+"只有下面這設定是必要的。 jQuery Cycle 可以透過 <a href=\"http://www.jleuze."
+"com/plugins/meteor-slides/using-metadata/\">metadata</a> 的設定來改變其 <a "
+"target=\"_blank\" href=\"http://jquery.malsup.com/cycle/options.html\">展示效"
+"果</a>。"
+
+#: includes/meteor-slides-admin.php:380 .\includes/meteor-slides-admin.php:380
+msgid ""
+"Here is an example using metadata with the shortcode to set the slide order "
+"to random:"
+msgstr "這是一個使用 metadata 和 shortcode (短代碼) 的隨機排序展示範例。"
+
+#: includes/meteor-slides-admin.php:381 .\includes/meteor-slides-admin.php:381
+msgid "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+msgstr "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+
+#: includes/meteor-slides-admin.php:384
+#: includes/meteor-slides-settings.php:190
+#: .\includes/meteor-slides-admin.php:384
+#: .\includes/meteor-slides-settings.php:190
+msgid "Add Slideshow"
+msgstr "新增幻燈片集"
+
+#: includes/meteor-slides-admin.php:387 .\includes/meteor-slides-admin.php:387
+msgid ""
+"<strong>Template Tag</strong> - Use this template tag in a theme file: "
+"<code><&#63;php if ( function_exists( 'meteor_slideshow' ) ) "
+"{ meteor_slideshow(); } &#63;></code>"
+msgstr ""
+"<strong>樣版代碼</strong> - 這個代碼請放置佈景主題：<code><&#63;php if "
+"( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } &#63;></"
+"code>"
+
+#: includes/meteor-slides-admin.php:388 .\includes/meteor-slides-admin.php:388
+msgid ""
+"<strong>Shortcode</strong> - Use this shortcode to add a slideshow via the "
+"Post or Page editor: <code>[meteor_slideshow]</code>"
+msgstr ""
+"<strong>短代碼</strong> - 透過短代碼可以實現將幻燈片集加入到文章或是網誌分頁"
+"中： <code>[meteor_slideshow]</code>"
+
+#: includes/meteor-slides-admin.php:389 .\includes/meteor-slides-admin.php:389
+msgid ""
+"<strong>Widget</strong> - Use the Meteor Slides Widget to add a slideshow to "
+"a widgetized area."
+msgstr ""
+"<strong>模組</strong> - 使用 Meteor Slides 模組，可以在側邊欄上加上幻燈片。"
+
+#: includes/meteor-slides-admin.php:390 .\includes/meteor-slides-admin.php:390
+msgid ""
+"Check out the documentation on <a href=\"http://www.jleuze.com/plugins/"
+"meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding a slideshow</a> "
+"for more info."
+msgstr ""
+"更多資訊請參考 <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-"
+"a-slideshow/\" target=\"_blank\">新增幻燈片集</a>  官方說明文件。"
+
+#: includes/meteor-slides-admin.php:395 .\includes/meteor-slides-admin.php:395
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Documentation on Configuring Meteor Slides</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">官方說明文件</a>"
+
+#: includes/meteor-slides-admin.php:465 .\includes/meteor-slides-admin.php:465
+msgid "Slides Settings"
+msgstr "幻燈片設定"
+
+#: includes/meteor-slides-admin.php:465 includes/meteor-slides-admin.php:513
+#: .\includes/meteor-slides-admin.php:465
+#: .\includes/meteor-slides-admin.php:513
+msgid "Settings"
+msgstr "設定"
+
+#: includes/meteor-slides-admin.php:531 .\includes/meteor-slides-admin.php:531
+msgid "Slideshow Quantity"
+msgstr "幻燈片數量"
+
+#: includes/meteor-slides-admin.php:533 .\includes/meteor-slides-admin.php:533
+msgid "Slide Height"
+msgstr "幻燈片高度"
+
+#: includes/meteor-slides-admin.php:535 .\includes/meteor-slides-admin.php:535
+msgid "Slide Width"
+msgstr "幻燈片寬度"
+
+#: includes/meteor-slides-admin.php:537 .\includes/meteor-slides-admin.php:537
+msgid "Transition Style"
+msgstr "轉場方式"
+
+#: includes/meteor-slides-admin.php:539 .\includes/meteor-slides-admin.php:539
+msgid "Transition Speed"
+msgstr "轉場速度"
+
+#: includes/meteor-slides-admin.php:541 .\includes/meteor-slides-admin.php:541
+msgid "Slide Duration"
+msgstr "幻燈片停留時間"
+
+#: includes/meteor-slides-admin.php:543 .\includes/meteor-slides-admin.php:543
+msgid "Slideshow Navigation"
+msgstr "幻燈片集導覽列"
+
+#: includes/meteor-slides-settings.php:7
+#: .\includes/meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "設定幻燈片集展示方式。"
+
+#: includes/meteor-slides-settings.php:13
+#: .\includes/meteor-slides-settings.php:13
+msgid "slides"
+msgstr "張"
+
+#: includes/meteor-slides-settings.php:22
+#: includes/meteor-slides-settings.php:31
+#: .\includes/meteor-slides-settings.php:22
+#: .\includes/meteor-slides-settings.php:31
+msgid "px"
+msgstr "像素"
+
+#: includes/meteor-slides-settings.php:40
+#: .\includes/meteor-slides-settings.php:40
+msgid "blindX"
+msgstr "blindX"
+
+#: includes/meteor-slides-settings.php:41
+#: .\includes/meteor-slides-settings.php:41
+msgid "blindY"
+msgstr "blindY"
+
+#: includes/meteor-slides-settings.php:42
+#: .\includes/meteor-slides-settings.php:42
+msgid "blindZ"
+msgstr "blindZ"
+
+#: includes/meteor-slides-settings.php:43
+#: .\includes/meteor-slides-settings.php:43
+msgid "cover"
+msgstr "cover"
+
+#: includes/meteor-slides-settings.php:44
+#: .\includes/meteor-slides-settings.php:44
+msgid "curtainX"
+msgstr "curtainX"
+
+#: includes/meteor-slides-settings.php:45
+#: .\includes/meteor-slides-settings.php:45
+msgid "curtainY"
+msgstr "curtainY"
+
+#: includes/meteor-slides-settings.php:46
+#: .\includes/meteor-slides-settings.php:46
+msgid "fade"
+msgstr "fade"
+
+#: includes/meteor-slides-settings.php:47
+#: .\includes/meteor-slides-settings.php:47
+msgid "fadeZoom"
+msgstr "fadeZoom"
+
+#: includes/meteor-slides-settings.php:48
+#: .\includes/meteor-slides-settings.php:48
+msgid "growX"
+msgstr "growX"
+
+#: includes/meteor-slides-settings.php:49
+#: .\includes/meteor-slides-settings.php:49
+msgid "growY"
+msgstr "growY"
+
+#: includes/meteor-slides-settings.php:50
+#: .\includes/meteor-slides-settings.php:50
+msgid "none"
+msgstr "none"
+
+#: includes/meteor-slides-settings.php:51
+#: .\includes/meteor-slides-settings.php:51
+msgid "scrollUp"
+msgstr "scrollUp"
+
+#: includes/meteor-slides-settings.php:52
+#: .\includes/meteor-slides-settings.php:52
+msgid "scrollDown"
+msgstr "scrollDown"
+
+#: includes/meteor-slides-settings.php:53
+#: .\includes/meteor-slides-settings.php:53
+msgid "scrollLeft"
+msgstr "scrollLeft"
+
+#: includes/meteor-slides-settings.php:54
+#: .\includes/meteor-slides-settings.php:54
+msgid "scrollRight"
+msgstr "scrollRight"
+
+#: includes/meteor-slides-settings.php:55
+#: .\includes/meteor-slides-settings.php:55
+msgid "scrollHorz"
+msgstr "scrollHorz"
+
+#: includes/meteor-slides-settings.php:56
+#: .\includes/meteor-slides-settings.php:56
+msgid "scrollVert"
+msgstr "scrollVert"
+
+#: includes/meteor-slides-settings.php:57
+#: .\includes/meteor-slides-settings.php:57
+msgid "slideX"
+msgstr "slideX"
+
+#: includes/meteor-slides-settings.php:58
+#: .\includes/meteor-slides-settings.php:58
+msgid "slideY"
+msgstr "slideY"
+
+#: includes/meteor-slides-settings.php:59
+#: .\includes/meteor-slides-settings.php:59
+msgid "shuffle"
+msgstr "shuffle"
+
+#: includes/meteor-slides-settings.php:60
+#: .\includes/meteor-slides-settings.php:60
+msgid "turnUp"
+msgstr "turnUp"
+
+#: includes/meteor-slides-settings.php:61
+#: .\includes/meteor-slides-settings.php:61
+msgid "turnDown"
+msgstr "turnDown"
+
+#: includes/meteor-slides-settings.php:62
+#: .\includes/meteor-slides-settings.php:62
+msgid "turnLeft"
+msgstr "turnLeft"
+
+#: includes/meteor-slides-settings.php:63
+#: .\includes/meteor-slides-settings.php:63
+msgid "turnRight"
+msgstr "turnRight"
+
+#: includes/meteor-slides-settings.php:64
+#: .\includes/meteor-slides-settings.php:64
+msgid "uncover"
+msgstr "uncover"
+
+#: includes/meteor-slides-settings.php:65
+#: .\includes/meteor-slides-settings.php:65
+msgid "wipe"
+msgstr "wipe"
+
+#: includes/meteor-slides-settings.php:66
+#: .\includes/meteor-slides-settings.php:66
+msgid "zoom"
+msgstr "zoom"
+
+#: includes/meteor-slides-settings.php:116
+#: includes/meteor-slides-settings.php:125
+#: .\includes/meteor-slides-settings.php:116
+#: .\includes/meteor-slides-settings.php:125
+msgid "seconds"
+msgstr "秒"
+
+#: includes/meteor-slides-settings.php:134
+#: .\includes/meteor-slides-settings.php:134
+msgid "None"
+msgstr "不顯示導覽"
+
+#: includes/meteor-slides-settings.php:135
+#: .\includes/meteor-slides-settings.php:135
+msgid "Previous/Next"
+msgstr "上一頁/下一頁"
+
+#: includes/meteor-slides-settings.php:136
+#: .\includes/meteor-slides-settings.php:136
+msgid "Paged"
+msgstr "數字分頁"
+
+#: includes/meteor-slides-settings.php:137
+#: .\includes/meteor-slides-settings.php:137
+msgid "Both"
+msgstr "全部"
+
+#: includes/meteor-slides-settings.php:170
+#: .\includes/meteor-slides-settings.php:170
+msgid "Meteor Slides Settings"
+msgstr "Meteor Slides 設定"
+
+#: includes/meteor-slides-settings.php:184
+#: .\includes/meteor-slides-settings.php:184
+msgid "Save Changes"
+msgstr "儲存變更"
+
+#: includes/meteor-slides-settings.php:192
+#: .\includes/meteor-slides-settings.php:192
+#, php-format
+msgid ""
+"Use %1$s to add this slideshow to your theme, use %2$s to add it to your "
+"Post or Page content, or use the Meteor Slides Widget."
+msgstr ""
+"<strong>使用方式：</strong><br /><br />1.  利用 %1$s 此語法加入到你的佈景主"
+"題。<br />2. 你可以將  %2$s  這串短碼加入到 文章 、 網誌分頁 或 側邊「Meteor "
+"Slides 模組」。"
+
+#: includes/meteor-slides-settings.php:194
+#: .\includes/meteor-slides-settings.php:194
+#, php-format
+msgid ""
+"Visit the %1$sMeteor Slides homepage%2$s for documentation, tutorials, and "
+"videos."
+msgstr "拜訪  %1$sMeteor Slides 官方網站%2$s 可以取得文件說明、展示、與影片。"
+
+#: includes/meteor-slides-settings.php:196
+#: .\includes/meteor-slides-settings.php:196
+#, php-format
+msgid ""
+"Please %1$spost any questions or problems%2$s in the WordPress.org support "
+"forums."
+msgstr "有疑問請到 WordPress 支援論壇 %1$s提出問題%2$s 。"
+
+#: includes/meteor-slideshow.php:77 includes/meteor-slideshow.php:91
+#: .\includes/meteor-slideshow.php:77 .\includes/meteor-slideshow.php:91
+msgid "Previous"
+msgstr "上一張"
+
+#: includes/meteor-slideshow.php:79 includes/meteor-slideshow.php:93
+#: .\includes/meteor-slideshow.php:79 .\includes/meteor-slideshow.php:93
+msgid "Next"
+msgstr "下一張"
+
+#~ msgid "Edit"
+#~ msgstr "編輯"
+
+#~ msgid "Install Slideshow"
+#~ msgstr "安裝幻燈片集"
