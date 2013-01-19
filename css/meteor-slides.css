@@ -202,7 +202,7 @@ header#branding .meteor-buttons {
 	float: left;
 	width: 9px;
 	height: 9px;
-	margin: 0 3px 0 0;
+	margin: 0 3px 0 0 !important;
 	outline: none;
 	text-indent: -9999px;
 }
