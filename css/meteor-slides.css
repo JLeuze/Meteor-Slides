@@ -16,7 +16,7 @@
 
 div.meteor-slides {
 	clear: both;
-    height: 100% !important;
+    height: auto !important;
 	line-height: 0;
 	margin: 0;
 	max-width: 100%;
@@ -25,36 +25,31 @@ div.meteor-slides {
 	position: relative;
 	z-index: 1;
 }
-
 div.meteor-left {
 	clear: none;
 	float: left;
 	margin: 0 20px 20px 0;
 }
-
 div.meteor-right {
 	clear: none;
 	float: right;
 	margin: 0 0 20px 20px;
 }
-
 div.meteor-center {
 	margin: 0 auto;
 }
-
 div.navpaged,
 div.navboth {
 	margin-bottom: 20px;
 }
-
 .meteor-slides .meteor-clip {
 	line-height: 0;
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
 	position: relative;
+	width: 100%;
 }
-
 .meteor-slides .meteor-shim {
 	border: 0;
 	height: auto !important;
@@ -63,7 +58,6 @@ div.navboth {
 	padding: 0;
 	width: auto\9; /* IE8 */
 }
-
 .meteor-slides a:focus {
 	outline: none;
 }
@@ -73,32 +67,29 @@ div.navboth {
 
 .meteor-slides .mslide {
 	display: none;
-	height: 100% !important;
+	height: auto !important;
 	margin: 0;
 	max-width: 100%;
 	padding: 0;
 }
-
 .single-slide .mslide {
 	display: block;
 }
-
 .meteor-slides .mslide a {
 	border: 0;
 	margin: 0;
 	padding: 0;
 }
-
 .meteor-slides .mslide img {
 	border: 0;
+	box-shadow: none !important;
 	display: block;
 	height: auto !important;
 	margin: auto !important;
 	max-width: 100%;
-	padding: 0;
+	padding: 0 !important;
 	width: auto\9; /* IE8 */
 }
-
 .meteor-slides .mslide img[src$='.png'] {
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); /* IE7 */
@@ -111,31 +102,26 @@ div.navboth {
 .meteor-slides ul.meteor-nav {
 	display: none;
 	list-style: none;
-    height: 100%;
+    height: auto;
 	margin: 0 !important;
 	padding: 0;
 }
-
 .meteor-slides.navhover ul.meteor-nav {
-	display: block;
+	display: inline;
 }
-
 ul.meteor-nav li {
 	display: inline;
-    height: 100%;
+    height: auto;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
 .meteor-nav .prev a {
 	left: 0px;
 }
-
 .meteor-nav .next a {
 	right: 0px;
 }
-
 .meteor-nav a {
 	display: block;
 	outline: none;
@@ -144,36 +130,28 @@ ul.meteor-nav li {
 	width: 27px;
     height: 100%;
 	z-index: 998;
-}
-	
+}	
 .meteor-nav .prev a {
 	background: url('../images/prev.png') no-repeat center right;
 }
-
 .meteor-nav .prev a:hover {
 	background: url('../images/prev.png') no-repeat center left;
 }
-
 .meteor-nav .next a {
 	background: url('../images/next.png') no-repeat center left;
 }
-
 .meteor-nav .next a:hover {
 	background: url('../images/next.png') no-repeat center right;
 }	
-
 * html .meteor-nav .prev a {
 	background: url('../images/prev.gif') no-repeat center right; /* IE6 */
 }
-
 * html .meteor-nav .prev a:hover {
 	background: url('../images/prev.gif') no-repeat center left; /* IE6 */
 }
-
 * html .meteor-nav .next a {
 	background: url('../images/next.gif') no-repeat center left; /* IE6 */
 }
-
 * html .meteor-nav .next a:hover {
 	background: url('../images/next.gif') no-repeat center right; /* IE6 */
 }
@@ -191,11 +169,9 @@ ul.meteor-nav li {
     width: 100%;
     z-index: 999;
 }
-
 header#branding .meteor-buttons {
 	left: 5px; /* A little nudge for Twenty Eleven */
 }
-
 .meteor-buttons a {
 	background: url('../images/buttons.png') no-repeat bottom left;
 	display: block;
@@ -206,23 +182,18 @@ header#branding .meteor-buttons {
 	outline: none;
 	text-indent: -9999px;
 }
-
 .meteor-buttons a:hover {
 	background: url('../images/buttons.png') no-repeat bottom right;
 }
-
 .meteor-buttons a.activeSlide {
 	background: url('../images/buttons.png') no-repeat bottom right;
 }
-
 * html .meteor-buttons a {
 	background: url('../images/buttons.gif') no-repeat bottom left; /* IE6 */
 }
-
 * html .meteor-buttons a:hover {
 	background: url('../images/buttons.gif') no-repeat bottom right; /* IE6 */
 }
-
 * html .meteor-buttons a.activeSlide {
 	background: url('../images/buttons.gif') no-repeat bottom right; /* IE6 */
 }
