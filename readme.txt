@@ -1,6 +1,6 @@
 === Meteor Slides ===
 Contributors: jleuze
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
+Donate link: http://jleuze.com/donate/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
 Requires at least: 3.5
 Tested up to: 3.5
@@ -59,7 +59,7 @@ Check out the [Meteor Slides Documentation](http://www.jleuze.com/plugins/meteor
 
 = Meteor Slides is awesome, what can I do to help? =
 
-You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://www.jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://www.jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8 "Donate").
+You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://www.jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://www.jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](http://jleuze.com/donate/ "Donate").
 
 = I add a slide, save or publish it, and then it's missing or not found, what gives? =
 

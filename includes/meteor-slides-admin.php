@@ -283,7 +283,7 @@
 			'<p><strong>' . __( 'For more information', 'meteor-slides' ) . '</strong></p>' .
 			'<p>'  . __( '<a href="http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/" target="_blank">Documentation on Creating Slides</a>', 'meteor-slides' ) . '</p>' .
 			'<p>'  . __( '<a href="http://wordpress.org/tags/meteor-slides" target="_blank">Plugin Support Forum</a>', 'meteor-slides' ) . '</p>' .
-			'<p>'  . __( '<a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
+			'<p>'  . __( '<a class="button" href="http://jleuze.com/donate/" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
 		
 			$meteor_contextual_screen->add_help_tab( array(
 
@@ -306,7 +306,7 @@
 			'<p><strong>' . __( 'For more information', 'meteor-slides' ) . '</strong></p>' .
 			'<p>'  . __( '<a href="http://www.jleuze.com/plugins/meteor-slides/installation/" target="_blank">Meteor Slides Documentation</a>', 'meteor-slides' ) . '</p>' .
 			'<p>'  . __( '<a href="http://wordpress.org/tags/meteor-slides" target="_blank">Plugin Support Forum</a>', 'meteor-slides' ) . '</p>' .
-			'<p>'  . __( '<a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
+			'<p>'  . __( '<a class="button" href="http://jleuze.com/donate/" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
 			
 			$meteor_contextual_screen->add_help_tab( array(
 
@@ -339,7 +339,7 @@
 			'<p><strong>' . __( 'For more information', 'meteor-slides' ) . '</strong></p>' .
 			'<p>'  . __( '<a href="http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/" target="_blank">Documentation on Adding Multiple Slideshows</a>', 'meteor-slides' ) . '</p>' .
 			'<p>'  . __( '<a href="http://wordpress.org/tags/meteor-slides" target="_blank">Plugin Support Forum</a>', 'meteor-slides' ) . '</p>' .
-			'<p>'  . __( '<a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
+			'<p>'  . __( '<a class="button" href="http://jleuze.com/donate/" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
 			
 			$meteor_contextual_screen->add_help_tab( array(
 
@@ -394,7 +394,7 @@
 			'<p><strong>' . __( 'For more information', 'meteor-slides' ) . '</strong></p>' .
 			'<p>'  . __( '<a href="http://www.jleuze.com/plugins/meteor-slides/installation/" target="_blank">Documentation on Configuring Meteor Slides</a>', 'meteor-slides' ) . '</p>' .
 			'<p>'  . __( '<a href="http://wordpress.org/tags/meteor-slides" target="_blank">Plugin Support Forum</a>', 'meteor-slides' ) . '</p>' .
-			'<p>'  . __( '<a class="button" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
+			'<p>'  . __( '<a class="button" href="http://jleuze.com/donate/" target="_blank">Donate</a>', 'meteor-slides' ) . '</p>';
 			
 			$meteor_contextual_screen->add_help_tab( array(
 
