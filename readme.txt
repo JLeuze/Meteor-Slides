@@ -108,6 +108,13 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 7. Meteor Slides Widget
 
 == Changelog ==
+= 1.5.1 =
+* Added slideshow alignment option to metadata
+* Fixed bugs related to caching, touch navigation, and theme compatibility
+* Added support for slideshows with one slide
+* Added Traditional Chinese and Vietnamese translations
+* Updated Brazilian Portuguese, Danish, and Swedish translations
+
 = 1.5 =
 * Updated slideshow to scale for responsive and fluid width themes
 * Added slideshow taxonomy selector to widget
@@ -185,6 +192,9 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 * Initial release of Meteor Slides.
 
 == Upgrade Notice ==
+
+= 1.5 =
+Meteor Slides 1.5.1 adds a slideshow alignment option and support for slideshows with one slide, includes new and updated translations, and includes several minor bug fixes.
 
 = 1.5 =
 Meteor Slides 1.5 adds responsive slideshow support, touch navigation, an improved slideshow widget, new translations, and updates jQuery Cycle.
