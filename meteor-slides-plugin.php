@@ -203,7 +203,7 @@
 		
 		$meteor_options = meteorslides_get_options();
 				
-		add_image_size( 'featured-slide', $meteor_options['slide_width'], $meteor_options['slide_height'], true );
+		add_image_size( 'featured-slide', $meteor_options['slide_width'], $meteor_options['slide_height'], $crop = true );
 		
 		add_image_size( 'featured-slide-thumb', 250, 9999 );
 	
