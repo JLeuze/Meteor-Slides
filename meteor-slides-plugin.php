@@ -201,12 +201,26 @@
 	
 	function meteorslides_add_featured_image_sizes_for_slides() {
 		
-		$meteor_options = get_option( 'meteorslides_options' );
+		$meteor_options = meteorslides_get_options();
 				
 		add_image_size( 'featured-slide', $meteor_options['slide_width'], $meteor_options['slide_height'], true );
 		
 		add_image_size( 'featured-slide-thumb', 250, 9999 );
 	
+	}
+
+	function meteorslides_get_options() {
+
+		static $meteor_options;
+
+		if ( ! isset( $meteor_options ) ) {
+
+			$meteor_options = get_option( 'meteorslides_options' );
+
+		}
+
+		return $meteor_options;
+
 	}
 	
 	// Adds CSS for the slideshow
