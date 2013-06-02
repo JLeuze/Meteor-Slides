@@ -241,52 +241,48 @@
 	
 	// Adds JavaScript for the slideshow
 	
-	add_action( 'wp_print_scripts', 'meteorslides_javascript' );
+	add_action( 'wp_enqueue_scripts', 'meteorslides_javascript' );
 		
 	function meteorslides_javascript() {
  		
 		$meteor_options = get_option( 'meteorslides_options' );
- 
-		if( !is_admin() ) {
 	  
-			wp_enqueue_script( 'jquery' );
-			wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.all.js', __FILE__ ), array( 'jquery' ) );
-			wp_enqueue_script( 'jquery-metadata', plugins_url( '/js/jquery.metadata.v2.js', __FILE__ ), array( 'jquery' ) );
-			wp_enqueue_script( 'jquery-touchwipe', plugins_url( '/js/jquery.touchwipe.1.1.1.js', __FILE__ ), array( 'jquery' ) );
+		wp_enqueue_script( 'jquery' );
+		wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.all.js', __FILE__ ), array( 'jquery' ) );
+		wp_enqueue_script( 'jquery-metadata', plugins_url( '/js/jquery.metadata.v2.js', __FILE__ ), array( 'jquery' ) );
+		wp_enqueue_script( 'jquery-touchwipe', plugins_url( '/js/jquery.touchwipe.1.1.1.js', __FILE__ ), array( 'jquery' ) );
+		
+		if ( file_exists( get_stylesheet_directory()."/slideshow.js" ) ) {
 			
-			if ( file_exists( get_stylesheet_directory()."/slideshow.js" ) ) {
-                
-				wp_enqueue_script( 'meteorslides-script', get_stylesheet_directory_uri() . '/slideshow.js', array('jquery', 'jquery-cycle') );
-                        
-			}
-            
-			elseif ( file_exists( get_template_directory()."/slideshow.js" ) ) {
-                
-				wp_enqueue_script( 'meteorslides-script', get_template_directory_uri() . '/slideshow.js', array('jquery', 'jquery-cycle') );
-            
-			}
-        
-			else {
-                
-				wp_enqueue_script( 'meteorslides-script', plugins_url( '/js/slideshow.js', __FILE__ ), array( 'jquery', 'jquery-cycle' ) );
-            
-			}
-			
-			wp_localize_script( 'meteorslides-script', 'meteorslidessettings',
-			
-				array(
-				
-					'meteorslideshowspeed'      => $meteor_options['transition_speed'] * 1000,
-					'meteorslideshowduration'   => $meteor_options['slide_duration'] * 1000,
-					'meteorslideshowheight'     => $meteor_options['slide_height'],
-					'meteorslideshowwidth'      => $meteor_options['slide_width'],
-					'meteorslideshowtransition' => $meteor_options['transition_style']
+			wp_enqueue_script( 'meteorslides-script', get_stylesheet_directory_uri() . '/slideshow.js', array('jquery', 'jquery-cycle') );
 					
-				)
-				
-			);
-			
 		}
+		
+		elseif ( file_exists( get_template_directory()."/slideshow.js" ) ) {
+			
+			wp_enqueue_script( 'meteorslides-script', get_template_directory_uri() . '/slideshow.js', array('jquery', 'jquery-cycle') );
+		
+		}
+	
+		else {
+			
+			wp_enqueue_script( 'meteorslides-script', plugins_url( '/js/slideshow.js', __FILE__ ), array( 'jquery', 'jquery-cycle' ) );
+		
+		}
+		
+		wp_localize_script( 'meteorslides-script', 'meteorslidessettings',
+		
+			array(
+			
+				'meteorslideshowspeed'      => $meteor_options['transition_speed'] * 1000,
+				'meteorslideshowduration'   => $meteor_options['slide_duration'] * 1000,
+				'meteorslideshowheight'     => $meteor_options['slide_height'],
+				'meteorslideshowwidth'      => $meteor_options['slide_width'],
+				'meteorslideshowtransition' => $meteor_options['transition_style']
+				
+			)
+			
+		);
 	
 	}
 	
