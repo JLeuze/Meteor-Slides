@@ -177,11 +177,9 @@
 		
 	}
 	
-	// Adds featured image functionality for Slides
-	
-	add_action( 'after_setup_theme', 'meteorslides_featured_image_array', '9999' );
+	add_action( 'after_setup_theme', 'meteorslides_add_featured_image_functionality_for_slides', '9999' );
 
-	function meteorslides_featured_image_array() {
+	function meteorslides_add_featured_image_functionality_for_slides() {
 	
 		global $_wp_theme_features;
 
