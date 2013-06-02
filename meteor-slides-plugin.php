@@ -197,11 +197,9 @@
 		
 	}
 	
-	// Adds featured image size for Slides
+	add_action( 'plugins_loaded', 'meteorslides_add_featured_image_sizes_for_slides' );
 	
-	add_action( 'plugins_loaded', 'meteorslides_featured_image' );
-	
-	function meteorslides_featured_image() {
+	function meteorslides_add_featured_image_sizes_for_slides() {
 		
 		$meteor_options = get_option( 'meteorslides_options' );
 				
