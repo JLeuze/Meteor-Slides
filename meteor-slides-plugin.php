@@ -177,11 +177,9 @@
 		
 	}
 	
-	// Adds featured image functionality for Slides
-	
-	add_action( 'after_setup_theme', 'meteorslides_featured_image_array', '9999' );
+	add_action( 'after_setup_theme', 'meteorslides_add_featured_image_functionality_for_slides', '9999' );
 
-	function meteorslides_featured_image_array() {
+	function meteorslides_add_featured_image_functionality_for_slides() {
 	
 		global $_wp_theme_features;
 
@@ -199,97 +197,82 @@
 		
 	}
 	
-	// Adds featured image size for Slides
+	add_action( 'plugins_loaded', 'meteorslides_add_featured_image_sizes_for_slides' );
 	
-	add_action( 'plugins_loaded', 'meteorslides_featured_image' );
-	
-	function meteorslides_featured_image() {
+	function meteorslides_add_featured_image_sizes_for_slides() {
 		
-		$meteor_options = get_option( 'meteorslides_options' );
+		$meteor_options = meteorslides_get_options();
 				
-		add_image_size( 'featured-slide', $meteor_options['slide_width'], $meteor_options['slide_height'], true );
+		add_image_size( 'featured-slide', $meteor_options['slide_width'], $meteor_options['slide_height'], $crop = true );
 		
 		add_image_size( 'featured-slide-thumb', 250, 9999 );
 	
 	}
-	
-	// Adds CSS for the slideshow
-	
-	add_action( 'wp_enqueue_scripts', 'meteorslides_css' );
 
-	function meteorslides_css() {
-	
-		if ( file_exists( get_stylesheet_directory()."/meteor-slides.css" ) ) {
-					
-			wp_enqueue_style( 'meteor-slides', get_stylesheet_directory_uri() . '/meteor-slides.css', array(), '1.0' );
-					
+	function meteorslides_get_options() {
+
+		static $meteor_options;
+
+		if ( ! isset( $meteor_options ) ) {
+
+			$meteor_options = get_option( 'meteorslides_options' );
+
 		}
-		
-		elseif ( file_exists( get_template_directory()."/meteor-slides.css" ) ) {
-								
-			wp_enqueue_style( 'meteor-slides', get_template_directory_uri() . '/meteor-slides.css', array(), '1.0' );
-		
-		}
-	
-		else {
-			
-			wp_enqueue_style( 'meteor-slides', plugins_url('/css/meteor-slides.css', __FILE__), array(), '1.0' );
-		
-		}
-		
+
+		return $meteor_options;
+
 	}
 	
-	// Adds JavaScript for the slideshow
-	
-	add_action( 'wp_print_scripts', 'meteorslides_javascript' );
-		
-	function meteorslides_javascript() {
- 		
-		$meteor_options = get_option( 'meteorslides_options' );
- 
-		if( !is_admin() ) {
-	  
-			wp_enqueue_script( 'jquery' );
-			wp_enqueue_script( 'jquery-cycle', plugins_url( '/js/jquery.cycle.all.js', __FILE__ ), array( 'jquery' ) );
-			wp_enqueue_script( 'jquery-metadata', plugins_url( '/js/jquery.metadata.v2.js', __FILE__ ), array( 'jquery' ) );
-			wp_enqueue_script( 'jquery-touchwipe', plugins_url( '/js/jquery.touchwipe.1.1.1.js', __FILE__ ), array( 'jquery' ) );
-			
-			if ( file_exists( get_stylesheet_directory()."/slideshow.js" ) ) {
-                
-				wp_enqueue_script( 'meteorslides-script', get_stylesheet_directory_uri() . '/slideshow.js', array('jquery', 'jquery-cycle') );
-                        
-			}
-            
-			elseif ( file_exists( get_template_directory()."/slideshow.js" ) ) {
-                
-				wp_enqueue_script( 'meteorslides-script', get_template_directory_uri() . '/slideshow.js', array('jquery', 'jquery-cycle') );
-            
-			}
-        
-			else {
-                
-				wp_enqueue_script( 'meteorslides-script', plugins_url( '/js/slideshow.js', __FILE__ ), array( 'jquery', 'jquery-cycle' ) );
-            
-			}
-			
-			wp_localize_script( 'meteorslides-script', 'meteorslidessettings',
-			
-				array(
-				
-					'meteorslideshowspeed'      => $meteor_options['transition_speed'] * 1000,
-					'meteorslideshowduration'   => $meteor_options['slide_duration'] * 1000,
-					'meteorslideshowheight'     => $meteor_options['slide_height'],
-					'meteorslideshowwidth'      => $meteor_options['slide_width'],
-					'meteorslideshowtransition' => $meteor_options['transition_style']
-					
-				)
-				
-			);
-			
-		}
-	
-	}
-	
+	require dirname( __FILE__ ) . '/includes/details.php';
+    
+    add_action( 'wp_enqueue_scripts', 'meteorslides_add_css_for_the_slideshow' );
+
+    function meteorslides_add_css_for_the_slideshow() {
+    
+        if ( the_child_theme_has_overridden_css_for_meteor_slides() ) { 
+
+            use_the_css_file_provided_by_the_child_theme();
+
+        }   
+    
+        elseif ( the_theme_has_overridden_css_for_meteor_slides() ) { 
+
+            use_the_css_file_provided_by_the_theme();
+
+        }   
+    
+        else {
+
+            use_the_css_file_provided_by_the_plugin();
+
+        }   
+    
+    }
+
+    add_action( 'wp_enqueue_scripts', 'meteorslides_add_javascript_for_the_slideshow' );
+
+    function meteorslides_add_javascript_for_the_slideshow() {
+
+        if ( the_child_theme_has_overridden_the_slideshow_javascript() ) {
+
+            use_the_javascript_file_provided_by_the_child_theme();
+
+        }
+
+        elseif ( the_theme_has_overridden_the_slideshow_javascript() ) {
+
+            use_the_javascript_file_provided_by_the_theme();
+
+        }
+
+        else {
+
+            use_the_slideshow_javascript_file_provided_by_the_plugin();
+
+        }
+
+    }
+
 	// Load admin functions if in the backend
 	
 	if ( is_admin() ) {
