@@ -94,7 +94,7 @@
 			'exclude_from_search' => true,
 			'show_ui'             => true,
 			'show_in_menu'        => true,
-			'menu_icon'           => ''. plugins_url( '/images/slides-icon-20x20.png', __FILE__ ),
+			'menu_icon'           => 'dashicons-images-alt2',
 			'capability_type'     => $meteor_capabilitytype,
 			'capabilities'        => $meteor_capabilities,
 			'map_meta_cap'        => $meteor_mapmetacap,
