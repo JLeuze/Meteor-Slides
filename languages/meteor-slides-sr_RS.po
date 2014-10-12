@@ -1,0 +1,864 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-26 13:45-0300\n"
+"PO-Revision-Date: 2013-07-22 15:38+0100\n"
+"Last-Translator: DJIO <translations@djio.com.br>\n"
+"Language-Team: DJIO | www.djio.com.br <wordpress@djio.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:36 meteor-slides-plugin.php:47
+msgid "Slides"
+msgstr "Slajdovi"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:37
+msgid "Slide"
+msgstr "Slajd"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:38
+msgid "Add New"
+msgstr "Dodaj novi"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:265 meteor-slides-plugin.php:39
+msgid "Add New Slide"
+msgstr "Dodaj novi slajd"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:269 meteor-slides-plugin.php:40
+msgid "Edit Slide"
+msgstr "Uredi slajd"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:41
+msgid "New Slide"
+msgstr "Novi slajd"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:42
+msgid "View Slide"
+msgstr "Pregledaj slajd"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:43
+msgid "Search Slides"
+msgstr "Pretraži slajd"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:44
+msgid "No slides found"
+msgstr "Nije pronađen nijedan slajd"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:45
+msgid "No slides found in Trash"
+msgstr "Nije pronađen nijedan slajd u otpacima"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:124 meteor-slides-plugin.php:135
+msgid "Slideshows"
+msgstr "Prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:125
+msgid "Slideshow"
+msgstr "Prikaz slajda"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:126
+msgid "Search Slideshows"
+msgstr "Pretraži prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:127
+msgid "Popular Slideshows"
+msgstr "Popularni prikazi slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:128
+msgid "All Slideshows"
+msgstr "Svi prikazi slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:129
+msgid "Parent Slideshow"
+msgstr "Roditeljski prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:130
+msgid "Parent Slideshow:"
+msgstr "Roditeljski prikaz slajdova:"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:131
+msgid "Edit Slideshow"
+msgstr "Uredi prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:132
+msgid "Update Slideshow"
+msgstr "Ažuriraj prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:133
+msgid "Add New Slideshow"
+msgstr "Dodaj novi prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:134
+msgid "New Slideshow Name"
+msgstr "Novo ime za prikaz slajdova"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:409
+msgid "Add a slideshow widget to a sidebar"
+msgstr "Dodaj vidžet za prikaz slajda na bočnu traku"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:415
+msgid "Meteor Slides Widget"
+msgstr "Vidžet za Meteor slajdove"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:464
+msgid "Title:"
+msgstr "Naslov:"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:475
+msgid "Slideshow:"
+msgstr "Prikaz slajda:"
+
+# @ meteor-slides
+#: meteor-slides-plugin.php:499
+msgid "Metadata:"
+msgstr "Metapodaci"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:14
+#, php-format
+msgid "Slide updated. <a href=\"%s\">View slide</a>"
+msgstr "Slajd ažuriran. <a href=\"%s\"> Pregledaj slajd</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:15
+msgid "Custom field updated."
+msgstr "Namensko polje ažurirano"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:16
+msgid "Custom field deleted."
+msgstr "Namensko polje obrisano"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:17
+msgid "Slide updated."
+msgstr "Slajd ažuriran"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:18
+#, php-format
+msgid "Slide restored to revision from %s"
+msgstr "Slajd obnovljen za ispravku iz %s"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:19
+#, php-format
+msgid "Slide published. <a href=\"%s\">View slide</a>"
+msgstr "Slajd objavljen.<a href=\"%s\"> Pregledaj slajd</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:20
+msgid "Slide saved."
+msgstr "Slajd sačuvan"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:21
+#, php-format
+msgid "Slide submitted. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "Slajd prosleđen. <a target=\"_blank\" href=\"%s\">Pregledaj slajd</a>."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:22
+#, php-format
+msgid ""
+"Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview slide</a>"
+msgstr ""
+"Slajd raspoređen za: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\"> Pregledaj slajd</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:22
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:23
+#, php-format
+msgid "Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr ""
+"Skica slajda ažurirana.<a target=\"_blank\" href=\"%s\"> Pregledaj slajd.</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:39 includes/meteor-slides-admin.php:170
+msgid "Slide Image"
+msgstr "Slika slajda"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:87
+msgid "Add the URL this slide should link to."
+msgstr "Dodaj URL za koji bi ovaj slajd trebalo da se poveže"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:99 includes/meteor-slides-admin.php:172
+msgid "Slide Link"
+msgstr "Link za slajd"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:171
+msgid "Slide Title"
+msgstr "Naslov slajda"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:173
+msgid "Date"
+msgstr "Datum"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:205
+msgid "No Link"
+msgstr "Bez linka"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:283 includes/meteor-slides-admin.php:306
+#: includes/meteor-slides-admin.php:339 includes/meteor-slides-admin.php:394
+msgid "For more information"
+msgstr "Za više informacija"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:285 includes/meteor-slides-admin.php:308
+#: includes/meteor-slides-admin.php:341 includes/meteor-slides-admin.php:396
+msgid ""
+"<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin "
+"Support Forum</a>"
+msgstr ""
+"<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">  "
+"Forum za podršku u vezi dodatnih modula</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:307
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Meteor Slides Documentation</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">  Dokumentacija za Meteor slajdove</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:325
+msgid ""
+"Slides can be organized into slideshows, just as posts can be organized into "
+"categories."
+msgstr ""
+"Slajdovi se mogu organizovati u prikaz slajdova, isto kao što se postovi "
+"mogu organizovati u kategorije."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:334
+msgid "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+msgstr "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:363 includes/meteor-slides-admin.php:529
+msgid "Configure Slideshow"
+msgstr "Konfiguriši prikaz slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:366
+msgid ""
+"<em>Before adding any slides, enter the slide height and width in the "
+"settings so the slides are the correct dimensions.</em>"
+msgstr ""
+"<em>Pre dodavanja slajdova, unesi visinu i širinu slajda u podešavanja tako "
+"da slajdovi budu ispravnih dimenzija.</em>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:384
+#: includes/meteor-slides-settings.php:190
+msgid "Add Slideshow"
+msgstr "Dodaj prikaz slajda"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:465
+msgid "Slides Settings"
+msgstr "Podešavanje slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:465 includes/meteor-slides-admin.php:513
+msgid "Settings"
+msgstr "Podešavanja"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:531
+msgid "Slideshow Quantity"
+msgstr "Veličina prikaza slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:533
+msgid "Slide Height"
+msgstr "Visina slajda"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:535
+msgid "Slide Width"
+msgstr "Širina slajda"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:537
+msgid "Transition Style"
+msgstr "Stil prelaza"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:539
+msgid "Transition Speed"
+msgstr "Brzina prelaza"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:541
+msgid "Slide Duration"
+msgstr "Trajanje slajda"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:543
+msgid "Slideshow Navigation"
+msgstr "Navigacija za prikaz slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:7
+msgid "Set up your slideshow using the options below."
+msgstr "Podesite vaš prikaz slajdova koristeći sledeće opcije."
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:13
+msgid "slides"
+msgstr "slajdovi"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:22
+#: includes/meteor-slides-settings.php:31
+msgid "px"
+msgstr "px"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:40
+msgid "blindX"
+msgstr "slepoX"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:41
+msgid "blindY"
+msgstr "slepoY"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:42
+msgid "blindZ"
+msgstr "slepoZ"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:43
+msgid "cover"
+msgstr "naslovna strana"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:44
+msgid "curtainX"
+msgstr "zastorX"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:45
+msgid "curtainY"
+msgstr "zastorY"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:46
+msgid "fade"
+msgstr "zamračivanje"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:47
+msgid "fadeZoom"
+msgstr "zumiranje zamračivanja"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:48
+msgid "growX"
+msgstr "rastX"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:49
+msgid "growY"
+msgstr "rastY"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:50
+msgid "none"
+msgstr "bez događaja"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:51
+msgid "scrollUp"
+msgstr "listanje na gore"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:52
+msgid "scrollDown"
+msgstr "listanje na dole"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:53
+msgid "scrollLeft"
+msgstr "listanje na levo"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:54
+msgid "scrollRight"
+msgstr "listanje na desno"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:55
+msgid "scrollHorz"
+msgstr "listanje horizontalno"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:56
+msgid "scrollVert"
+msgstr "listanje vertikalno"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:57
+msgid "slideX"
+msgstr "slajdX"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:58
+msgid "slideY"
+msgstr "slajdY"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:59
+msgid "shuffle"
+msgstr "mešanje"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:60
+msgid "turnUp"
+msgstr "okreni na gore"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:61
+msgid "turnDown"
+msgstr "okreni na dole"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:62
+msgid "turnLeft"
+msgstr "okreni na levo"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:63
+msgid "turnRight"
+msgstr "okreni na desno"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:64
+msgid "uncover"
+msgstr "otkrij"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:65
+msgid "wipe"
+msgstr "obriši"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:66
+msgid "zoom"
+msgstr "zumiraj"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:116
+#: includes/meteor-slides-settings.php:125
+msgid "seconds"
+msgstr "sekunde"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:134
+msgid "None"
+msgstr "bez događaja"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:135
+msgid "Previous/Next"
+msgstr "Prethodno/Sledeće"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:136
+msgid "Paged"
+msgstr "Podeljeno na stranice"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:137
+msgid "Both"
+msgstr "Oboje"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:170
+msgid "Meteor Slides Settings"
+msgstr "Podešavanje Meteor slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:184
+msgid "Save Changes"
+msgstr "Sačuvaj izmene"
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:192
+#, php-format
+msgid ""
+"Use %1$s to add this slideshow to your theme, use %2$s to add it to your "
+"Post or Page content, or use the Meteor Slides Widget."
+msgstr ""
+"Upotrebi %1$s za dodavanje ovog prikaza slajdova na tvoju temu, upotrebi "
+"%2$s za njegovo dodavanje na tvoj sadržaj Posta ili Stranice ili upotrebi "
+"vidžet za Meteor slajdove."
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:194
+#, php-format
+msgid ""
+"Visit the %1$sMeteor Slides homepage%2$s for documentation, tutorials, and "
+"videos."
+msgstr ""
+"Poseti %1$s početnu stranicu Meteor slajdova %2$s za dokumentaciju, uputstva "
+"i video materijale."
+
+# @ meteor-slides
+#: includes/meteor-slides-settings.php:196
+#, php-format
+msgid ""
+"Please %1$spost any questions or problems%2$s in the WordPress.org support "
+"forums."
+msgstr ""
+"Molimo vas %1$s postavi pitanje ili prijavi problem %2$s na WordPress.org "
+"forumu za podršku."
+
+# @ meteor-slides
+#: includes/meteor-slideshow.php:77 includes/meteor-slideshow.php:91
+msgid "Previous"
+msgstr "Prethodno"
+
+# @ meteor-slides
+#: includes/meteor-slideshow.php:79 includes/meteor-slideshow.php:93
+msgid "Next"
+msgstr "Sledeće"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:275
+msgid ""
+"<strong>Title</strong> - Name the slide so it can be easily found later."
+msgstr ""
+" <strong> Naslov</strong> - imenuj slajd tako da se kasnije može lako pronaći"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:276
+msgid ""
+"<strong>Slide Image</strong> - To add an image to a slide, click the \"Set "
+"featured image\" link. Upload an image, or browse the media library for one, "
+"click the \"Use as featured image\" link to add the image and then close the "
+"media uploader. The Slide Image metabox should now have a thumbnail image."
+msgstr ""
+" <strong> Slika slajda</strong> - Za dodavanje slike slajdu klikni na \"Set "
+"featured image\" link. Učitaj sliku ili pretraži biblioteku u medijima, "
+"klikni na  \"Use as featured image\" link za dodavanje slike, a zatim "
+"zatvori polje za učitavanje u medijima. Metaokvir Slike slajda bi sada "
+"trebalo da sadrži umanjenu sliku."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:277
+msgid ""
+"<strong>Slide Link</strong> - Add the full URL to the Slide Link metabox, "
+"such as <em>http://www.jleuze.com/</em> (Optional)"
+msgstr ""
+" <strong> Link slajda</strong> - Dodaj punu URL adresu ka metaokviru, kao "
+"što je <em>http://www.jleuze.com/</em> (opciono)"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:278
+msgid ""
+"<strong>Slideshows</strong> - A slide can be added <a href=\"http://www."
+"jleuze.com/plugins/meteor-slides/multiple-slideshows/\">to a slideshow</a> "
+"by selecting the slideshow from the Slideshows metabox."
+msgstr ""
+" <strong> Prikazi slajdova</strong> - Slajd se može dodati  <a href=\"http://"
+"www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\"> u prikaz "
+"slajda</a> selektovanjem prikaza slajda iz metaokvira prikaza slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:279
+msgid ""
+"<strong>Slide Order</strong> - Slides are sorted chronologically, edit the "
+"slide's published date to change the order of the slide."
+msgstr ""
+"  <strong>Redosled slajdova</strong> - Slajdovi se sortiraju hronološki, "
+"uredi datum objave slajda da bi izmenio redosled slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:284
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" "
+"target=\"_blank\">Documentation on Creating Slides</a>"
+msgstr ""
+"   <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/"
+"\" target=\"_blank\"> Dokumentacija o kreiranju slajdova</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:286 includes/meteor-slides-admin.php:309
+#: includes/meteor-slides-admin.php:342 includes/meteor-slides-admin.php:397
+#, php-format
+msgid ""
+"<a class=\"button\" href=\"https://www.paypal.com/cgi-bin/webscr?"
+"cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides"
+"%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP"
+"%2dDonationsBF&charset=UTF%2d8\" target=\"_blank\">Donate</a>"
+msgstr ""
+" <a class=\"button\" href=\"https://www.paypal.com/cgi-bin/webscr?"
+"cmd=_donations&business=mail%40jleuze%2ecom&item_name=Meteor%20Slides"
+"%20Donation&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP"
+"%2dDonationsBF&charset=UTF%2d8\" target=\"_blank\"> Doniraj</a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:299
+msgid "Slides Overview"
+msgstr "Pregled slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:302
+msgid ""
+"From the slides overview the image, title, and link of each slide can be "
+"viewed. Choose a slide to edit, or add a new slide."
+msgstr ""
+"Iz pregleda slajdova moguće je pregledati sliku, naslov i link svakog "
+"slajda. Izaberi slajd za uređivanje ili dodaj novi slajd."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:322
+msgid "Multiple Slideshows"
+msgstr "Višestruki prikazi slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:326
+msgid ""
+"<strong>Add New Slideshow</strong> - Name the slideshow, specify a Slug or "
+"one will be generated from the name, skip the Parent and Description and "
+"click \"Add New Slideshow\"."
+msgstr ""
+"<strong>  Dodaj novi prikaz slajdova</strong>  - Imenuj prikaz slajdova, "
+"odredi Matricu ili će se ona sama generisati iz imena, preskoči Roditelja i "
+"Opis i klikni na \"Add New Slideshow\"."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:327
+msgid ""
+"<strong>Add Slide to Slideshow</strong> - Edit a slide and select the "
+"slideshow in the Slideshows metabox."
+msgstr ""
+"<strong>  Dodaj slajd na prikaz slajdova</strong> - Uredi slajd i izaberi "
+"prikaz slajdova u metaokviru Prikaza slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:330
+msgid "Adding A Specific Slideshow"
+msgstr "Dodavanje određenog prikaza slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:333
+msgid ""
+"Add a slideshow slug to a template tag, shortcode, or select a slideshow in "
+"the widget to load a specific slideshow. Here is an example using the "
+"shortcode:"
+msgstr ""
+"Dodaj matricu prikaza slajdova na šablonsku oznaku, kraći kod ili izaberi "
+"prikaz slajdova u vidžetu za učitavanje određenog prikaza slajdova. Evo "
+"primera korišćenja kraćeg koda:"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:340
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" "
+"target=\"_blank\">Documentation on Adding Multiple Slideshows</a>"
+msgstr ""
+"  <a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/"
+"\" target=\"_blank\">Dokumentacija o dodavanju višestrukog prikaza slajdova</"
+"a>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:367
+msgid ""
+"<strong>Slideshow Quantity</strong> - Choose the number of slides that are "
+"loaded in the slideshow."
+msgstr ""
+" <strong> Veličina prikaza slajdova</strong> - Izaberi broj slajdova koji se "
+"učitavaju u prikaz slajdova"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:368
+msgid ""
+"<strong>Slide Height</strong> - Enter the height of your slides in pixels. "
+"For slides of different heights, use the height of the tallest slide."
+msgstr ""
+"<strong>  Visina slajda</strong> - Unesi visinu tvog slajda u pikselima. Za "
+"slajdove različitih visina upotrebi visinu najvišeg slajda."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:369
+msgid ""
+"<strong>Slide Width</strong> - Enter the width of your slides in pixels. "
+"Slides that are narrower than this will be centered in the slideshow."
+msgstr ""
+" <strong> Širina slajda</strong>  - Unesi širinu tvojih slajdova u "
+"pikselima. Slajdovi koji su uži od toga biće centralizovani u prikazu "
+"slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:370
+msgid ""
+"<strong>Transition Style</strong> - Choose the effect that is used to "
+"transition between slides."
+msgstr ""
+"  <strong>Stil prelaza</strong> - Izaberi efekat koji se koristi za prelaz "
+"između slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:371
+msgid ""
+"<strong>Transition Speed</strong> - Enter the number of seconds that it "
+"should take for a transition between slides to complete."
+msgstr ""
+"<strong>Brzina prelaza</strong> - Unesi broj sekundi potrebnih za izvršenje "
+"prelaza između slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:372
+msgid ""
+"<strong>Slide Duration</strong> - Enter the number of seconds that each "
+"slide should be paused on in the slideshow."
+msgstr ""
+"<strong>Trajanje slajdova</strong> - Unesi broj sekundi potrebnih za "
+"pauziranje svakog slajda u okviru prikaza slajdova."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:373
+msgid ""
+"<strong>Slideshow Navigation</strong> - Slideshows have no navigation by "
+"default, previous/next and/or paged navigation can be added."
+msgstr ""
+"<strong>Navigation prikaza slajdova</strong> - Prikazi slajdova nemaju "
+"podrazumevanu navigaciju, može se dodati navigacija prethodni /sledeći i/ili "
+"podela na stranice"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:376
+msgid "Additional Options"
+msgstr "Dodatne opcije"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:379
+msgid ""
+"Only the options below are required, but jQuery Cycle has <a href=\"http://"
+"jquery.malsup.com/cycle/options.html\">additional options</a> that can be "
+"changed <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/"
+"\">using metadata</a>."
+msgstr ""
+"Samo sledeće opcije su zahtevane, ali jQuery Cycle ima <a href=\"http://"
+"jquery.malsup.com/cycle/options.html\"> dodatne opcije</a> koje se mogu "
+"izmeniti<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/"
+"\"> upotrebom metapodataka</a>."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:380
+msgid ""
+"Here is an example using metadata with the shortcode to set the slide order "
+"to random:"
+msgstr ""
+"Evo primera upotrebe metapodataka sa kraćim kodom za podešavanje rasporeda "
+"slajdova na nasumične:"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:381
+msgid "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+msgstr "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:387
+msgid ""
+"<strong>Template Tag</strong> - Use this template tag in a theme file: "
+"<code><&#63;php if ( function_exists( 'meteor_slideshow' ) ) "
+"{ meteor_slideshow(); } &#63;></code>"
+msgstr ""
+"Šablonska oznaka - upotrebi ovu šablonsku oznaku u fajlu teme: <code><&#63;"
+"php ako ( funkcija_postoji( 'meteor_slideshow' ) ) { meteor_slideshow(); } "
+"&#63;></code>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:388
+msgid ""
+"<strong>Shortcode</strong> - Use this shortcode to add a slideshow via the "
+"Post or Page editor: <code>[meteor_slideshow]</code>"
+msgstr ""
+"<strong>Kraći kod</strong>  - Upotrebi ovaj kraći kod za dodavanje prikaza "
+"slajdova preko uređivača Postova ili Stranica:<code> [meteor_slideshow]</"
+"code>"
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:389
+msgid ""
+"<strong>Widget</strong> - Use the Meteor Slides Widget to add a slideshow to "
+"a widgetized area."
+msgstr ""
+"<strong>Vidžet</strong> - Upotrebi vidžet Meteor slajdova za dodavanje "
+"prikaza slajdova na područje sa vidžetima."
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:390
+msgid ""
+"Check out the documentation on <a href=\"http://www.jleuze.com/plugins/"
+"meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding a slideshow</a> "
+"for more info."
+msgstr ""
+"Pregledaj dokumentaciju o<a href=\"http://www.jleuze.com/plugins/meteor-"
+"slides/adding-a-slideshow/\" target=\"_blank\"> dodavanju prikaza slajdova "
+"za više informacija.</a> "
+
+# @ meteor-slides
+#: includes/meteor-slides-admin.php:395
+msgid ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Documentation on Configuring Meteor Slides</a>"
+msgstr ""
+"<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target="
+"\"_blank\">Dokumentacija o konfiguraciji Meteor slajdova.</a>"
