@@ -1,0 +1,718 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meteor Slides v1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-02-14 16:42:38+0000\n"
+"Last-Translator: Sheepka 99 <office@gobox.bg>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Bulgarian\n"
+"X-Poedit-Country: BULGARIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/meteor-slides-admin.php:14
+#, php-format
+#@ meteor-slides
+msgid "Slide updated. <a href=\"%s\">View slide</a>"
+msgstr "Слайдът е обновен. <a href=\"%s\">Виж слайд</a>"
+
+#: includes/meteor-slides-admin.php:15
+#@ meteor-slides
+msgid "Custom field updated."
+msgstr "Полето е обновено."
+
+#: includes/meteor-slides-admin.php:16
+#@ meteor-slides
+msgid "Custom field deleted."
+msgstr "Полето е изтрито."
+
+#: includes/meteor-slides-admin.php:17
+#@ meteor-slides
+msgid "Slide updated."
+msgstr "Слайдът е обновен."
+
+#: includes/meteor-slides-admin.php:18
+#, php-format
+#@ meteor-slides
+msgid "Slide restored to revision from %s"
+msgstr "Слайдът възстановен след ревю от %s"
+
+#: includes/meteor-slides-admin.php:19
+#, php-format
+#@ meteor-slides
+msgid "Slide published. <a href=\"%s\">View slide</a>"
+msgstr "Слайдът е публикуван. <a href=\"%s\">Виж слайд.</a>"
+
+#: includes/meteor-slides-admin.php:20
+#@ meteor-slides
+msgid "Slide saved."
+msgstr "Слайдът е запазен."
+
+#: includes/meteor-slides-admin.php:21
+#, php-format
+#@ meteor-slides
+msgid "Slide submitted. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "Слайдът е качен. <a target=\"_blank\" href=\"%s\">Виж слайд.</a>"
+
+#: includes/meteor-slides-admin.php:22
+#, php-format
+#@ meteor-slides
+msgid "Slide scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview slide</a>"
+msgstr "Слайдът е назначен за: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Виж слайд.</a>"
+
+#: includes/meteor-slides-admin.php:22
+#@ meteor-slides
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/meteor-slides-admin.php:23
+#, php-format
+#@ meteor-slides
+msgid "Slide draft updated. <a target=\"_blank\" href=\"%s\">Preview slide</a>"
+msgstr "Черновата на слайда е обновена. <a target=\"_blank\" href=\"%s\">Виж слайд.</a>"
+
+#: includes/meteor-slides-admin.php:39
+#: includes/meteor-slides-admin.php:170
+#@ meteor-slides
+msgid "Slide Image"
+msgstr "Изображение на слайд"
+
+#: includes/meteor-slides-admin.php:87
+#@ meteor-slides
+msgid "Add the URL this slide should link to."
+msgstr "Добави линк (URL), където да води слайда."
+
+#: includes/meteor-slides-admin.php:99
+#: includes/meteor-slides-admin.php:172
+#@ meteor-slides
+msgid "Slide Link"
+msgstr "Линк на слайда"
+
+#: includes/meteor-slides-admin.php:171
+#@ meteor-slides
+msgid "Slide Title"
+msgstr "Заглавие на слайда"
+
+#: includes/meteor-slides-admin.php:173
+#@ meteor-slides
+msgid "Date"
+msgstr "Дата"
+
+#: includes/meteor-slides-admin.php:205
+#@ meteor-slides
+msgid "No Link"
+msgstr "Без линк"
+
+#: includes/meteor-slides-admin.php:265
+#: meteor-slides-plugin.php:39
+#@ meteor-slides
+msgid "Add New Slide"
+msgstr "Добави нов слайд"
+
+#: includes/meteor-slides-admin.php:269
+#: meteor-slides-plugin.php:40
+#@ meteor-slides
+msgid "Edit Slide"
+msgstr "Редактирай слайд"
+
+#: includes/meteor-slides-admin.php:275
+#@ meteor-slides
+msgid "<strong>Title</strong> - Name the slide so it can be easily found later."
+msgstr "<strong>Заглавие</strong> - сложете заглавие на слайда, за да можете да го намирате по-лесно."
+
+#: includes/meteor-slides-admin.php:276
+#@ meteor-slides
+msgid "<strong>Slide Image</strong> - To add an image to a slide, click the \"Set featured image\" link. Upload an image, or browse the media library for one, click the \"Use as featured image\" link to add the image and then close the media uploader. The Slide Image metabox should now have a thumbnail image."
+msgstr "<strong>Изображение на слайда</strong> - За да добавите изборажение към слайда, кликнете на линка \"Set featured image\". Качете изображение, бразувайте в медия галерията за изборажение и натиснете \"Use as featured image\", за да добавите изображението. Кутията на Изображение на слайд вече би трябвало да има thumbnail."
+
+#: includes/meteor-slides-admin.php:277
+#@ meteor-slides
+msgid "<strong>Slide Link</strong> - Add the full URL to the Slide Link metabox, such as <em>http://www.jleuze.com/</em> (Optional)"
+msgstr "<strong>Линк на слайд</strong> - Добавете пълния URL към кутията Линк на слайда. Например - <em>http://www.jleuze.com/</em> (Не е задължително)"
+
+#: includes/meteor-slides-admin.php:278
+#@ meteor-slides
+msgid "<strong>Slideshows</strong> - A slide can be added <a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\">to a slideshow</a> by selecting the slideshow from the Slideshows metabox."
+msgstr "<strong>Слайдшоута</strong> - Можете да добавяте слайдове към вашите  <a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\">слайдшоута</a>."
+
+#: includes/meteor-slides-admin.php:279
+#@ meteor-slides
+msgid "<strong>Slide Order</strong> - Slides are sorted chronologically, edit the slide's published date to change the order of the slide."
+msgstr "<strong>Подреждане на слайдовете</strong> - Слайдовете се подреждат хронологично. За да размените подредбата трябва да редактирата датата на публикация на слайда."
+
+#: includes/meteor-slides-admin.php:283
+#: includes/meteor-slides-admin.php:306
+#: includes/meteor-slides-admin.php:339
+#: includes/meteor-slides-admin.php:394
+#@ meteor-slides
+msgid "For more information"
+msgstr "За повече информация"
+
+#: includes/meteor-slides-admin.php:284
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" target=\"_blank\">Documentation on Creating Slides</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/using-meteor-slides/\" target=\"_blank\">Документация за създаване на слайдове</a>"
+
+#: includes/meteor-slides-admin.php:285
+#: includes/meteor-slides-admin.php:308
+#: includes/meteor-slides-admin.php:341
+#: includes/meteor-slides-admin.php:396
+#@ meteor-slides
+msgid "<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Plugin Support Forum</a>"
+msgstr "<a href=\"http://wordpress.org/tags/meteor-slides\" target=\"_blank\">Форум на плъгина.</a>"
+
+#: includes/meteor-slides-admin.php:286
+#: includes/meteor-slides-admin.php:309
+#: includes/meteor-slides-admin.php:342
+#: includes/meteor-slides-admin.php:397
+#@ meteor-slides
+msgid "<a class=\"button\" href=\"http://jleuze.com/donate/\" target=\"_blank\">Donate</a>"
+msgstr "<a class=\"button\" href=\"http://jleuze.com/donate/\" target=\"_blank\">Дарения</a>"
+
+#: includes/meteor-slides-admin.php:299
+#@ meteor-slides
+msgid "Slides Overview"
+msgstr "Преглед на слайдовете"
+
+#: includes/meteor-slides-admin.php:302
+#@ meteor-slides
+msgid "From the slides overview the image, title, and link of each slide can be viewed. Choose a slide to edit, or add a new slide."
+msgstr "От страницата за преглед на слайдовете можете да прегледате изображението, заглавието и линка на всеки слайде. Можете да изберете слайд за редакция или да добавите нов слайд."
+
+#: includes/meteor-slides-admin.php:307
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Meteor Slides Documentation</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Документация на Meteor Slides</a>"
+
+#: includes/meteor-slides-admin.php:322
+#@ meteor-slides
+msgid "Multiple Slideshows"
+msgstr "Много слайдшоута"
+
+#: includes/meteor-slides-admin.php:325
+#@ meteor-slides
+msgid "Slides can be organized into slideshows, just as posts can be organized into categories."
+msgstr "Слайдовете могат да бъдат организирани в слайдшоута, както постовете могат да бъдат организирани в категории."
+
+#: includes/meteor-slides-admin.php:326
+#@ meteor-slides
+msgid "<strong>Add New Slideshow</strong> - Name the slideshow, specify a Slug or one will be generated from the name, skip the Parent and Description and click \"Add New Slideshow\"."
+msgstr "<strong>Добави ново слайдшоу</strong> - Изберете име и кратко име на слайдшоуто."
+
+#: includes/meteor-slides-admin.php:327
+#@ meteor-slides
+msgid "<strong>Add Slide to Slideshow</strong> - Edit a slide and select the slideshow in the Slideshows metabox."
+msgstr "<strong>Добави към слайдшоу</strong> - Редактирайте слайд и изберете слайдшоу от кутията със Слайдшоута."
+
+#: includes/meteor-slides-admin.php:330
+#@ meteor-slides
+msgid "Adding A Specific Slideshow"
+msgstr "Добавяне на специфично слайдшоу"
+
+#: includes/meteor-slides-admin.php:333
+#@ meteor-slides
+msgid "Add a slideshow slug to a template tag, shortcode, or select a slideshow in the widget to load a specific slideshow. Here is an example using the shortcode:"
+msgstr "Добавете линка на слайдшоуто към темлейт таг, шорткод или изберете слайдшоу в уиджета, за да заредите конкретно слайдшоу. Ето пример за използване на шорткод:"
+
+#: includes/meteor-slides-admin.php:334
+#@ meteor-slides
+msgid "<code>[meteor_slideshow slideshow=\"slug\"]</code>"
+msgstr ""
+
+#: includes/meteor-slides-admin.php:340
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" target=\"_blank\">Documentation on Adding Multiple Slideshows</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/multiple-slideshows/\" target=\"_blank\">Документация за добавяне на много слайдшоута</a>"
+
+#: includes/meteor-slides-admin.php:363
+#: includes/meteor-slides-admin.php:529
+#@ meteor-slides
+msgid "Configure Slideshow"
+msgstr "Конфигурирай слайдшоу"
+
+#: includes/meteor-slides-admin.php:366
+#@ meteor-slides
+msgid "<em>Before adding any slides, enter the slide height and width in the settings so the slides are the correct dimensions.</em>"
+msgstr "<em>Преди да добавите слайдове, въведете височината и ширината на слайда в страницата с настройки!</em>"
+
+#: includes/meteor-slides-admin.php:367
+#@ meteor-slides
+msgid "<strong>Slideshow Quantity</strong> - Choose the number of slides that are loaded in the slideshow."
+msgstr "<strong>Количество на слайдшоу</strong> - Изберете броя на слайдове в слайдшоуто."
+
+#: includes/meteor-slides-admin.php:368
+#@ meteor-slides
+msgid "<strong>Slide Height</strong> - Enter the height of your slides in pixels. For slides of different heights, use the height of the tallest slide."
+msgstr "<strong>Височина на слайда</strong> - Въведете височината на слайда в пиксели. За слайдове с различна височина използвайте височината на най-високия слайд."
+
+#: includes/meteor-slides-admin.php:369
+#@ meteor-slides
+msgid "<strong>Slide Width</strong> - Enter the width of your slides in pixels. Slides that are narrower than this will be centered in the slideshow."
+msgstr "<strong>Ширина на слайда</strong> - Въведете ширината на слайда в пиксели. Слайдовете, които са по-тесни ще се центрират."
+
+#: includes/meteor-slides-admin.php:370
+#@ meteor-slides
+msgid "<strong>Transition Style</strong> - Choose the effect that is used to transition between slides."
+msgstr "<strong>Стил на прехода</strong> - Изберете ефект, с който слайдовете се сменят."
+
+#: includes/meteor-slides-admin.php:371
+#@ meteor-slides
+msgid "<strong>Transition Speed</strong> - Enter the number of seconds that it should take for a transition between slides to complete."
+msgstr "<strong>Скорост на прехода</strong> - Въведете секундите, които трае ефекта на преход между слайдовете."
+
+#: includes/meteor-slides-admin.php:372
+#@ meteor-slides
+msgid "<strong>Slide Duration</strong> - Enter the number of seconds that each slide should be paused on in the slideshow."
+msgstr "<strong>Продължителност на слайда</strong> - Въведете броя на секундите, в които слайда стои не екрана."
+
+#: includes/meteor-slides-admin.php:373
+#@ meteor-slides
+msgid "<strong>Slideshow Navigation</strong> - Slideshows have no navigation by default, previous/next and/or paged navigation can be added."
+msgstr "<strong>Меню на слайдшоу</strong> - По подразбиране слайдшоутата нямат меню. Могат да бъдат добавени менюта тип предишен/следващ или с брой страници."
+
+#: includes/meteor-slides-admin.php:376
+#@ meteor-slides
+msgid "Additional Options"
+msgstr "Допълнителни настройки"
+
+#: includes/meteor-slides-admin.php:379
+#@ meteor-slides
+msgid "Only the options below are required, but jQuery Cycle has <a href=\"http://jquery.malsup.com/cycle/options.html\">additional options</a> that can be changed <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/\">using metadata</a>."
+msgstr "Само опциите по-долу са необходими, но jQuery Cycle <a href=\"http://jquery.malsup.com/cycle/options.html\">допълнителни опции</a>, които могат да бъдат променени чрез използването на <a href=\"http://www.jleuze.com/plugins/meteor-slides/using-metadata/\">metadata</a>."
+
+#: includes/meteor-slides-admin.php:380
+#@ meteor-slides
+msgid "Here is an example using metadata with the shortcode to set the slide order to random:"
+msgstr "Това е пример за използването на metadata с шорткод, за да бъде подредбата на слайдовете на произволен принцип:"
+
+#: includes/meteor-slides-admin.php:381
+#@ meteor-slides
+msgid "<code>[meteor_slideshow metadata=\"random: 1\"]</code>"
+msgstr ""
+
+#: includes/meteor-slides-admin.php:384
+#: includes/meteor-slides-settings.php:190
+#@ meteor-slides
+msgid "Add Slideshow"
+msgstr "Добави слайдшоу"
+
+#: includes/meteor-slides-admin.php:387
+#@ meteor-slides
+msgid "<strong>Template Tag</strong> - Use this template tag in a theme file: <code><&#63;php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } &#63;></code>"
+msgstr "<strong>Темплейт таг</strong> - Използвайте този темплей таг във файл от темата: <code><&#63;php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } &#63;></code>"
+
+#: includes/meteor-slides-admin.php:388
+#@ meteor-slides
+msgid "<strong>Shortcode</strong> - Use this shortcode to add a slideshow via the Post or Page editor: <code>[meteor_slideshow]</code>"
+msgstr "<strong>Шорткод</strong> - Използвайте този шорткод, за да добавите слайдшоуто чрез едитора на Страници или Постове: <code>[meteor_slideshow]</code>"
+
+#: includes/meteor-slides-admin.php:389
+#@ meteor-slides
+msgid "<strong>Widget</strong> - Use the Meteor Slides Widget to add a slideshow to a widgetized area."
+msgstr "<strong>Уиджет</strong> - Използвайте уиджета за слайдове, за да добавите слайдшоу."
+
+#: includes/meteor-slides-admin.php:390
+#@ meteor-slides
+msgid "Check out the documentation on <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-a-slideshow/\" target=\"_blank\">adding a slideshow</a> for more info."
+msgstr "Проверете документация за <a href=\"http://www.jleuze.com/plugins/meteor-slides/adding-a-slideshow/\" target=\"_blank\">добавяне на слайдшоу</a> за повече информация."
+
+#: includes/meteor-slides-admin.php:395
+#@ meteor-slides
+msgid "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Documentation on Configuring Meteor Slides</a>"
+msgstr "<a href=\"http://www.jleuze.com/plugins/meteor-slides/installation/\" target=\"_blank\">Документация за конфигурация на Meteor Slides</a>"
+
+#: includes/meteor-slides-admin.php:465
+#@ meteor-slides
+msgid "Slides Settings"
+msgstr "Настройки на слайдовете"
+
+#: includes/meteor-slides-admin.php:465
+#: includes/meteor-slides-admin.php:513
+#@ meteor-slides
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/meteor-slides-admin.php:531
+#@ meteor-slides
+msgid "Slideshow Quantity"
+msgstr "Количество на слайдшоу"
+
+#: includes/meteor-slides-admin.php:533
+#@ meteor-slides
+msgid "Slide Height"
+msgstr "Височина на слайд"
+
+#: includes/meteor-slides-admin.php:535
+#@ meteor-slides
+msgid "Slide Width"
+msgstr "Ширина на слайд"
+
+#: includes/meteor-slides-admin.php:537
+#@ meteor-slides
+msgid "Transition Style"
+msgstr "Стил на преход"
+
+#: includes/meteor-slides-admin.php:539
+#@ meteor-slides
+msgid "Transition Speed"
+msgstr "Скорост на преход"
+
+#: includes/meteor-slides-admin.php:541
+#@ meteor-slides
+msgid "Slide Duration"
+msgstr "Продължително на слайд"
+
+#: includes/meteor-slides-admin.php:543
+#@ meteor-slides
+msgid "Slideshow Navigation"
+msgstr "Меню на слайдшоу"
+
+#: includes/meteor-slides-settings.php:7
+#@ meteor-slides
+msgid "Set up your slideshow using the options below."
+msgstr "Направете вашето слайдшоу като използвате опциите по-долу."
+
+#: includes/meteor-slides-settings.php:13
+#@ meteor-slides
+msgid "slides"
+msgstr "слайдове"
+
+#: includes/meteor-slides-settings.php:22
+#: includes/meteor-slides-settings.php:31
+#@ meteor-slides
+msgid "px"
+msgstr "px"
+
+#: includes/meteor-slides-settings.php:40
+#@ meteor-slides
+msgid "blindX"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:41
+#@ meteor-slides
+msgid "blindY"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:42
+#@ meteor-slides
+msgid "blindZ"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:43
+#@ meteor-slides
+msgid "cover"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:44
+#@ meteor-slides
+msgid "curtainX"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:45
+#@ meteor-slides
+msgid "curtainY"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:46
+#@ meteor-slides
+msgid "fade"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:47
+#@ meteor-slides
+msgid "fadeZoom"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:48
+#@ meteor-slides
+msgid "growX"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:49
+#@ meteor-slides
+msgid "growY"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:50
+#@ meteor-slides
+msgid "none"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:51
+#@ meteor-slides
+msgid "scrollUp"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:52
+#@ meteor-slides
+msgid "scrollDown"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:53
+#@ meteor-slides
+msgid "scrollLeft"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:54
+#@ meteor-slides
+msgid "scrollRight"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:55
+#@ meteor-slides
+msgid "scrollHorz"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:56
+#@ meteor-slides
+msgid "scrollVert"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:57
+#@ meteor-slides
+msgid "slideX"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:58
+#@ meteor-slides
+msgid "slideY"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:59
+#@ meteor-slides
+msgid "shuffle"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:60
+#@ meteor-slides
+msgid "turnUp"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:61
+#@ meteor-slides
+msgid "turnDown"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:62
+#@ meteor-slides
+msgid "turnLeft"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:63
+#@ meteor-slides
+msgid "turnRight"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:64
+#@ meteor-slides
+msgid "uncover"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:65
+#@ meteor-slides
+msgid "wipe"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:66
+#@ meteor-slides
+msgid "zoom"
+msgstr ""
+
+#: includes/meteor-slides-settings.php:116
+#: includes/meteor-slides-settings.php:125
+#@ meteor-slides
+msgid "seconds"
+msgstr "секунди"
+
+#: includes/meteor-slides-settings.php:134
+#@ meteor-slides
+msgid "None"
+msgstr "Нито едно"
+
+#: includes/meteor-slides-settings.php:135
+#@ meteor-slides
+msgid "Previous/Next"
+msgstr "Предишен/Следващ"
+
+#: includes/meteor-slides-settings.php:136
+#@ meteor-slides
+msgid "Paged"
+msgstr "Със страници"
+
+#: includes/meteor-slides-settings.php:137
+#@ meteor-slides
+msgid "Both"
+msgstr "И двете"
+
+#: includes/meteor-slides-settings.php:170
+#@ meteor-slides
+msgid "Meteor Slides Settings"
+msgstr "Настройки на слайдове"
+
+#: includes/meteor-slides-settings.php:184
+#@ meteor-slides
+msgid "Save Changes"
+msgstr "Запази промените"
+
+#: includes/meteor-slides-settings.php:192
+#, php-format
+#@ meteor-slides
+msgid "Use %1$s to add this slideshow to your theme, use %2$s to add it to your Post or Page content, or use the Meteor Slides Widget."
+msgstr "Използвайте %1$s, за да добавите слайдшоу към темата, използвайте %2$s, за да добавите слайдшоуто към Пост или Страница или използвайте уиджета. "
+
+#: includes/meteor-slides-settings.php:194
+#, php-format
+#@ meteor-slides
+msgid "Visit the %1$sMeteor Slides homepage%2$s for documentation, tutorials, and videos."
+msgstr "Посетете %1$страницата на Meteor Slideshows%2$s за документация, примери и видео."
+
+#: includes/meteor-slides-settings.php:196
+#, php-format
+#@ meteor-slides
+msgid "Please %1$spost any questions or problems%2$s in the WordPress.org support forums."
+msgstr "Моля %1$sпоствайте въпроси и проблеми%2$s във форума на WordPress.org."
+
+#: includes/meteor-slideshow.php:83
+#: includes/meteor-slideshow.php:97
+#@ meteor-slides
+msgid "Previous"
+msgstr "Предишен"
+
+#: includes/meteor-slideshow.php:85
+#: includes/meteor-slideshow.php:99
+#@ meteor-slides
+msgid "Next"
+msgstr "Следващ"
+
+#: meteor-slides-plugin.php:36
+#: meteor-slides-plugin.php:47
+#@ meteor-slides
+msgid "Slides"
+msgstr "Слайдове"
+
+#: meteor-slides-plugin.php:37
+#@ meteor-slides
+msgid "Slide"
+msgstr "Слайд"
+
+#: meteor-slides-plugin.php:38
+#@ meteor-slides
+msgid "Add New"
+msgstr "Добави нов"
+
+#: meteor-slides-plugin.php:41
+#@ meteor-slides
+msgid "New Slide"
+msgstr "Нов слайд"
+
+#: meteor-slides-plugin.php:42
+#@ meteor-slides
+msgid "View Slide"
+msgstr "Виж слайд"
+
+#: meteor-slides-plugin.php:43
+#@ meteor-slides
+msgid "Search Slides"
+msgstr "Търси в слайдове"
+
+#: meteor-slides-plugin.php:44
+#@ meteor-slides
+msgid "No slides found"
+msgstr "Не бяха намерени слайдове"
+
+#: meteor-slides-plugin.php:45
+#@ meteor-slides
+msgid "No slides found in Trash"
+msgstr "Не бяха намерени слайдове в Кошчето"
+
+#: meteor-slides-plugin.php:124
+#: meteor-slides-plugin.php:135
+#@ meteor-slides
+msgid "Slideshows"
+msgstr "Слайдшоута"
+
+#: meteor-slides-plugin.php:125
+#@ meteor-slides
+msgid "Slideshow"
+msgstr "Слайдшоу"
+
+#: meteor-slides-plugin.php:126
+#@ meteor-slides
+msgid "Search Slideshows"
+msgstr "Търси в слайдшоута"
+
+#: meteor-slides-plugin.php:127
+#@ meteor-slides
+msgid "Popular Slideshows"
+msgstr "Популярни слайдшоута"
+
+#: meteor-slides-plugin.php:128
+#@ meteor-slides
+msgid "All Slideshows"
+msgstr "Всички слайдшоута"
+
+#: meteor-slides-plugin.php:129
+#@ meteor-slides
+msgid "Parent Slideshow"
+msgstr "Слайдшоу родител"
+
+#: meteor-slides-plugin.php:130
+#@ meteor-slides
+msgid "Parent Slideshow:"
+msgstr "Слайдшоу родител:"
+
+#: meteor-slides-plugin.php:131
+#@ meteor-slides
+msgid "Edit Slideshow"
+msgstr "Редактирай слайдшоу"
+
+#: meteor-slides-plugin.php:132
+#@ meteor-slides
+msgid "Update Slideshow"
+msgstr "Обнови слайдшоу"
+
+#: meteor-slides-plugin.php:133
+#@ meteor-slides
+msgid "Add New Slideshow"
+msgstr "Добави ново слайдшоу"
+
+#: meteor-slides-plugin.php:134
+#@ meteor-slides
+msgid "New Slideshow Name"
+msgstr "Ново име за слайдшоу"
+
+#: meteor-slides-plugin.php:409
+#@ meteor-slides
+msgid "Add a slideshow widget to a sidebar"
+msgstr "Добави слайдшоу уиджет към сайдбара."
+
+#: meteor-slides-plugin.php:415
+#@ meteor-slides
+msgid "Meteor Slides Widget"
+msgstr "Слайдшоу уиджет."
+
+#: meteor-slides-plugin.php:464
+#@ meteor-slides
+msgid "Title:"
+msgstr "Заглавие:"
+
+#: meteor-slides-plugin.php:475
+#@ meteor-slides
+msgid "Slideshow:"
+msgstr "Слайдшоу:"
+
+#: meteor-slides-plugin.php:499
+#@ meteor-slides
+msgid "Metadata:"
+msgstr "Metadata:"
+
