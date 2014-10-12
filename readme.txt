@@ -111,6 +111,8 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 = 1.5.2 =
 * Updated icons to match WP 4.0
 * Added Bulgarian, Serbo-Croatian, and Greek translations
+* Updated Japanese translation
+* Updated screenshots for WordPress 4.0
 
 = 1.5.1 =
 * Added slideshow alignment option to metadata
