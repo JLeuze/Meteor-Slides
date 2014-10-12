@@ -16,7 +16,7 @@ Meteor Slides makes it simple to create slideshows and publish them with a short
 * **Slideshow metadata:** Customize individual slideshows or configure more [jQuery Cycle options](http://jquery.malsup.com/cycle/options.html) with the [MetaData jQuery Plugin](http://plugins.jquery.com/project/metadata).
 * **Slideshow transition styles:** blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, slideX, slideY, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom.
 * **Slideshow navigation:** Optional previous/next and/or paged slide navigation.
-* **Multiple languages:** Belarusian, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, French, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish, Vietnamese.
+* **Multiple languages:** Belarusian, Bulgarian, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, French, German, Greek, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbo-Croatian, Spanish, Swedish, Turkish, Vietnamese.
 * **Multisite Compatible:** Add Meteor Slides to any site on your network.
 
 ####Installation

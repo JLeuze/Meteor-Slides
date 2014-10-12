@@ -31,7 +31,7 @@ This screencast shows some of the plugin's features, such as different transitio
 * **Slideshow metadata:** Customize individual slideshows or configure more [jQuery Cycle options](http://jquery.malsup.com/cycle/options.html "jQuery Cycle Plugin") with the [MetaData jQuery Plugin](http://plugins.jquery.com/project/metadata "MetaData jQuery Plugin").
 * **Slideshow transition styles:** blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, slideX, slideY, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom.
 * **Slideshow navigation:** Optional previous/next and/or paged slide navigation.
-* **Multiple languages:** Belarusian, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, French, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Spanish, Swedish, Turkish, Vietnamese.
+* **Multiple languages:** Belarusian, Bulgarian, Chinese (Simplified), Chinese (Traditional), Czech, Danish, Dutch, English, French, Greek, German, Hebrew, Indonesian, Italian, Japanese, Persian, Polish, Portuguese, Portuguese (Brazilian), Romanian, Russian, Serbo-Croatian, Spanish, Swedish, Turkish, Vietnamese.
 * **Multisite Compatible:** Add Meteor Slides to any site on your network.
 
 *[Got a question about Meteor Slides?](http://wordpress.org/tags/meteor-slides?forum_id=10#postform "Post a question in the forums")*
@@ -109,6 +109,8 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 
 == Changelog ==
 = 1.5.2 =
+* Updated icons to match WP 4.0
+* Added Bulgarian, Serbo-Croatian, and Greek translations
 
 = 1.5.1 =
 * Added slideshow alignment option to metadata
@@ -196,6 +198,7 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 == Upgrade Notice ==
 
 = 1.5.2 =
+Meteor Slides 1.5.2 has been updated to match the WordPress 4.0 admin, and includes new and updated translations.
 
 = 1.5.1 =
 Meteor Slides 1.5.1 adds a slideshow alignment option and support for slideshows with one slide, includes new and updated translations, and includes several minor bug fixes.
