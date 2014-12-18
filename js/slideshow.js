@@ -1,4 +1,4 @@
-/*  Script for the Meteor Slides 1.5.1 slideshow
+/*  Script for the Meteor Slides 1.5.3 slideshow
 	
 	Copy "slideshow.js" from "/meteor-slides/js/" to your theme's directory to replace
 	the plugin's default slideshow script.
