@@ -1,11 +1,11 @@
 <?php
-/*  Loop template for the Meteor Slides 1.5.3 slideshow
+/*  Loop template for the Meteor Slides 1.6 slideshow
 	
 	Copy "meteor-slideshow.php" from "/meteor-slides/" to your theme's directory to replace
 	the plugin's default slideshow loop.
 	
 	Learn more about customizing the slideshow template for Meteor Slides: 
-	http://www.jleuze.com/plugins/meteor-slides/customizing-the-slideshow-template/
+	http://jleuze.com/plugins/meteor-slides/customizing-the-slideshow-template/
 */
 
 	// Settings for slideshow loop

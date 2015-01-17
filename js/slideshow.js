@@ -1,10 +1,10 @@
-/*  Script for the Meteor Slides 1.5.3 slideshow
+/*  Script for the Meteor Slides 1.6 slideshow
 	
 	Copy "slideshow.js" from "/meteor-slides/js/" to your theme's directory to replace
 	the plugin's default slideshow script.
 	
 	Learn more about customizing the slideshow script for Meteor Slides: 
-	http://www.jleuze.com/plugins/meteor-slides/customizing-the-slideshow-script/
+	http://jleuze.com/plugins/meteor-slides/customizing-the-slideshow-script/
 */
 
 // Set custom shortcut to avoid conflicts
