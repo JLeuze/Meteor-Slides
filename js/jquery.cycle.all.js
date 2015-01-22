@@ -1,29 +1,23 @@
 /*!
  * jQuery Cycle Plugin (with Transition Definitions)
  * Examples and documentation at: http://jquery.malsup.com/cycle/
- * Copyright (c) 2007-2010 M. Alsup
- * Version: 2.9999.5 (10-APR-2012)
+ * Copyright (c) 2007-2013 M. Alsup
+ * Version: 3.0.3 (11-JUL-2013)
  * Dual licensed under the MIT and GPL licenses.
  * http://jquery.malsup.com/license.html
- * Requires: jQuery v1.3.2 or later
+ * Requires: jQuery v1.7.1 or later
  */
 ;(function($, undefined) {
 "use strict";
 
-var ver = '2.9999.5';
-
-// if $.support is not defined (pre jQuery 1.3) add what I need
-if ($.support === undefined) {
-	$.support = {
-		opacity: !($.browser.msie)
-	};
-}
+var ver = '3.0.3';
 
 function debug(s) {
 	if ($.fn.cycle.debug)
 		log(s);
 }		
 function log() {
+	/*global console */
 	if (window.console && console.log)
 		console.log('[cycle] ' + Array.prototype.join.call(arguments,' '));
 }
@@ -101,6 +95,8 @@ $.fn.cycle = function(options, arg2) {
 
 function triggerPause(cont, byHover, onPager) {
 	var opts = $(cont).data('cycle.opts');
+	if (!opts)
+		return;
 	var paused = !!cont.cyclePause;
 	if (paused && opts.paused)
 		opts.paused(cont, opts, byHover, onPager);
@@ -152,6 +148,8 @@ function handleArguments(cont, options, arg2) {
 				log('options not found, "prev/next" ignored');
 				return false;
 			}
+			if (typeof arg2 == 'string') 
+				opts.oneTimeFx = arg2;
 			$.fn.cycle[options](opts);
 			return false;
 		default:
@@ -361,7 +359,7 @@ function buildOptions($cont, $slides, els, options, o) {
 	}
 		
 	// stretch container
-	var reshape = opts.containerResize && !$cont.innerHeight();
+	var reshape = (opts.containerResize || opts.containerResizeHeight) && $cont.innerHeight() < 1;
 	if (reshape) { // do this only if container has no size http://tinyurl.com/da2oa9
 		var maxw = 0, maxh = 0;
 		for(var j=0; j < els.length; j++) {
@@ -371,8 +369,10 @@ function buildOptions($cont, $slides, els, options, o) {
 			maxw = w > maxw ? w : maxw;
 			maxh = h > maxh ? h : maxh;
 		}
-		if (maxw > 0 && maxh > 0)
+		if (opts.containerResize && maxw > 0 && maxh > 0)
 			$cont.css({width:maxw+'px',height:maxh+'px'});
+		if (opts.containerResizeHeight && maxh > 0)
+			$cont.css({height:maxh+'px'});
 	}
 
 	var pauseFlag = false;  // https://github.com/malsup/cycle/issues/44
@@ -401,15 +401,9 @@ function buildOptions($cont, $slides, els, options, o) {
 		this.cycleW = (opts.fit && opts.width) ? opts.width : ($el.width() || this.offsetWidth || this.width || $el.attr('width') || 0);
 
 		if ( $el.is('img') ) {
-			// sigh..  sniffing, hacking, shrugging...  this crappy hack tries to account for what browsers do when
-			// an image is being downloaded and the markup did not include sizing info (height/width attributes);
-			// there seems to be some "default" sizes used in this situation
-			var loadingIE	= ($.browser.msie  && this.cycleW == 28 && this.cycleH == 30 && !this.complete);
-			var loadingFF	= ($.browser.mozilla && this.cycleW == 34 && this.cycleH == 19 && !this.complete);
-			var loadingOp	= ($.browser.opera && ((this.cycleW == 42 && this.cycleH == 19) || (this.cycleW == 37 && this.cycleH == 17)) && !this.complete);
-			var loadingOther = (this.cycleH === 0 && this.cycleW === 0 && !this.complete);
+			var loading = (this.cycleH === 0 && this.cycleW === 0 && !this.complete);
 			// don't requeue for images that are still loading but have a valid size
-			if (loadingIE || loadingFF || loadingOp || loadingOther) {
+			if (loading) {
 				if (o.s && opts.requeueOnImageNotLoaded && ++options.requeueAttempts < 100) { // track retry count so we don't loop forever
 					log(options.requeueAttempts,' - img slide not loaded, requeuing slideshow: ', this.src, this.cycleW, this.cycleH);
 					setTimeout(function() {$(o.s,o.c).cycle(options);}, opts.requeueTimeout);
@@ -970,7 +964,7 @@ $.fn.cycle.commonReset = function(curr,next,opts,w,h,rev) {
 // the actual fn for effecting a transition
 $.fn.cycle.custom = function(curr, next, opts, cb, fwd, speedOverride) {
 	var $l = $(curr), $n = $(next);
-	var speedIn = opts.speedIn, speedOut = opts.speedOut, easeIn = opts.easeIn, easeOut = opts.easeOut;
+	var speedIn = opts.speedIn, speedOut = opts.speedOut, easeIn = opts.easeIn, easeOut = opts.easeOut, animInDelay = opts.animInDelay, animOutDelay = opts.animOutDelay;
 	$n.css(opts.cssBefore);
 	if (speedOverride) {
 		if (typeof speedOverride == 'number')
@@ -980,11 +974,11 @@ $.fn.cycle.custom = function(curr, next, opts, cb, fwd, speedOverride) {
 		easeIn = easeOut = null;
 	}
 	var fn = function() {
-		$n.animate(opts.animIn, speedIn, easeIn, function() {
+		$n.delay(animInDelay).animate(opts.animIn, speedIn, easeIn, function() {
 			cb();
 		});
 	};
-	$l.animate(opts.animOut, speedOut, easeOut, function() {
+	$l.delay(animOutDelay).animate(opts.animOut, speedOut, easeOut, function() {
 		$l.css(opts.cssAfter);
 		if (!opts.sync) 
 			fn();
@@ -1014,7 +1008,9 @@ $.fn.cycle.defaults = {
     after:            null,     // transition callback (scope set to element that was shown):  function(currSlideElement, nextSlideElement, options, forwardFlag)
     allowPagerClickBubble: false, // allows or prevents click event on pager anchors from bubbling
     animIn:           null,     // properties that define how the slide animates in
+    animInDelay:      0,        // allows delay before next slide transitions in	
     animOut:          null,     // properties that define how the slide animates out
+    animOutDelay:     0,        // allows delay before current slide transitions out
     aspect:           false,    // preserve aspect ratio during fit resizing, cropping if necessary (must be used with fit option)
     autostop:         0,        // true to end slideshow after X transitions (where X == slide count)
     autostopCount:    0,        // number of transitions (optionally used with autostop to define X)
@@ -1024,6 +1020,7 @@ $.fn.cycle.defaults = {
     cleartype:        !$.support.opacity,  // true if clearType corrections should be applied (for IE)
     cleartypeNoBg:    false,    // set to true to disable extra cleartype fixing (leave false to force background color setting on slides)
     containerResize:  1,        // resize container to fit largest slide
+    containerResizeHeight:  0,  // resize containers height to fit the largest slide but leave the width dynamic
     continuous:       0,        // true to start next transition immediately after current one completes
     cssAfter:         null,     // properties that defined the state of the slide after transitioning out
     cssBefore:        null,     // properties that define the initial state of the slide before transitioning in
@@ -1440,6 +1437,7 @@ $.fn.cycle.transitions.cover = function($cont, $slides, opts) {
 	var h = $cont.height();
 	opts.before.push(function(curr, next, opts) {
 		$.fn.cycle.commonReset(curr,next,opts);
+		opts.cssAfter.display = '';
 		if (d == 'right')
 			opts.cssBefore.left = -w;
 		else if (d == 'up')
