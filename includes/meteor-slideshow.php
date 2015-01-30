@@ -26,7 +26,9 @@
 	
 	<?php // Check for slides
 	
-	if ( $meteor_loop->have_posts() ) : ?>
+	if ( $meteor_loop->have_posts() ) :
+	 	// Enqueue slideshow style
+		wp_enqueue_style( 'meteor-slides' ); ?>
 	
 	<div id="meteor-slideshow<?php echo $slideshow; ?>" class="meteor-slides <?php
 	
@@ -73,6 +75,12 @@
 	<?php // Check for multiple slides
 	
 	if ( $meteor_loop->post_count > 1 ) : ?>
+
+		<?php // Enqueue slideshow scripts
+		wp_enqueue_script( 'jquery-cycle' );
+		wp_enqueue_script( 'jquery-metadata' );
+		wp_enqueue_script( 'jquery-touchwipe' );
+		wp_enqueue_script( 'meteorslides-script' ); ?>
 		
 		<?php // Adds Previous/Next and Paged navigation
 		
