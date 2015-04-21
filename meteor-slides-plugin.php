@@ -2,14 +2,14 @@
 /*
 	Plugin Name: Meteor Slides
 	Description: Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
-	Plugin URI: http://www.jleuze.com/plugins/meteor-slides
+	Plugin URI: http://jleuze.com/plugins/meteor-slides
 	Author: Josh Leuze
-	Author URI: http://www.jleuze.com/
+	Author URI: http://jleuze.com/
 	License: GPL2
 	Version: 1.5.3
 */
 
-/*  Copyright 2014 Josh Leuze (email : mail@jleuze.com)
+/*  Copyright 2015 Josh Leuze (email : mail@jleuze.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
