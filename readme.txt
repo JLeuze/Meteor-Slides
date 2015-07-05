@@ -1,6 +1,6 @@
 === Meteor Slides ===
 Contributors: jleuze
-Donate link: http://jleuze.com/go/paypal/
+Donate link: http://jleuze.com/donate/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
 Requires at least: 4.2
 Tested up to: 4.3
