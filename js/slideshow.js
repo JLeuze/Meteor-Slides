@@ -46,6 +46,15 @@ $j(document).ready(function() {
         },
 		preventDefaultEvents: false
     });
+
+	// Add keyboard nav to slideshows
+	$j(document.documentElement).keyup(function (event) {
+		if (event.keyCode == 37) {
+			$j('.meteor-slides').cycle('prev');
+		} else if (event.keyCode == 39) {
+			$j('.meteor-slides').cycle('next')
+		}
+	});
 	
 	// Add class to hide and show prev/next nav on hover
     $j('.meteor-slides').hover(function () {
