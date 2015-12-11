@@ -125,13 +125,14 @@ ul.meteor-nav li {
 }
 .meteor-slides .meteor-nav a {
 	border: none;
+	box-shadow: none;
 	display: block;
 	outline: none;
 	position: absolute;
 	text-indent: -9999px;
 	width: 27px;
     height: 100%;
-    transition: none;
+    transition: all 0s ease 0s;
 	z-index: 998;
 }	
 .meteor-nav .prev a {
@@ -179,6 +180,7 @@ header#branding .meteor-buttons {
 .meteor-slides .meteor-buttons a {
 	background: url('../images/buttons.png') no-repeat bottom left;
 	border: none;
+	box-shadow: none;
 	display: block;
 	float: left;
 	width: 9px;
@@ -186,7 +188,7 @@ header#branding .meteor-buttons {
 	margin: 0 3px 0 0 !important;
 	outline: none;
 	text-indent: -9999px;
-    transition: none;
+    transition: all 0s ease 0s;
 }
 .meteor-buttons a:hover {
 	background: url('../images/buttons.png') no-repeat bottom right;

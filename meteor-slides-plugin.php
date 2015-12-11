@@ -213,6 +213,19 @@ function meteorslides_featured_image() {
 
 }
 
+// Updates max srcset size for Slide images larger than 1600px
+
+add_filter( 'max_srcset_image_width', 'meteorslides_filter_max_srcset', 10, 2 );
+
+function meteorslides_filter_max_srcset( $max_width, $size_array ) {
+	$meteor_options     = get_option( 'meteorslides_options' );
+	$meteor_slide_width = $meteor_options['slide_width'];
+	if ( $meteor_slide_width > 1600 ) {
+		$max_width = $meteor_slide_width;
+	}
+	return $max_width;
+}
+
 // Adds CSS for the slideshow
 
 add_action( 'wp_enqueue_scripts', 'meteorslides_css' );

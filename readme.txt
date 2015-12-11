@@ -1,10 +1,10 @@
 === Meteor Slides ===
 Contributors: jleuze
-Donate link: http://jleuze.com/donate/
+Donate link: http://jleuze.com/go/paypal/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
-Requires at least: 4.2
-Tested up to: 4.3
-Stable tag: 1.5.3
+Requires at least: 4.4
+Tested up to: 4.4
+Stable tag: 1.6
 
 Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
 
@@ -108,9 +108,12 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 7. Meteor Slides Widget
 
 == Changelog ==
+= 1.5.5 =
+* Added support for responsive images using srcset in WordPress 4.4
+* Updated stylesheet with conflict fixes for the TwentySixteen theme
 
-= 1.6 =
-* Updated Hebrew translation
+= 1.5.4 =
+* Updated slideshow widget to use PHP 5 constructor
 
 = 1.5.3 =
 * Added Norwegian translation
@@ -208,11 +211,11 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 
 == Upgrade Notice ==
 
-= 1.6 =
-Meteor Slides 1.6 an updated translation.
+= 1.5.5 =
+Meteor Slides 1.5.5 has been updated with theme conflict fixes and support for responsive images using srcset in WordPress 4.4.
 
-= 1.5.3 =
-Meteor Slides 1.5.3 has been updated with theme conflict fixes, and includes new and updated translations.
+= 1.5.4 =
+Meteor Slides 1.5.4 has an updated slideshow widget which uses the PHP 5 constructor for WordPress 4.3 compatibility.
 
 = 1.5.3 =
 Meteor Slides 1.5.3 has been updated with theme conflict fixes, and includes new and updated translations.
