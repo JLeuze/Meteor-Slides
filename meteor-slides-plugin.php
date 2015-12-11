@@ -6,7 +6,7 @@
 	Author: Josh Leuze
 	Author URI: http://jleuze.com/
 	License: GPL2
-	Version: 1.5.4
+	Version: 1.5.5
 */
 
 /*  Copyright 2015 Josh Leuze (email : mail@jleuze.com)
@@ -212,7 +212,20 @@
 		add_image_size( 'featured-slide-thumb', 250, 9999 );
 	
 	}
-	
+
+	// Updates max srcset size for Slide images larger than 1600px
+
+	add_filter( 'max_srcset_image_width', 'meteorslides_filter_max_srcset', 10, 2 );
+
+	function meteorslides_filter_max_srcset( $max_width, $size_array ) {
+		$meteor_options     = get_option( 'meteorslides_options' );
+		$meteor_slide_width = $meteor_options['slide_width'];
+		if ( $meteor_slide_width > 1600 ) {
+			$max_width = $meteor_slide_width;
+		}
+		return $max_width;
+	}
+		
 	// Adds CSS for the slideshow
 	
 	add_action( 'wp_enqueue_scripts', 'meteorslides_css' );
@@ -246,7 +259,7 @@
 	function meteorslides_javascript() {
  		
 		$meteor_options = get_option( 'meteorslides_options' );
- 
+
 		if( !is_admin() ) {
 	  
 			wp_enqueue_script( 'jquery' );
