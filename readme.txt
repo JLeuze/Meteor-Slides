@@ -14,7 +14,7 @@ Meteor Slides makes it simple to create slideshows and publish them with a short
 
 = Meteor Slides Homepage =
 
-[Visit this plugin's homepage](http://www.jleuze.com/plugins/meteor-slides/ "Meteor Slides Homepage") for documentation, tutorials, and additional videos.
+[Visit this plugin's homepage](http://jleuze.com/plugins/meteor-slides/ "Meteor Slides Homepage") for documentation, tutorials, and additional videos.
 
 = Video Overview =
 
@@ -51,7 +51,7 @@ Use `<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } 
 
 = Meteor Slides Documentation =
 
-Check out the [Meteor Slides Documentation](http://www.jleuze.com/plugins/meteor-slides/installation/ "Meteor Slides Documentation") for more information on using Meteor Slides, adding slideshows, using metadata, and advanced customization.
+Check out the [Meteor Slides Documentation](http://jleuze.com/plugins/meteor-slides/installation/ "Meteor Slides Documentation") for more information on using Meteor Slides, adding slideshows, using metadata, and advanced customization.
 
 *Please [post any questions or problems](http://wordpress.org/tags/meteor-slides?forum_id=10#postform "Post a question or problem in the forums") in the WordPress.org support forums.*
 
@@ -59,7 +59,7 @@ Check out the [Meteor Slides Documentation](http://www.jleuze.com/plugins/meteor
 
 = Meteor Slides is awesome, what can I do to help? =
 
-You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://www.jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://www.jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](http://jleuze.com/donate/ "Donate").
+You can help right on this page by rating the plugin or voting for its compatibility with the latest version of WordPress. Blog about Meteor Slides to get the word out, or [visit my blog](http://jleuze.com/ "JLeuze.com") to post feedback or just say hi. You could also [translate Meteor Slides](http://jleuze.com/plugins/meteor-slides/languages/ "Meteor Slides Languages") into another language or [make a donation](http://jleuze.com/donate/ "Donate").
 
 = I add a slide, save or publish it, and then it's missing or not found, what gives? =
 
@@ -79,11 +79,11 @@ The `z-index` on the slideshow is higher than the dropdowns, causing them to be 
 
 = How do I customize the slideshow's CSS stylesheet? =
 
-Copy **meteor-slides.css** from **/meteor-slides/css/** to your theme's directory to replace the plugin's default stylesheet. If you have navigation enabled, be sure to copy the **buttons.png**, **next.png**, and **prev.png** files to your theme's images folder and update the image paths, or create new graphics to replace them. Learn more about [customizing the stylesheet](http://www.jleuze.com/plugins/meteor-slides/customizing-the-stylesheet/ "Meteor Slides Documentation") for Meteor Slides.
+Copy **meteor-slides.css** from **/meteor-slides/css/** to your theme's directory to replace the plugin's default stylesheet. If you have navigation enabled, be sure to copy the **buttons.png**, **next.png**, and **prev.png** files to your theme's images folder and update the image paths, or create new graphics to replace them. Learn more about [customizing the stylesheet](http://jleuze.com/plugins/meteor-slides/customizing-the-stylesheet/ "Meteor Slides Documentation") for Meteor Slides.
 
 = How do I customize the slideshow's loop template? =
 
-Copy **meteor-slideshow.php** from **/meteor-slides/** to your theme's directory to replace the plugin's default slideshow loop. Learn more about [customizing the slideshow template](http://www.jleuze.com/plugins/meteor-slides/customizing-the-slideshow-template/ "Meteor Slides Documentation") for Meteor Slides.
+Copy **meteor-slideshow.php** from **/meteor-slides/** to your theme's directory to replace the plugin's default slideshow loop. Learn more about [customizing the slideshow template](http://jleuze.com/plugins/meteor-slides/customizing-the-slideshow-template/ "Meteor Slides Documentation") for Meteor Slides.
 
 = I installed Meteor Slides, and now my theme or plugin's jQuery goodies are broken! =
 
@@ -93,7 +93,7 @@ It's also possible that a script in your theme or another plugin is using the "$
 
 = I just installed Meteor Slides, but the Slides menu is missing, where do I go? =
 
-If the Slides menu is missing, you probably have the [Members](http://wordpress.org/extend/plugins/members/ "Members plugin") plugin activated. Meteor Slides supports the Members plugin, so if you have them both running you can use Members to choose which roles can manage the slides or slideshow settings. Take a look at [this blog post](http://www.jleuze.com/using-the-members-plugin-with-meteor-slides/ "Using the Members plugin with Meteor Slides") for more info on using these plugins together.
+If the Slides menu is missing, you probably have the [Members](http://wordpress.org/extend/plugins/members/ "Members plugin") plugin activated. Meteor Slides supports the Members plugin, so if you have them both running you can use Members to choose which roles can manage the slides or slideshow settings. Take a look at [this blog post](http://jleuze.com/using-the-members-plugin-with-meteor-slides/ "Using the Members plugin with Meteor Slides") for more info on using these plugins together.
 
 *Please [post any questions or problems](http://wordpress.org/tags/meteor-slides?forum_id=10#postform "Post a question or problem in the forums") in the WordPress.org support forums.*
 
@@ -108,6 +108,10 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 7. Meteor Slides Widget
 
 == Changelog ==
+= 1.5.6 =
+* Updated support for version 1.1.0 of the Members plugin
+* Added Meteor Slides capabilities group for Members plugin role editor
+
 = 1.5.5 =
 * Added support for responsive images using srcset in WordPress 4.4
 * Updated stylesheet with conflict fixes for the TwentySixteen theme
@@ -210,6 +214,9 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 * Initial release of Meteor Slides.
 
 == Upgrade Notice ==
+
+= 1.5.6 =
+Meteor Slides 1.5.6 includes updated support and functionality for the latest version of the Members plugin.
 
 = 1.5.5 =
 Meteor Slides 1.5.5 has been updated with theme conflict fixes and support for responsive images using srcset in WordPress 4.4.
