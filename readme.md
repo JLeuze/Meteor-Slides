@@ -5,7 +5,7 @@ Meteor Slides makes it simple to create slideshows and publish them with a short
 
 ####Meteor Slides Homepage
 
-[Visit this plugin's homepage](http://www.jleuze.com/plugins/meteor-slides/) for documentation, tutorials, and video screencasts.
+[Visit this plugin's homepage](http://jleuze.com/plugins/meteor-slides/) for documentation, tutorials, and video screencasts.
 
 ####Features
 
@@ -35,4 +35,4 @@ Use ```<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); 
 
 ####Meteor Slides Documentation
 
-Check out the [Meteor Slides Documentation](http://www.jleuze.com/plugins/meteor-slides/installation/) for more information on using Meteor Slides, adding slideshows, using metadata, and advanced customization.
+Check out the [Meteor Slides Documentation](http://jleuze.com/plugins/meteor-slides/installation/) for more information on using Meteor Slides, adding slideshows, using metadata, and advanced customization.

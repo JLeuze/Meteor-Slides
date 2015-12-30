@@ -6,7 +6,7 @@
 	Author: Josh Leuze
 	Author URI: http://jleuze.com/
 	License: GPL2
-	Version: 1.5.5
+	Version: 1.5.6
 */
 
 /*  Copyright 2015 Josh Leuze (email : mail@jleuze.com)
@@ -58,7 +58,8 @@
 				'publish_posts'      => 'meteorslides_publish_slides',
 				'read_post'          => 'meteorslides_read_slide',
 				'read_private_posts' => 'meteorslides_read_private_slides',
-				'delete_post'        => 'meteorslides_delete_slide'
+				'delete_post'        => 'meteorslides_delete_slide',
+				'delete_posts'       => 'meteorslides_delete_slides'
 
 			);
 			
@@ -76,7 +77,8 @@
 				'publish_posts'      => 'publish_posts',
 				'read_post'          => 'read_post',
 				'read_private_posts' => 'read_private_posts',
-				'delete_post'        => 'delete_post'
+				'delete_post'        => 'delete_post',
+				'delete_posts'       => 'delete_posts'
 
 			);
 			
