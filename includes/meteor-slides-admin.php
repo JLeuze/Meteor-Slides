@@ -488,6 +488,11 @@
 		return $caps;
 	}
 
+	// Unregister default Slides caps group from the Members plugin
+	function meteorslides_members_remove_slides_cap_group() {
+		members_unregister_cap_group( 'type-slide' );
+	}
+
 	// Registers Meteor Slides capabilities group for the Members plugin
 	function meteorslides_add_members_caps_group() {
 		$meteor_cap_group_caps = array(
@@ -520,6 +525,9 @@
 		}
 		if ( function_exists( 'members_register_cap_group' ) ) {
 			add_action( 'members_register_cap_groups', 'meteorslides_add_members_caps_group' );
+		}
+		if ( function_exists( 'members_register_cap_group' ) ) {
+			add_action( 'members_register_cap_groups', 'meteorslides_members_remove_slides_cap_group' );
 		}
 	}
 	add_action( 'plugins_loaded', 'meteorslides_members_capabilities' );

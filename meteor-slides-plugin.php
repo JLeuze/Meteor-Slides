@@ -9,7 +9,7 @@
 	Version: 1.5.6
 */
 
-/*  Copyright 2015 Josh Leuze (email : mail@jleuze.com)
+/*  Copyright 2016 Josh Leuze (email : mail@jleuze.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
@@ -256,7 +256,7 @@
 	
 	// Adds JavaScript for the slideshow
 	
-	add_action( 'wp_print_scripts', 'meteorslides_javascript' );
+	add_action( 'wp_enqueue_scripts', 'meteorslides_javascript' );
 		
 	function meteorslides_javascript() {
  		

@@ -111,6 +111,7 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 = 1.5.6 =
 * Updated support for version 1.1.0 of the Members plugin
 * Added Meteor Slides capabilities group for Members plugin role editor
+* Changed slideshow JavaScript function hook for greater plugin compatibility
 
 = 1.5.5 =
 * Added support for responsive images using srcset in WordPress 4.4
