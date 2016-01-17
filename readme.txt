@@ -3,7 +3,7 @@ Contributors: jleuze
 Donate link: http://jleuze.com/go/paypal/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
 Requires at least: 4.4
-Tested up to: 4.4
+Tested up to: 4.4.1
 Stable tag: 1.6
 
 Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
@@ -111,6 +111,7 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 = 1.5.6 =
 * Updated support for version 1.1.0 of the Members plugin
 * Added Meteor Slides capabilities group for Members plugin role editor
+* Changed slideshow JavaScript function hook for greater plugin compatibility
 
 = 1.5.5 =
 * Added support for responsive images using srcset in WordPress 4.4
