@@ -3,7 +3,11 @@ Contributors: jleuze
 Donate link: http://jleuze.com/go/paypal/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
 Requires at least: 4.4
+<<<<<<< HEAD
 Tested up to: 4.5
+=======
+Tested up to: 4.6
+>>>>>>> refs/remotes/origin/master
 Stable tag: 1.5.6
 
 Easily create responsive slideshows with WordPress that are mobile friendly and simple to customize.
