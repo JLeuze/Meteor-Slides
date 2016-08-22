@@ -3,10 +3,6 @@
 	Copy "meteor-slides.css" from "/meteor-slides/css/" to your theme's directory to replace
 	the plugin's default stylesheet.
 	
-	If you have navigation enabled, be sure to copy the "buttons.png", "next.png",
-	and "prev.png" files to your theme's images folder and update the image paths below,
-	or create new graphics to replace them.
-	
 	Learn more about customizing the stylesheet for Meteor Slides: 
 	http://jleuze.com/plugins/meteor-slides/customizing-the-stylesheet/
 */
@@ -102,6 +98,7 @@ div.meteor-slides.navboth {
 
 .meteor-slides ul.meteor-nav {
 	display: none;
+	display: inline;
 	list-style: none;
     height: auto;
 	margin: 0 !important;
@@ -117,47 +114,46 @@ ul.meteor-nav li {
 	margin: 0;
 	padding: 0;
 }
-.meteor-nav .prev a {
-	left: 0px;
-}
-.meteor-nav .next a {
-	right: 0px;
-}
 .meteor-slides .meteor-nav a {
+	background: rgba(0,0,0,0.5);
 	border: none;
+	border-radius: 50%;
 	box-shadow: none;
 	display: block;
+	height: 26px;
+	margin-top: -13px;
 	outline: none;
 	position: absolute;
 	text-indent: -9999px;
-	width: 27px;
-    height: 100%;
+	top: 50%;
     transition: all 0s ease 0s;
+	width: 26px;
 	z-index: 998;
-}	
-.meteor-nav .prev a {
-	background: url('../images/prev.png') no-repeat center right;
 }
-.meteor-nav .prev a:hover {
-	background: url('../images/prev.png') no-repeat center left;
+.meteor-slides .meteor-nav a:hover {
+	background: rgba(0,0,0,0.75);
 }
-.meteor-nav .next a {
-	background: url('../images/next.png') no-repeat center left;
+.meteor-slides .meteor-nav .prev a {
+	left: 5px;
 }
-.meteor-nav .next a:hover {
-	background: url('../images/next.png') no-repeat center right;
-}	
-* html .meteor-nav .prev a {
-	background: url('../images/prev.gif') no-repeat center right; /* IE6 */
+.meteor-slides .meteor-nav .next a {
+	right: 5px;
 }
-* html .meteor-nav .prev a:hover {
-	background: url('../images/prev.gif') no-repeat center left; /* IE6 */
+.meteor-slides .meteor-nav a:after {
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	content: '';
+	display: block;
+	height: 0; 
+	width: 0; 
 }
-* html .meteor-nav .next a {
-	background: url('../images/next.gif') no-repeat center left; /* IE6 */
+.meteor-slides .meteor-nav .prev a:after {
+	border-right: 6px solid #fff;
+	margin: 7px 0 0 8px;
 }
-* html .meteor-nav .next a:hover {
-	background: url('../images/next.gif') no-repeat center right; /* IE6 */
+.meteor-slides .meteor-nav .next a:after {
+	border-left: 6px solid #fff;
+	margin: 7px 0 0 11px;
 }
 
 /* =Paged Navigation
@@ -174,34 +170,24 @@ ul.meteor-nav li {
     width: 100%;
     z-index: 999;
 }
-header#branding .meteor-buttons {
-	left: 5px; /* A little nudge for Twenty Eleven */
-}
 .meteor-slides .meteor-buttons a {
-	background: url('../images/buttons.png') no-repeat bottom left;
+	background: none;
 	border: none;
+	border: solid 1px #b1b0b0;
+	border-radius: 50%;
 	box-shadow: none;
 	display: block;
 	float: left;
-	width: 9px;
-	height: 9px;
+	width: 7px;
+	height: 7px;
 	margin: 0 3px 0 0 !important;
 	outline: none;
 	text-indent: -9999px;
     transition: all 0s ease 0s;
 }
 .meteor-buttons a:hover {
-	background: url('../images/buttons.png') no-repeat bottom right;
+	background-color: #b1b0b0;
 }
 .meteor-buttons a.activeSlide {
-	background: url('../images/buttons.png') no-repeat bottom right;
-}
-* html .meteor-buttons a {
-	background: url('../images/buttons.gif') no-repeat bottom left; /* IE6 */
-}
-* html .meteor-buttons a:hover {
-	background: url('../images/buttons.gif') no-repeat bottom right; /* IE6 */
-}
-* html .meteor-buttons a.activeSlide {
-	background: url('../images/buttons.gif') no-repeat bottom right; /* IE6 */
+	background-color: #b1b0b0;
 }
