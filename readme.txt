@@ -4,9 +4,13 @@ Donate link: http://jleuze.com/go/paypal/
 Tags: custom post types, image, jquery, responsive, slide, slider, slides, slideshow
 Requires at least: 4.4
 <<<<<<< HEAD
+<<<<<<< HEAD
 Tested up to: 4.5
 =======
 Tested up to: 4.6
+>>>>>>> refs/remotes/origin/master
+=======
+Tested up to: 4.7
 >>>>>>> refs/remotes/origin/master
 Stable tag: 1.5.6
 
