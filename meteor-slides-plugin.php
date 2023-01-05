@@ -6,10 +6,10 @@
 	Author: Josh Leuze
 	Author URI: http://jleuze.com/
 	License: GPL2
-	Version: 1.5.6
+	Version: 1.5.7
 */
 
-/*  Copyright 2016 Josh Leuze (email : mail@jleuze.com)
+/*  Copyright 2022 Josh Leuze (email : mail@jleuze.com)
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as 
