@@ -65,7 +65,7 @@
 		$meteor_wipe        = __( 'wipe', 'meteor-slides' );
 		$meteor_zoom        = __( 'zoom', 'meteor-slides' );
 		$meteor_options     = get_option( 'meteorslides_options' );
-		$meteor_item        = array(
+		$meteor_items       = array(
 			
 			'blindX'      => $meteor_blindX,
 			'blindY'      => $meteor_blindY,
@@ -98,12 +98,12 @@
 		);
 		
 		echo "<select id='transition_style' name='meteorslides_options[transition_style]' style='width:142px;'>";
-		
-		while ( list( $meteor_key, $meteor_val ) = each( $meteor_item ) ) {
+
+		foreach ($meteor_items as $meteor_key => $meteor_item) {
 
 			$meteor_selected = ( $meteor_options['transition_style']==$meteor_key ) ? ' selected="selected"' : '';
 		
-			echo "<option value='$meteor_key'$meteor_selected>$meteor_val</option>";
+			echo "<option value='$meteor_key'$meteor_selected>$meteor_item</option>";
 	
 		}
 		
@@ -138,7 +138,7 @@
 			
 		$meteor_options = get_option( 'meteorslides_options' );
 		
-		$meteor_item = array(
+		$meteor_nav_items = array(
 			
 			'navnone'     => $meteor_navnone,
 			'navprevnext' => $meteor_navprevnext,
@@ -149,11 +149,11 @@
 		
 		echo "<select id='slideshow_navigation' name='meteorslides_options[slideshow_navigation]' style='width:142px;'>";
 		
-		while ( list( $meteor_key, $meteor_val ) = each( $meteor_item ) ) {
+		foreach ($meteor_nav_items as $meteor_key => $meteor_nav_item) {
 	
 			$meteor_selected = ( $meteor_options['slideshow_navigation']==$meteor_key ) ? ' selected="selected"' : '';
 		
-			echo "<option value='$meteor_key'$meteor_selected>$meteor_val</option>";
+			echo "<option value='$meteor_key'$meteor_selected>$meteor_nav_item</option>";
 	
 		}
 		
