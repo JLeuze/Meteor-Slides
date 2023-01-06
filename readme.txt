@@ -111,6 +111,7 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 
 = 1.5.7 =
 * Updated security best practices for shortcode attributes
+* Compatibility fixes for PHP 8.1.9
 
 = 1.5.6 =
 * Updated support for version 1.1.0 of the Members plugin
@@ -219,6 +220,9 @@ If the Slides menu is missing, you probably have the [Members](http://wordpress.
 * Initial release of Meteor Slides.
 
 == Upgrade Notice ==
+
+= 1.5.7 =
+Meteor Slides 1.5.7 has been updated with compatibility and security fixes for PHP 8.1.9 and WordPress 6.1.1.
 
 = 1.5.6 =
 Meteor Slides 1.5.6 includes updated support and functionality for the latest version of the Members plugin.
