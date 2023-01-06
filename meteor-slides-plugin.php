@@ -367,7 +367,7 @@
 		
 		/* To load the slideshow, add this line to your theme:
 	
-			<?php if(function_exists('meteor_slideshow')) { meteor_slideshow(); } ?>
+			if(function_exists('meteor_slideshow')) { meteor_slideshow(); }
 	
 		*/
 		
